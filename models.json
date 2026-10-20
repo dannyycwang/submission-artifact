@@ -1,0 +1,48 @@
+{
+  "seed": 20260904,
+  "models": [
+    {
+      "key": "minilm",
+      "name": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "architecture": "MiniLM-L6",
+      "max_tokens": 256,
+      "native_pooling": "attention-mask mean"
+    },
+    {
+      "key": "bge_base",
+      "name": "BAAI/bge-base-en-v1.5",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "architecture": "BERT-base retrieval encoder",
+      "max_tokens": 512,
+      "native_pooling": "CLS"
+    },
+    {
+      "key": "gte_modernbert",
+      "name": "Alibaba-NLP/gte-modernbert-base",
+      "revision": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+      "architecture": "ModernBERT long-context retrieval encoder",
+      "max_tokens": 8192,
+      "native_pooling": "CLS"
+    }
+  ],
+  "encoding": {
+    "query_prefix": "",
+    "batch_size_minilm": 128,
+    "batch_size_bge_base": 48,
+    "batch_size_gte_modernbert": 24,
+    "dtype_cuda": "float16 model with float32 pooled embeddings",
+    "tie_break": "ascending stable catalog product id"
+  },
+  "attribute_permutation_seeds": [
+    20260911,
+    20260912,
+    20260913,
+    20260914,
+    20260915
+  ],
+  "view_seeds": [
+    20260971,
+    20260972
+  ]
+}

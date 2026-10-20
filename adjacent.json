@@ -1,0 +1,48 @@
+{
+  "version": "adjacent-swap-v1",
+  "salt": "20261001",
+  "query_cap": 128,
+  "target_cap": 16,
+  "primary_k": 20,
+  "secondary_k": 100,
+  "bootstrap_seed": 2026100101,
+  "bootstrap_draws": 10000,
+  "confirmation_repetitions": 3,
+  "models": {
+    "minilm": {
+      "key": "minilm",
+      "name": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "architecture": "MiniLM-L6",
+      "max_tokens": 256,
+      "native_pooling": "attention-mask mean"
+    },
+    "bge_base": {
+      "key": "bge_base",
+      "name": "BAAI/bge-base-en-v1.5",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "architecture": "BERT-base retrieval encoder",
+      "max_tokens": 512,
+      "native_pooling": "CLS"
+    }
+  },
+  "query_hash": "[\"20261001\",\"query\",dataset,str(query_id)]",
+  "target_hash": "[\"20261001\",\"target\",dataset,str(query_id),str(product_id)]",
+  "case_hash": "[\"20261001\",\"case\",dataset,model,str(query_id),str(product_id)]",
+  "swap_hash": "[\"20261001\",\"case_swap\",dataset,model,str(query_id),str(product_id),positions_json,text_sha256]",
+  "hash_encoding": "UTF-8 compact JSON array; every element a string; SHA-256; lexicographic hex order",
+  "query_prefix": "",
+  "document_prefix": "",
+  "swap_count_bins": [
+    1,
+    3,
+    7,
+    15
+  ],
+  "rank_bins": [
+    10,
+    20,
+    40
+  ],
+  "selection_uses_outcomes": false
+}
