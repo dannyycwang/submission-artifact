@@ -1,0 +1,265 @@
+{
+  "status": "selected",
+  "selection_conditional_on_confirmed_crossing": true,
+  "direction": "loss",
+  "eligible_crossing_pairs": 73,
+  "eligible_crossing_swaps": 219,
+  "selected": {
+    "dataset": "wands",
+    "model": "minilm",
+    "query_id": 63,
+    "product_id": "25295",
+    "variant": "S23",
+    "positions": "[23]",
+    "text_sha256": "d552e65fe5f0351919c9f5f02e2750a76fafb80dc3c9c6c34fb7d2a76234699c",
+    "input_sha256": "c4895a863b9353d823cc305dc44f8a08e52cf26caf23cf21eda0d5a89d4b89b8",
+    "tokens": 251,
+    "catalog_index": 25295,
+    "c0_score": 0.3938148319721222,
+    "c0_rank": 19,
+    "distinct_swaps": 24,
+    "attribute_count": 25,
+    "c0_tokens": 251,
+    "max_tokens": 251,
+    "context_limit": 256,
+    "case_hash": "00c860e9e49835a55db2e88266c05f7b0efedc319c11c0f1a00f8e0e5205f510",
+    "threshold_index_20": 15812,
+    "threshold_score_20": 0.38952702283859253,
+    "c0_margin_20": 0.004287809133529663,
+    "c0_included_20": 1,
+    "c0_tie_20": false,
+    "threshold_index_100": 3722,
+    "threshold_score_100": 0.2575187683105469,
+    "c0_margin_100": 0.13629606366157532,
+    "c0_included_100": 1,
+    "c0_tie_100": false,
+    "swap_score": 0.3880811929702759,
+    "swap_rank": 21,
+    "rank_change": 2,
+    "swap_hash": "9613eaeadc74a1d6ded4c419563733ba5802c7402c1dbc7ef6f4648d2f79e81e",
+    "swap_margin_20": -0.0014458298683166504,
+    "swap_included_20": 0,
+    "swap_tie_20": false,
+    "flip_20": true,
+    "confirmed_20": true,
+    "unresolved_20": false,
+    "swap_margin_100": 0.130562424659729,
+    "swap_included_100": 1,
+    "swap_tie_100": false,
+    "flip_100": false,
+    "confirmed_100": false,
+    "unresolved_100": false
+  },
+  "query": "monthly calendar",
+  "product_title": "spring monthly magnetic calendar board",
+  "original_entries": [
+    "magneticsurface : yes",
+    "purposefuldistressingtype : no distressing"
+  ],
+  "swapped_entries": [
+    "purposefuldistressingtype : no distressing",
+    "magneticsurface : yes"
+  ],
+  "all_serializations": {
+    "C0": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "d11e56ee0e938fdd96ae3362d51a8ba2a2d195e1c69f3a88803123c0a16c4adc",
+      "tokens": 251,
+      "positions": []
+    },
+    "S1": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\nsubject : floral & botanical|accessoriesincluded : dry erase marker|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "d28e38ed91a4d10c2d2b76dd68aded30630b23d168d053340469e6db9ae7b956",
+      "tokens": 251,
+      "positions": [
+        1
+      ]
+    },
+    "S2": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|hangingmethod : magnetic attachments|subject : floral & botanical|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "bcc9aec00d76097fbe804e53ee5e8bb38bf69d1170d6642868fe14c18e667f95",
+      "tokens": 251,
+      "positions": [
+        2
+      ]
+    },
+    "S3": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|countryoforigin : united states|hangingmethod : magnetic attachments|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "557a3ac4180602fbb7435c34f4d7bc884c99c8dffff73d88a02f9b761cf1caf4",
+      "tokens": 251,
+      "positions": [
+        3
+      ]
+    },
+    "S4": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|surfacematerial : plastic|countryoforigin : united states|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "0f1f230276eeebda87cb31f79707d378f34cff2e6fd44cf27c8d2693e55f788a",
+      "tokens": 251,
+      "positions": [
+        4
+      ]
+    },
+    "S5": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|overallproductweight:0.21|surfacematerial : plastic|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "01ba9698aa2152ba0835dc8c033b7078e544e9d87b689b369fdd6c8ebcdbff59",
+      "tokens": 251,
+      "positions": [
+        5
+      ]
+    },
+    "S6": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallwidth-sidetoside:11|overallproductweight:0.21|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "46dd83b49572624a7edca18ce9106e2c04d65da3d6b07c9e9069fcf5f6e6d0f9",
+      "tokens": 251,
+      "positions": [
+        6
+      ]
+    },
+    "S7": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|productplacement : wall mounted|overallwidth-sidetoside:11|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "fad355459dfd59737dc2aa355ea34fa26d639c8ced51f032870bb3782f5fed58",
+      "tokens": 251,
+      "positions": [
+        7
+      ]
+    },
+    "S8": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|overalldepth-fronttoback:0.02|productplacement : wall mounted|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "d99c3ac73ac2e25a1161c26e2313a87864e002d7e621e02cb977051f9d37cea7",
+      "tokens": 251,
+      "positions": [
+        8
+      ]
+    },
+    "S9": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|style : modern & contemporary|overalldepth-fronttoback:0.02|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "06517955f6b44aae28bc626bff832c8683fec4ada691342abb0761c204aebcd0",
+      "tokens": 251,
+      "positions": [
+        9
+      ]
+    },
+    "S10": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|overallheight-toptobottom:8.5|style : modern & contemporary|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "752f87cf1c506b161bab783fd980b819443b5f65f5a4d95c95ae0a756e2ae3b2",
+      "tokens": 251,
+      "positions": [
+        10
+      ]
+    },
+    "S11": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|producttype : dry erase board|overallheight-toptobottom:8.5|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "ced0e457189f8c0a4de9653ce476719a242fea988cd138bc82bbf840e90c5515",
+      "tokens": 251,
+      "positions": [
+        11
+      ]
+    },
+    "S12": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|outdooruse : no|producttype : dry erase board|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "6a8b06be07663fa2047ae06ca0e2743a6340188fd00d831b7bf744fee3eedba6",
+      "tokens": 251,
+      "positions": [
+        12
+      ]
+    },
+    "S13": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|mirror : no|outdooruse : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "735778a2313169652b3aeb9229e0befcf5cfb94d94b7f9029c8e00a49b6b1426",
+      "tokens": 251,
+      "positions": [
+        13
+      ]
+    },
+    "S14": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|californiaproposition65warningrequired : no|mirror : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "036896b87d84feef9956b8ade5ac78e13cfd0593a5dc1eaf4c09a6d77b6f82f2",
+      "tokens": 251,
+      "positions": [
+        14
+      ]
+    },
+    "S15": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|mailholder : no|californiaproposition65warningrequired : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "1a42b3f9aa0378e2bf7583b3be556be397006810bd60821ff983e84dd7c479f5",
+      "tokens": 251,
+      "positions": [
+        15
+      ]
+    },
+    "S16": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|framed : no|mailholder : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "bd3e15c702cb9833ee4f82d3f430ad52db2dba3212c60d68bd4b3f06a96cb79d",
+      "tokens": 251,
+      "positions": [
+        16
+      ]
+    },
+    "S17": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|hooksandbaskets : no|framed : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "e05e6535d2df2a07daa14c3d7b475899d74ec8b03d95a074497fe171e95c19ce",
+      "tokens": 251,
+      "positions": [
+        17
+      ]
+    },
+    "S18": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|pictureframe : no|hooksandbaskets : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "3b5abc2fff61006116294c706011ec154067cad1ac9ef66e89711df136f467bf",
+      "tokens": 251,
+      "positions": [
+        18
+      ]
+    },
+    "S19": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|magnetsorpushpinsincluded : no|pictureframe : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "6db1e2f495fd7d612cc5b5390d98e9891a97bdeeae2751b6dfd886490aa9ecfc",
+      "tokens": 251,
+      "positions": [
+        19
+      ]
+    },
+    "S20": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|calendarlayout : yes|magnetsorpushpinsincluded : no|installationrequired : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "0e39046986e07b0853f77641da5c0db3977c80c4749e4aaf716434c51becce8b",
+      "tokens": 251,
+      "positions": [
+        20
+      ]
+    },
+    "S21": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|installationrequired : yes|calendarlayout : yes|magneticsurface : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "fb3ed7fbb4885a181110654d39bc1257679f102f2e481a1205ec9fe92b0148cc",
+      "tokens": 251,
+      "positions": [
+        21
+      ]
+    },
+    "S22": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|magneticsurface : yes|installationrequired : yes|purposefuldistressingtype : no distressing|naturalvariationtype : no natural variation",
+      "text_sha256": "129c6a02ff888fcd28923edacdcf4a8399e5e74db14fe599ea70e346b40a83b5",
+      "tokens": 251,
+      "positions": [
+        22
+      ]
+    },
+    "S23": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|purposefuldistressingtype : no distressing|magneticsurface : yes|naturalvariationtype : no natural variation",
+      "text_sha256": "d552e65fe5f0351919c9f5f02e2750a76fafb80dc3c9c6c34fb7d2a76234699c",
+      "tokens": 251,
+      "positions": [
+        23
+      ]
+    },
+    "S24": {
+      "text": "spring monthly magnetic calendar board\nMemo Boards\nDécor & Pillows / Wall Décor / Memo Boards / Dry Erase Memo Boards\nthis spring monthly magnetic calendar board is perfect for keeping up with monthly activities . it will stick to the refrigerator or any magnetic surface . wet erase marker included .\naccessoriesincluded : dry erase marker|subject : floral & botanical|hangingmethod : magnetic attachments|countryoforigin : united states|surfacematerial : plastic|overallproductweight:0.21|overallwidth-sidetoside:11|productplacement : wall mounted|overalldepth-fronttoback:0.02|style : modern & contemporary|overallheight-toptobottom:8.5|producttype : dry erase board|outdooruse : no|mirror : no|californiaproposition65warningrequired : no|mailholder : no|framed : no|hooksandbaskets : no|pictureframe : no|magnetsorpushpinsincluded : no|calendarlayout : yes|installationrequired : yes|magneticsurface : yes|naturalvariationtype : no natural variation|purposefuldistressingtype : no distressing",
+      "text_sha256": "e0a76554c5bf951c59e5f4996c3552770a93ce0ee4182ac18b343e6e5a795892",
+      "tokens": 251,
+      "positions": [
+        24
+      ]
+    }
+  },
+  "competitors": "All other catalog products remain at C0; target original entry removed before insertion.",
+  "unchanged": "All fixed fields, all entry contents and multiplicities, separators, and the relative order of every other entry are unchanged."
+}

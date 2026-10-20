@@ -1,0 +1,502 @@
+dataset,model,query_id,query
+wands,minilm,165,kitchen storage shelves
+wands,minilm,315,medium clips
+wands,minilm,89,whimsical solar lights
+wands,minilm,153,bohemian
+wands,minilm,26,leather chairs
+wands,minilm,182,penny round tile
+wands,minilm,444,outdoor lounge chair
+wands,minilm,352,amarillo
+wands,minilm,469,garage sports storage rack
+wands,minilm,170,zen
+wands,minilm,131,kids chair
+wands,minilm,2,dinosaur
+wands,minilm,129,wainscoting ideas
+wands,minilm,483,rustic twig
+wands,minilm,234,artificial orchid arrangement
+wands,minilm,473,chair pillow cushion
+wands,minilm,86,aloe vera plant pot
+wands,minilm,403,wood rack wide
+wands,minilm,357,tall free standing pet gate
+wands,minilm,27,outdoor welcome rug
+wands,minilm,230,gold
+wands,minilm,37,bar stool 24 inches height
+wands,minilm,41,closet pull out valet rod
+wands,minilm,111,delta trinsic
+wands,minilm,327,kohler purist brushed bronze
+wands,minilm,335,canadian
+wands,minilm,434,bathroom lighting
+wands,minilm,307,real touch roses floral arrangements in glass vase
+wands,minilm,241,decorative wall clocks
+wands,minilm,422,ergonomic chair
+wands,minilm,382,counter top one cup hot water dispenser
+wands,minilm,438,indoor water fountain
+wands,minilm,443,patio design
+wands,minilm,410,pool floats
+wands,minilm,472,window wall accent
+wands,minilm,456,wall design shelf
+wands,minilm,175,basket planter
+wands,minilm,368,pasta tools
+wands,minilm,102,flamingo
+wands,minilm,231,anti fatigue mat
+wands,minilm,44,chrome shower head and valve
+wands,minilm,421,dining room tables
+wands,minilm,251,coffee container
+wands,minilm,138,glass doors for bath
+wands,minilm,20,foutains with brick look
+wands,minilm,172,picasso
+wands,minilm,22,light and navy blue decorative pillow
+wands,minilm,185,lunch bag
+wands,minilm,446,card table
+wands,minilm,426,outdoor storage
+wands,minilm,127,wine bar
+wands,minilm,13,outdoor privacy wall
+wands,minilm,247,beaded curtains
+wands,minilm,144,rug plum
+wands,minilm,3,turquoise pillows
+wands,minilm,466,rock climbing wall kids
+wands,minilm,119,welcome sign
+wands,minilm,17,closet storage with zipper
+wands,minilm,250,multi color rug
+wands,minilm,415,toilet paper stand
+wands,minilm,243,indoor multi tiered plant stand
+wands,minilm,359,french molding
+wands,minilm,248,surge protector
+wands,minilm,417,twin bed frame
+wands,minilm,333,stainless steel colander set
+wands,minilm,120,zodiac pillow
+wands,minilm,235,bathroom wastebasket
+wands,minilm,148,industrial
+wands,minilm,16,blk 18x18 seat cushions
+wands,minilm,6,acrylic clear chair
+wands,minilm,428,kitchen storage cabinet
+wands,minilm,198,cake plates with tops
+wands,minilm,159,meditation
+wands,minilm,36,laundry basket with wheels
+wands,minilm,147,drum picture
+wands,minilm,28,rooster decor
+wands,minilm,420,tile backsplash
+wands,minilm,151,leather chair
+wands,minilm,464,cake cutlery
+wands,minilm,305,ligth bulb
+wands,minilm,65,gnome fairy garden
+wands,minilm,278,parakeet toy
+wands,minilm,126,leather dining chairs
+wands,minilm,146,laundry vanity cabinet
+wands,minilm,63,monthly calendar
+wands,minilm,160,marble
+wands,minilm,398,super bright lights
+wands,minilm,476,hardwood beds
+wands,minilm,204,fleur de lis living candle wall sconce bronze
+wands,minilm,14,beds that have leds
+wands,minilm,245,anchor decor
+wands,minilm,104,flour and sugar containers
+wands,minilm,178,almost heaven sauna
+wands,minilm,423,wall shelves
+wands,minilm,470,elephant framed
+wands,minilm,167,camper
+wands,minilm,163,dual monitor stand
+wands,minilm,418,writing desk
+wands,minilm,257,living room coffee table sets
+wands,minilm,180,outdoor lounge cushions
+wands,minilm,68,nautical platters
+wands,minilm,7,driftwood mirror
+wands,minilm,184,sugar canister
+wands,minilm,115,peacock
+wands,minilm,176,mexican art
+wands,minilm,270,edge chair mat
+wands,minilm,273,stainless steel free standing shower caddy
+wands,minilm,166,feather wall art
+wands,minilm,408,girl reading statue
+wands,minilm,297,seat cushions desk
+wands,minilm,108,ayesha curry kitchen
+wands,minilm,482,48 inch kitchen hood
+wands,minilm,150,dumbbells
+wands,minilm,227,owl
+wands,minilm,112,pineapple
+wands,minilm,346,nesting tray set
+wands,minilm,380,gravity feeder
+wands,bge_base,165,kitchen storage shelves
+wands,bge_base,435,shoe closet
+wands,bge_base,315,medium clips
+wands,bge_base,232,storage dresser
+wands,bge_base,89,whimsical solar lights
+wands,bge_base,153,bohemian
+wands,bge_base,26,leather chairs
+wands,bge_base,182,penny round tile
+wands,bge_base,468,glow in the dark silent wall clock
+wands,bge_base,444,outdoor lounge chair
+wands,bge_base,352,amarillo
+wands,bge_base,0,salon chair
+wands,bge_base,308,led 60
+wands,bge_base,469,garage sports storage rack
+wands,bge_base,145,liberty hardware francisco
+wands,bge_base,170,zen
+wands,bge_base,222,small loving roomtables
+wands,bge_base,310,meade mirror
+wands,bge_base,177,rustic storage cabinet
+wands,bge_base,131,kids chair
+wands,bge_base,2,dinosaur
+wands,bge_base,158,led nightstand
+wands,bge_base,431,shoe bench entryway
+wands,bge_base,129,wainscoting ideas
+wands,bge_base,460,small wardrobe grey
+wands,bge_base,483,rustic twig
+wands,bge_base,4,chair and a half recliner
+wands,bge_base,62,7qt slow cooker
+wands,bge_base,200,ceramic tile sea shell
+wands,bge_base,72,fold in half table
+wands,bge_base,249,bistro table and chairs
+wands,bge_base,234,artificial orchid arrangement
+wands,bge_base,128,block coffee table
+wands,bge_base,473,chair pillow cushion
+wands,bge_base,229,waterfall faucet
+wands,bge_base,429,gray dresser
+wands,bge_base,86,aloe vera plant pot
+wands,bge_base,445,chaise lounge couch
+wands,bge_base,252,accent chairs living room
+wands,bge_base,403,wood rack wide
+wands,bge_base,357,tall free standing pet gate
+wands,bge_base,27,outdoor welcome rug
+wands,bge_base,230,gold
+wands,bge_base,37,bar stool 24 inches height
+wands,bge_base,41,closet pull out valet rod
+wands,bge_base,111,delta trinsic
+wands,bge_base,327,kohler purist brushed bronze
+wands,bge_base,441,desk for kids
+wands,bge_base,39,door jewelry organizer
+wands,bge_base,206,grill cover 73
+wands,bge_base,35,enclosed shoe rack
+wands,bge_base,277,barstool patio sets
+wands,bge_base,335,canadian
+wands,bge_base,434,bathroom lighting
+wands,bge_base,307,real touch roses floral arrangements in glass vase
+wands,bge_base,241,decorative wall clocks
+wands,bge_base,367,wooden chair outdoor
+wands,bge_base,220,sheets for twinxl
+wands,bge_base,323,hub leaning full length mirror
+wands,bge_base,122,king size bed
+wands,bge_base,422,ergonomic chair
+wands,bge_base,382,counter top one cup hot water dispenser
+wands,bge_base,438,indoor water fountain
+wands,bge_base,370,rug for teen room
+wands,bge_base,443,patio design
+wands,bge_base,223,wisdom stone river 3-3/4
+wands,bge_base,275,hinged square ottoman
+wands,bge_base,410,pool floats
+wands,bge_base,271,chinese flower stand
+wands,bge_base,472,window wall accent
+wands,bge_base,456,wall design shelf
+wands,bge_base,91,industrial pipe dining  table
+wands,bge_base,461,luau string lights
+wands,bge_base,175,basket planter
+wands,bge_base,368,pasta tools
+wands,bge_base,102,flamingo
+wands,bge_base,447,tall buffet cabinet
+wands,bge_base,231,anti fatigue mat
+wands,bge_base,253,antique brass faucet
+wands,bge_base,44,chrome shower head and valve
+wands,bge_base,425,side table with storage
+wands,bge_base,421,dining room tables
+wands,bge_base,123,entrance table
+wands,bge_base,409,teal chair
+wands,bge_base,101,48 in entry table with side by side drawer
+wands,bge_base,251,coffee container
+wands,bge_base,11,ombre rug
+wands,bge_base,263,small curtain rods
+wands,bge_base,164,modern outdoor furniture
+wands,bge_base,138,glass doors for bath
+wands,bge_base,20,foutains with brick look
+wands,bge_base,341,canvas map art
+wands,bge_base,172,picasso
+wands,bge_base,22,light and navy blue decorative pillow
+wands,bge_base,185,lunch bag
+wands,bge_base,446,card table
+wands,bge_base,426,outdoor storage
+wands,bge_base,127,wine bar
+wands,bge_base,329,wayfair tension rod
+wands,bge_base,13,outdoor privacy wall
+wands,bge_base,236,3 piece rug set with runners
+wands,bge_base,440,wood bar stools
+wands,bge_base,95,entertainment stand end table
+wands,bge_base,142,kitchen wooden stand
+wands,bge_base,247,beaded curtains
+wands,bge_base,358,sliding closet mirror
+wands,bge_base,144,rug plum
+wands,bge_base,238,outdoor seat/back cushion
+wands,bge_base,215,king adjustable bed including mattress
+wands,bge_base,3,turquoise pillows
+wands,bge_base,233,kelly clarkson light fixtures
+wands,bge_base,442,above toilet cabinet
+wands,bge_base,433,trundle daybed
+wands,bge_base,140,wire basket with dividers
+wands,bge_base,264,cortez pillow
+wands,bge_base,130,entertainment console
+wands,bge_base,466,rock climbing wall kids
+wands,bge_base,119,welcome sign
+wands,bge_base,17,closet storage with zipper
+wands,bge_base,93,outdoor sectional dining
+wands,bge_base,250,multi color rug
+wands,bge_base,415,toilet paper stand
+wands,bge_base,255,desk and chair set
+wands,bge_base,124,unique coffee tables
+wands,bge_base,202,full mattress padded liner
+wands,bge_base,243,indoor multi tiered plant stand
+wands,bge_base,359,french molding
+wands,bge_base,254,comfortable accent chair
+esci,minilm,62954,little girls princess dress up clothes
+esci,minilm,39157,face make for 10
+esci,minilm,3494,3.5 mm male to male rca cable
+esci,minilm,92928,show tights for women
+esci,minilm,61961,library kit
+esci,minilm,46149,gm original equipment ignition knock
+esci,minilm,104212,top water fishing baits popin pickle
+esci,minilm,90523,santa sack medium
+esci,minilm,44424,garden wall
+esci,minilm,50356,hex wrench socket sets
+esci,minilm,103612,toddler boy pants cotton
+esci,minilm,64880,magnet phone case for samsung galaxy note 10 plus
+esci,minilm,94878,small round serving tray with sides
+esci,minilm,34775,donkey and diddy kong
+esci,minilm,32350,denin dress for women
+esci,minilm,112070,wipes floor
+esci,minilm,13639,bath salts unicorn
+esci,minilm,110785,what to expect the first year
+esci,minilm,52830,im not your perfect mexican daughter
+esci,minilm,29729,cowitness riser
+esci,minilm,600,0sxk ofrece fidget toys not expensive
+esci,minilm,61329,lego ninjago costume
+esci,minilm,82799,powdered lemonade drink mix
+esci,minilm,58044,kids toothbrush batman
+esci,minilm,74628,nude racerback sports bra
+esci,minilm,63917,low calorie cookbooks
+esci,minilm,76904,oversized shirts for women
+esci,minilm,95886,solar survival gear
+esci,minilm,2692,2 ton jack handle replacement
+esci,minilm,41795,foldable beach hat
+esci,minilm,42445,freddy krueger jack in the box
+esci,minilm,81478,plus size bohemian clothing for women
+esci,minilm,19134,boyfriend shirts for men
+esci,minilm,55280,jabra elite 65t
+esci,minilm,40165,fiestaware clearance
+esci,minilm,165,"(8 pck, one without packaging ) umbra single"
+esci,minilm,29868,crank brothers pedals
+esci,minilm,25516,child fitted pajamas beige
+esci,minilm,84011,psp
+esci,minilm,61798,lg aristo 3 phone case wallet
+esci,minilm,103500,toad keychain
+esci,minilm,89016,ruby glasses palstic
+esci,minilm,76820,ovenware
+esci,minilm,64212,lumi spa - nu skin
+esci,minilm,14882,ben affleck batman funko pop
+esci,minilm,104929,trash can 30 gallon outdoor
+esci,minilm,24402,ceramic plates
+esci,minilm,40292,film for lights
+esci,minilm,92217,shampoo
+esci,minilm,112141,wireless charger samsung galaxy 10+
+esci,minilm,49201,hardbody supplements
+esci,minilm,67570,mens dragon alliance nfx2
+esci,minilm,19268,boys shoes size 1
+esci,minilm,73746,nikon lens cleaning kit
+esci,minilm,500,02cool spray water bottle for drinking not flap to drink
+esci,minilm,933,1'' oil hose
+esci,minilm,58597,kitchen pans set
+esci,minilm,25426,chicago cubs shorts mens
+esci,minilm,56281,joovy vent
+esci,minilm,96401,sp 41
+esci,minilm,73215,newborn bed prop
+esci,minilm,106839,unicorn tails book
+esci,minilm,22173,camping house for 4 people
+esci,minilm,76969,oxo pancake spatula
+esci,minilm,57276,kerastase shampoo without sulfates
+esci,minilm,11875,baby cribs with mattress included
+esci,minilm,91113,scrapbook zebra
+esci,minilm,53114,induro gimbal head
+esci,minilm,87048,remove stain from bath tub
+esci,minilm,61598,lepower-reading-gooseneck-temperature-changeable
+esci,minilm,54634,iphone xs bee case
+esci,minilm,15311,beyblade'
+esci,minilm,100637,tanning lotion outdoor
+esci,minilm,18932,bounce pro 14 ft trampoline enclosure
+esci,minilm,35117,dr adorable jojoba oil organic
+esci,minilm,50494,high heel shoe chair
+esci,minilm,32430,depends night defense large for women
+esci,minilm,12432,backless tanks
+esci,minilm,84990,queen trifold mattress
+esci,minilm,8605,amazon rewards points
+esci,minilm,105336,trivial pursuit ps4
+esci,minilm,73522,nike cortez black and pink
+esci,minilm,102991,ti-nspire cas cx calculator
+esci,minilm,47892,gues book
+esci,minilm,67189,men in black costumes
+esci,minilm,68572,mg mug
+esci,minilm,1659,10×6 patio gazebo without cover
+esci,minilm,61830,lg internal 24x super multi with m-disc support dvd burner
+esci,minilm,16613,black laced up shorts
+esci,minilm,82738,potato shreds
+esci,minilm,52255,hydro flask wide mouth 20 ounce
+esci,minilm,67075,membrain gaming keyboard
+esci,minilm,83182,pressed flower frame
+esci,minilm,39107,fabric shelves
+esci,minilm,34229,dodge cummins exhaust system
+esci,minilm,54044,iphone 11 pri
+esci,minilm,48914,handheld laser welding machine
+esci,minilm,91267,sdi to usb blackmagic
+esci,minilm,23744,cat and jack shoe
+esci,minilm,93758,sink caddy for single sink
+esci,minilm,80453,pioneer mvh-210ex
+esci,minilm,51056,homegoing yaa gyasi paperback
+esci,minilm,45745,girls zero exposure winter coat
+esci,minilm,20307,budesonide
+esci,minilm,85956,real braces for kids
+esci,minilm,95136,smartwool mens large socks heavy
+esci,minilm,85743,raw rolling papers organix
+esci,minilm,12176,baby shower gifts
+esci,minilm,35755,drywall sander dustless
+esci,minilm,55531,jars without lids
+esci,minilm,43983,galaxy s10 case black and gold
+esci,minilm,19380,braces
+esci,minilm,92627,shirt without stripes
+esci,minilm,1816,12 hp engine
+esci,minilm,16684,black nike pants
+esci,minilm,8519,amazon basics wireless charger
+esci,minilm,11509,award winning childrens books ages 9-12
+esci,minilm,42332,fox racing hats
+esci,minilm,21481,calcium for chameleons without d3
+esci,minilm,49972,heavy duty bicycle tubes
+esci,minilm,43579,funny sweatshirts for women
+esci,minilm,861,1 pint mason jars without words
+esci,minilm,103099,tiger shark jet ski parts
+esci,minilm,8063,all boots
+esci,minilm,13785,bathroom storage shelf
+esci,minilm,99846,swimsuit padded push up bra
+esci,minilm,114588,xsmall top fin fish filter
+esci,minilm,69657,minnie mouse shirts for women
+esci,bge_base,62954,little girls princess dress up clothes
+esci,bge_base,39157,face make for 10
+esci,bge_base,3494,3.5 mm male to male rca cable
+esci,bge_base,92928,show tights for women
+esci,bge_base,61961,library kit
+esci,bge_base,46149,gm original equipment ignition knock
+esci,bge_base,104212,top water fishing baits popin pickle
+esci,bge_base,90523,santa sack medium
+esci,bge_base,44424,garden wall
+esci,bge_base,50356,hex wrench socket sets
+esci,bge_base,103612,toddler boy pants cotton
+esci,bge_base,64880,magnet phone case for samsung galaxy note 10 plus
+esci,bge_base,94878,small round serving tray with sides
+esci,bge_base,34775,donkey and diddy kong
+esci,bge_base,32350,denin dress for women
+esci,bge_base,44706,gear america shackles
+esci,bge_base,112070,wipes floor
+esci,bge_base,71902,myo storm
+esci,bge_base,13639,bath salts unicorn
+esci,bge_base,110785,what to expect the first year
+esci,bge_base,52830,im not your perfect mexican daughter
+esci,bge_base,29729,cowitness riser
+esci,bge_base,600,0sxk ofrece fidget toys not expensive
+esci,bge_base,61329,lego ninjago costume
+esci,bge_base,82799,powdered lemonade drink mix
+esci,bge_base,58044,kids toothbrush batman
+esci,bge_base,7545,airpods case anti-lost strap
+esci,bge_base,114650,xylophone with harmonica
+esci,bge_base,74628,nude racerback sports bra
+esci,bge_base,63917,low calorie cookbooks
+esci,bge_base,76904,oversized shirts for women
+esci,bge_base,95886,solar survival gear
+esci,bge_base,2692,2 ton jack handle replacement
+esci,bge_base,41795,foldable beach hat
+esci,bge_base,42445,freddy krueger jack in the box
+esci,bge_base,81478,plus size bohemian clothing for women
+esci,bge_base,19134,boyfriend shirts for men
+esci,bge_base,55280,jabra elite 65t
+esci,bge_base,40165,fiestaware clearance
+esci,bge_base,98201,stitch pajamas
+esci,bge_base,165,"(8 pck, one without packaging ) umbra single"
+esci,bge_base,29868,crank brothers pedals
+esci,bge_base,25516,child fitted pajamas beige
+esci,bge_base,73944,nipple suckers
+esci,bge_base,84011,psp
+esci,bge_base,61798,lg aristo 3 phone case wallet
+esci,bge_base,103500,toad keychain
+esci,bge_base,89016,ruby glasses palstic
+esci,bge_base,76820,ovenware
+esci,bge_base,64212,lumi spa - nu skin
+esci,bge_base,14882,ben affleck batman funko pop
+esci,bge_base,104929,trash can 30 gallon outdoor
+esci,bge_base,24402,ceramic plates
+esci,bge_base,40292,film for lights
+esci,bge_base,92217,shampoo
+esci,bge_base,112141,wireless charger samsung galaxy 10+
+esci,bge_base,49201,hardbody supplements
+esci,bge_base,12809,balloons co
+esci,bge_base,67570,mens dragon alliance nfx2
+esci,bge_base,19268,boys shoes size 1
+esci,bge_base,73746,nikon lens cleaning kit
+esci,bge_base,500,02cool spray water bottle for drinking not flap to drink
+esci,bge_base,933,1'' oil hose
+esci,bge_base,58597,kitchen pans set
+esci,bge_base,25426,chicago cubs shorts mens
+esci,bge_base,56281,joovy vent
+esci,bge_base,96401,sp 41
+esci,bge_base,63701,loreal hair color 8 1/2
+esci,bge_base,73215,newborn bed prop
+esci,bge_base,106839,unicorn tails book
+esci,bge_base,22173,camping house for 4 people
+esci,bge_base,76969,oxo pancake spatula
+esci,bge_base,57276,kerastase shampoo without sulfates
+esci,bge_base,11875,baby cribs with mattress included
+esci,bge_base,91113,scrapbook zebra
+esci,bge_base,53114,induro gimbal head
+esci,bge_base,24697,champion hoodie boys
+esci,bge_base,87048,remove stain from bath tub
+esci,bge_base,61598,lepower-reading-gooseneck-temperature-changeable
+esci,bge_base,54634,iphone xs bee case
+esci,bge_base,15311,beyblade'
+esci,bge_base,100637,tanning lotion outdoor
+esci,bge_base,18932,bounce pro 14 ft trampoline enclosure
+esci,bge_base,35117,dr adorable jojoba oil organic
+esci,bge_base,50494,high heel shoe chair
+esci,bge_base,32430,depends night defense large for women
+esci,bge_base,12432,backless tanks
+esci,bge_base,84990,queen trifold mattress
+esci,bge_base,8605,amazon rewards points
+esci,bge_base,105336,trivial pursuit ps4
+esci,bge_base,73522,nike cortez black and pink
+esci,bge_base,102991,ti-nspire cas cx calculator
+esci,bge_base,47892,gues book
+esci,bge_base,67189,men in black costumes
+esci,bge_base,71186,mp3 player without radio
+esci,bge_base,68572,mg mug
+esci,bge_base,1659,10×6 patio gazebo without cover
+esci,bge_base,61830,lg internal 24x super multi with m-disc support dvd burner
+esci,bge_base,16613,black laced up shorts
+esci,bge_base,82738,potato shreds
+esci,bge_base,52255,hydro flask wide mouth 20 ounce
+esci,bge_base,67075,membrain gaming keyboard
+esci,bge_base,83182,pressed flower frame
+esci,bge_base,39107,fabric shelves
+esci,bge_base,34229,dodge cummins exhaust system
+esci,bge_base,54044,iphone 11 pri
+esci,bge_base,48914,handheld laser welding machine
+esci,bge_base,91267,sdi to usb blackmagic
+esci,bge_base,23744,cat and jack shoe
+esci,bge_base,93758,sink caddy for single sink
+esci,bge_base,80453,pioneer mvh-210ex
+esci,bge_base,51056,homegoing yaa gyasi paperback
+esci,bge_base,45745,girls zero exposure winter coat
+esci,bge_base,20307,budesonide
+esci,bge_base,85956,real braces for kids
+esci,bge_base,95136,smartwool mens large socks heavy
+esci,bge_base,85743,raw rolling papers organix
+esci,bge_base,12176,baby shower gifts
+esci,bge_base,35755,drywall sander dustless
+esci,bge_base,55531,jars without lids
+esci,bge_base,43983,galaxy s10 case black and gold
+esci,bge_base,19380,braces
+esci,bge_base,92627,shirt without stripes
+esci,bge_base,1816,12 hp engine
+esci,bge_base,16684,black nike pants
+esci,bge_base,8519,amazon basics wireless charger
+esci,bge_base,11509,award winning childrens books ages 9-12
+esci,bge_base,42332,fox racing hats

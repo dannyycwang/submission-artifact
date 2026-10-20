@@ -1,0 +1,6 @@
+-r requirements-analysis.txt
+torch==2.11.0+cu128
+transformers==4.46.2
+tokenizers==0.20.3
+safetensors==0.8.0
+captum==0.9.0

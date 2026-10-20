@@ -1,0 +1,866 @@
+[
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C0",
+    "rank_source": "data/ranks/wands/minilm/raw/C0.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C0.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C1",
+    "rank_source": "data/ranks/wands/minilm/raw/C1.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/wands/minilm/raw/C2s1.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/wands/minilm/raw/C2s2.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s2.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/wands/minilm/raw/C2s3.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s3.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/wands/minilm/raw/C2s4.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s4.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/wands/minilm/raw/C2s5.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s5.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "set_mean",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/minilm/set_mean/fixed.parquet",
+    "original_source": "phase4/results/wands/minilm_set_mean_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "centroid_2",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/minilm/centroid_2/fixed.parquet",
+    "original_source": "phase4/results/wands/minilm_centroid_2_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "max_2",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/minilm/max_2/fixed.parquet",
+    "original_source": "phase4/results/wands/minilm_max_2_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C0",
+    "rank_source": "data/ranks/wands/bge_base/raw/C0.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C0.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C1",
+    "rank_source": "data/ranks/wands/bge_base/raw/C1.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/wands/bge_base/raw/C2s1.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/wands/bge_base/raw/C2s2.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s2.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/wands/bge_base/raw/C2s3.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s3.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/wands/bge_base/raw/C2s4.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s4.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/wands/bge_base/raw/C2s5.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s5.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "set_mean",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/bge_base/set_mean/fixed.parquet",
+    "original_source": "phase4/results/wands/bge_base_set_mean_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "centroid_2",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/bge_base/centroid_2/fixed.parquet",
+    "original_source": "phase4/results/wands/bge_base_centroid_2_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "max_2",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/bge_base/max_2/fixed.parquet",
+    "original_source": "phase4/results/wands/bge_base_max_2_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C0",
+    "rank_source": "data/ranks/wands/gte_modernbert/raw/C0.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C0.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C1",
+    "rank_source": "data/ranks/wands/gte_modernbert/raw/C1.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/wands/gte_modernbert/raw/C2s1.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/wands/gte_modernbert/raw/C2s2.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s2.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/wands/gte_modernbert/raw/C2s3.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s3.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/wands/gte_modernbert/raw/C2s4.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s4.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/wands/gte_modernbert/raw/C2s5.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s5.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "lexical",
+    "method": "BM25",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/lexical/BM25/fixed.parquet",
+    "original_source": "phase4/results/wands/BM25_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/minilm/lexical_ascending/fixed.parquet",
+    "original_source": "phase4/results/wands/minilm_canonical_raw_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "canonical_hybrid_lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/minilm/canonical_hybrid_lexical_ascending/fixed.parquet",
+    "original_source": "revision_graded_20260922/data/wands_minilm_canonical_hybrid_lexical_ascending_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/bge_base/lexical_ascending/fixed.parquet",
+    "original_source": "phase4/results/wands/bge_base_canonical_raw_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "canonical_hybrid_lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/bge_base/canonical_hybrid_lexical_ascending/fixed.parquet",
+    "original_source": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_lexical_ascending_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/minilm/lexical_descending/fixed.parquet",
+    "original_source": "revision_evidence_20260917/experiments/wands_minilm_lexical_descending_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "canonical_hybrid_lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/minilm/canonical_hybrid_lexical_descending/fixed.parquet",
+    "original_source": "revision_graded_20260922/data/wands_minilm_canonical_hybrid_lexical_descending_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/bge_base/lexical_descending/fixed.parquet",
+    "original_source": "revision_evidence_20260917/experiments/wands_bge_base_lexical_descending_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "canonical_hybrid_lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/bge_base/canonical_hybrid_lexical_descending/fixed.parquet",
+    "original_source": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_lexical_descending_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/minilm/field_priority_type/fixed.parquet",
+    "original_source": "revision_evidence_20260917/experiments/wands_minilm_field_priority_type_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "canonical_hybrid_field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/minilm/canonical_hybrid_field_priority_type/fixed.parquet",
+    "original_source": "revision_graded_20260922/data/wands_minilm_canonical_hybrid_field_priority_type_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/bge_base/field_priority_type/fixed.parquet",
+    "original_source": "revision_evidence_20260917/experiments/wands_bge_base_field_priority_type_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "canonical_hybrid_field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/bge_base/canonical_hybrid_field_priority_type/fixed.parquet",
+    "original_source": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_field_priority_type_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C0",
+    "rank_source": "data/ranks/wands/minilm/raw_hybrid/C0.parquet",
+    "original_source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C0_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C1",
+    "rank_source": "data/ranks/wands/minilm/raw_hybrid/C1.parquet",
+    "original_source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C1_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/wands/minilm/raw_hybrid/C2s1.parquet",
+    "original_source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s1_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/wands/minilm/raw_hybrid/C2s2.parquet",
+    "original_source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s2_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/wands/minilm/raw_hybrid/C2s3.parquet",
+    "original_source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s3_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/wands/minilm/raw_hybrid/C2s4.parquet",
+    "original_source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s4_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/wands/minilm/raw_hybrid/C2s5.parquet",
+    "original_source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s5_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C0",
+    "rank_source": "data/ranks/wands/bge_base/raw_hybrid/C0.parquet",
+    "original_source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C0_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C1",
+    "rank_source": "data/ranks/wands/bge_base/raw_hybrid/C1.parquet",
+    "original_source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C1_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/wands/bge_base/raw_hybrid/C2s1.parquet",
+    "original_source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s1_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/wands/bge_base/raw_hybrid/C2s2.parquet",
+    "original_source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s2_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/wands/bge_base/raw_hybrid/C2s3.parquet",
+    "original_source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s3_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/wands/bge_base/raw_hybrid/C2s4.parquet",
+    "original_source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s4_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/wands/bge_base/raw_hybrid/C2s5.parquet",
+    "original_source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s5_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C0",
+    "rank_source": "data/ranks/esci/minilm/raw/C0.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C0.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C1",
+    "rank_source": "data/ranks/esci/minilm/raw/C1.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/esci/minilm/raw/C2s1.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/esci/minilm/raw/C2s2.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s2.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/esci/minilm/raw/C2s3.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s3.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/esci/minilm/raw/C2s4.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s4.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/esci/minilm/raw/C2s5.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s5.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "set_mean",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/minilm/set_mean/fixed.parquet",
+    "original_source": "phase4/results/esci/minilm_set_mean_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "centroid_2",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/minilm/centroid_2/fixed.parquet",
+    "original_source": "phase4/results/esci/minilm_centroid_2_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "max_2",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/minilm/max_2/fixed.parquet",
+    "original_source": "phase4/results/esci/minilm_max_2_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C0",
+    "rank_source": "data/ranks/esci/bge_base/raw/C0.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C0.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C1",
+    "rank_source": "data/ranks/esci/bge_base/raw/C1.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/esci/bge_base/raw/C2s1.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/esci/bge_base/raw/C2s2.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s2.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/esci/bge_base/raw/C2s3.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s3.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/esci/bge_base/raw/C2s4.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s4.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/esci/bge_base/raw/C2s5.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s5.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "set_mean",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/bge_base/set_mean/fixed.parquet",
+    "original_source": "phase4/results/esci/bge_base_set_mean_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "centroid_2",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/bge_base/centroid_2/fixed.parquet",
+    "original_source": "phase4/results/esci/bge_base_centroid_2_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "max_2",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/bge_base/max_2/fixed.parquet",
+    "original_source": "phase4/results/esci/bge_base_max_2_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C0",
+    "rank_source": "data/ranks/esci/gte_modernbert/raw/C0.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C0.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C1",
+    "rank_source": "data/ranks/esci/gte_modernbert/raw/C1.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/esci/gte_modernbert/raw/C2s1.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/esci/gte_modernbert/raw/C2s2.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s2.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/esci/gte_modernbert/raw/C2s3.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s3.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/esci/gte_modernbert/raw/C2s4.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s4.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "raw",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/esci/gte_modernbert/raw/C2s5.parquet",
+    "original_source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s5.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "lexical",
+    "method": "BM25",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/lexical/BM25/fixed.parquet",
+    "original_source": "phase4/results/esci/BM25_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/minilm/lexical_ascending/fixed.parquet",
+    "original_source": "phase4/results/esci/minilm_canonical_raw_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "canonical_hybrid_lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/minilm/canonical_hybrid_lexical_ascending/fixed.parquet",
+    "original_source": "revision_graded_20260922/data/esci_minilm_canonical_hybrid_lexical_ascending_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/bge_base/lexical_ascending/fixed.parquet",
+    "original_source": "phase4/results/esci/bge_base_canonical_raw_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "canonical_hybrid_lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/bge_base/canonical_hybrid_lexical_ascending/fixed.parquet",
+    "original_source": "revision_graded_20260922/data/esci_bge_base_canonical_hybrid_lexical_ascending_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/minilm/lexical_descending/fixed.parquet",
+    "original_source": "revision_evidence_20260917/experiments/esci_minilm_lexical_descending_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "canonical_hybrid_lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/minilm/canonical_hybrid_lexical_descending/fixed.parquet",
+    "original_source": "revision_graded_20260922/data/esci_minilm_canonical_hybrid_lexical_descending_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/bge_base/lexical_descending/fixed.parquet",
+    "original_source": "revision_evidence_20260917/experiments/esci_bge_base_lexical_descending_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "canonical_hybrid_lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/bge_base/canonical_hybrid_lexical_descending/fixed.parquet",
+    "original_source": "revision_graded_20260922/data/esci_bge_base_canonical_hybrid_lexical_descending_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/minilm/field_priority_type/fixed.parquet",
+    "original_source": "revision_evidence_20260917/experiments/esci_minilm_field_priority_type_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "canonical_hybrid_field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/minilm/canonical_hybrid_field_priority_type/fixed.parquet",
+    "original_source": "revision_graded_20260922/data/esci_minilm_canonical_hybrid_field_priority_type_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/bge_base/field_priority_type/fixed.parquet",
+    "original_source": "revision_evidence_20260917/experiments/esci_bge_base_field_priority_type_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "canonical_hybrid_field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/bge_base/canonical_hybrid_field_priority_type/fixed.parquet",
+    "original_source": "revision_graded_20260922/data/esci_bge_base_canonical_hybrid_field_priority_type_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C0",
+    "rank_source": "data/ranks/esci/minilm/raw_hybrid/C0.parquet",
+    "original_source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C0_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C1",
+    "rank_source": "data/ranks/esci/minilm/raw_hybrid/C1.parquet",
+    "original_source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C1_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/esci/minilm/raw_hybrid/C2s1.parquet",
+    "original_source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s1_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/esci/minilm/raw_hybrid/C2s2.parquet",
+    "original_source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s2_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/esci/minilm/raw_hybrid/C2s3.parquet",
+    "original_source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s3_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/esci/minilm/raw_hybrid/C2s4.parquet",
+    "original_source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s4_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "minilm",
+    "method": "raw_hybrid",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/esci/minilm/raw_hybrid/C2s5.parquet",
+    "original_source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s5_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C0",
+    "rank_source": "data/ranks/esci/bge_base/raw_hybrid/C0.parquet",
+    "original_source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C0_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C1",
+    "rank_source": "data/ranks/esci/bge_base/raw_hybrid/C1.parquet",
+    "original_source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C1_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/esci/bge_base/raw_hybrid/C2s1.parquet",
+    "original_source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s1_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/esci/bge_base/raw_hybrid/C2s2.parquet",
+    "original_source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s2_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/esci/bge_base/raw_hybrid/C2s3.parquet",
+    "original_source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s3_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/esci/bge_base/raw_hybrid/C2s4.parquet",
+    "original_source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s4_pairs.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "bge_base",
+    "method": "raw_hybrid",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/esci/bge_base/raw_hybrid/C2s5.parquet",
+    "original_source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s5_pairs.parquet"
+  }
+]

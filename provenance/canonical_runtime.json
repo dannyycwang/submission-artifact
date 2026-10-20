@@ -1,0 +1,20 @@
+{
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "torch": "2.11.0+cu128",
+  "transformers": "4.55.4",
+  "numpy": "1.26.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "batching_addendum": {
+    "path": "[original machine path omitted]",
+    "relative_path": "revision_evidence_20260917/BGE_EXECUTION_ADDENDUM.json",
+    "bytes": 1529,
+    "sha256": "7b1174bb6279a8a8e9cc88e3a7a668a79b01d1cfca4a17597f49f2bca2a277de"
+  },
+  "model_scope": [
+    "bge_base"
+  ],
+  "configured_max_batch_size": 48,
+  "effective_max_batch_size": 16
+}

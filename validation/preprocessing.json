@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "wands": {
+    "products": 42994,
+    "queries": 480,
+    "judgments": 231859
+  },
+  "esci": {
+    "products": 10076,
+    "queries": 500,
+    "judgments": 10134
+  },
+  "comparison": "All product records, query IDs/text, deduplicated categorical labels match; no labels changed."
+}

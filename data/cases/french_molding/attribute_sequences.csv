@@ -1,0 +1,21 @@
+schedule,position,entry_id,entry_text
+C0,0,attr_000,overallwidth-sidetoside:9.38
+C0,1,attr_001,overallproductweight:0.19
+C0,2,attr_002,producttype : wall nice/cove
+C0,3,attr_003,moldinguse : corners
+C0,4,attr_004,overallheight-toptobottom:9.38
+C0,5,attr_005,material : urethane
+C0,6,attr_006,color : off-white
+C0,7,attr_007,compositewoodproductcwp : no
+C0,8,attr_008,installationrequired : yes
+C0,9,attr_009,countryoforigin : china
+C1,0,attr_009,countryoforigin : china
+C1,1,attr_008,installationrequired : yes
+C1,2,attr_007,compositewoodproductcwp : no
+C1,3,attr_006,color : off-white
+C1,4,attr_005,material : urethane
+C1,5,attr_004,overallheight-toptobottom:9.38
+C1,6,attr_003,moldinguse : corners
+C1,7,attr_002,producttype : wall nice/cove
+C1,8,attr_001,overallproductweight:0.19
+C1,9,attr_000,overallwidth-sidetoside:9.38

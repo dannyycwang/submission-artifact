@@ -1,0 +1,14 @@
+[
+  {
+    "experiment": "expanded",
+    "passed": true,
+    "rows": 120,
+    "max_absolute_error": 2.220446049250313e-16
+  },
+  {
+    "experiment": "adjacent",
+    "passed": true,
+    "rows": 72,
+    "max_absolute_error": 1.1102230246251565e-16
+  }
+]

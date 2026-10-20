@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "native_smoke": {
+    "minilm": {
+      "passed": true,
+      "shape": [
+        4,
+        384
+      ],
+      "unit_norms": [
+        0.9999999403953552,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "benchmark_results": false
+    },
+    "gte": {
+      "passed": true,
+      "shape": [
+        4,
+        768
+      ],
+      "unit_norms": [
+        0.9999999403953552,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "benchmark_results": false
+    }
+  },
+  "diagnostic_forward_models": [
+    "minilm",
+    "bge_base"
+  ],
+  "full_catalog_gpu_rerun": false,
+  "full_expanded_gpu_rerun": false,
+  "full_adjacent_gpu_rerun": false
+}

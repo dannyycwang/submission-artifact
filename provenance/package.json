@@ -1,0 +1,12 @@
+{
+  "paper_title": "Same Product, Different Visibility: Attribute-Order Sensitivity in Dense Retrieval",
+  "paper_pages": 12,
+  "supplied_pdf_sha256": "3343449f20165bfbf6ee8c80b10096878bed60b7af58779c883711874f03c672",
+  "source_repository": "https://github.com/dannyycwang/shopping-representation-bias",
+  "local_source_commit": "f42a4435f1a9e39a4dc0e73333e4c2749692cfa0",
+  "remote_head_observed": "f33f313ccf5b053df3ecfc742a2b0b95cb8f2ffe",
+  "source_policy": "Actual local file hashes are authoritative; original working tree was not reset or overwritten.",
+  "publication": "Prepared locally; no remote branch modification.",
+  "code_origin": "Adapted source functions plus new portable orchestration, verification, and reporting.",
+  "statistics": "Recomputed from retained rank evidence; reference comparison tolerance 1e-12."
+}

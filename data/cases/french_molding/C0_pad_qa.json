@@ -1,0 +1,34 @@
+{
+  "schedule": "C0",
+  "baseline": "pad",
+  "nodes": 64,
+  "status": "passed",
+  "token_count": 139,
+  "input_ids_vs_embeds_error": 0.0,
+  "unchanged_special_and_padding": true,
+  "native_score": 0.4918966591358185,
+  "native_rank": 19,
+  "native_margin": 0.0006619393825531006,
+  "fresh_native_score": 0.4918965995311737,
+  "fresh_native_included": true,
+  "fresh_native_error": 5.960464477539063e-08,
+  "diagnostic_score": 0.49191713333129883,
+  "diagnostic_native_error": 2.047419548034668e-05,
+  "diagnostic_included": true,
+  "boundary_guard": true,
+  "baseline_score": 0.03160571679472923,
+  "attribution_sum": 0.46030789546784945,
+  "completeness_residual": -3.5210687201470137e-06,
+  "completeness_tolerance": 0.004603114165365696,
+  "completeness_passed": true,
+  "captum_delta": -3.516674041748047e-06,
+  "attempts": [
+    {
+      "nodes": 64,
+      "residual": -3.5210687201470137e-06,
+      "tolerance": 0.004603114165365696,
+      "captum_delta": -3.516674041748047e-06,
+      "passed": true
+    }
+  ]
+}

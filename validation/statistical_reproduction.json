@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "table": "inclusion_complete",
+      "rows": 240,
+      "max_absolute_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "table": "membership_all_contrasts",
+      "rows": 120,
+      "max_absolute_error": 1.0061396160665481e-16,
+      "passed": true
+    },
+    {
+      "table": "controls_complete",
+      "rows": 840,
+      "max_absolute_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "table": "controls_paired_comparisons",
+      "rows": 1560,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "table": "transitions_complete",
+      "rows": 288,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "table": "harmonized_summary",
+      "rows": 120,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "table": "harmonized_increments",
+      "rows": 96,
+      "max_absolute_error": 1.0061396160665481e-16,
+      "passed": true
+    },
+    {
+      "table": "adjacent_estimates",
+      "rows": 72,
+      "passed": true
+    },
+    {
+      "case": "teal chair",
+      "source_rank": 11,
+      "alternative_rank": 939,
+      "passed": true
+    },
+    {
+      "case": "anti fatigue mat",
+      "gained": 5,
+      "lost": 5,
+      "recall": "20/307 in both schedules",
+      "passed": true
+    },
+    {
+      "claim": "WANDS/BGE exact Recall cancellation",
+      "numerator": 73,
+      "denominator": 308,
+      "passed": true
+    },
+    {
+      "case": "french molding",
+      "source_rank": 19,
+      "reverse_rank": 58,
+      "minimum_rank": 15,
+      "maximum_rank": 174,
+      "passed": true
+    },
+    {
+      "case": "wooden chair outdoor",
+      "confirmed_wood_before": 8,
+      "confirmed_wood_after": 6,
+      "recall": "7/42 in both schedules",
+      "passed": true
+    }
+  ],
+  "mode": "saved-rank statistical reproduction",
+  "new_model_inference": false,
+  "clean_directory_reproduction": true
+}

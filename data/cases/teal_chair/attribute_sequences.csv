@@ -1,0 +1,729 @@
+schedule,position,entry_id,text
+C0,1,attr_000,seatheight-floortoseat:19.5
+C0,2,attr_001,estimatedtimetosetup:20
+C0,3,attr_002,design : armchair
+C0,4,attr_003,upholsterycolor : teal faux leather
+C0,5,attr_004,overallwidth-sidetoside:29.5
+C0,6,attr_005,seatfillmaterialdetails:2.2 density foam
+C0,7,attr_006,cushionconstruction : foam
+C0,8,attr_007,upholsterycolor : camel
+C0,9,attr_008,overallheight-toptobottom:33.5
+C0,10,attr_009,upholsterycolor : caramel
+C0,11,attr_010,countryoforigin-additionaldetails : made in vietnam
+C0,12,attr_011,backheight-seattotopofback:13.5
+C0,13,attr_012,legheight-toptobottom:6.25
+C0,14,attr_013,woodspecies : rubberwood
+C0,15,attr_014,overallproductweight:37.5
+C0,16,attr_015,mainwoodjoinerymethod : mortise and tenon
+C0,17,attr_016,seatwidth-sidetoside:19.3
+C0,18,attr_017,fauxleathertype : pu
+C0,19,attr_018,seatfillmaterial : foam
+C0,20,attr_019,upholsterycolor : navy
+C0,21,attr_020,cleaningcode : x : clean by lightly brushing and/or vacuuming to remove dust
+C0,22,attr_021,seatdepth-fronttoback:21.65
+C0,23,attr_022,productcare : wipe clean with a dry cloth
+C0,24,attr_023,legmaterial : solid wood
+C0,25,attr_024,durability : no extra resistance
+C0,26,attr_025,dsprimaryproductstyle : lodge
+C0,27,attr_026,upholsterymaterialdetails:100 % leather gel
+C0,28,attr_027,joinery : mortise & tenon
+C0,29,attr_028,waterrepellant : no resiliency
+C0,30,attr_029,pattern : solid color
+C0,31,attr_030,overalldepth-fronttoback:30
+C0,32,attr_031,dssecondaryproductstyle : mountain lodge
+C0,33,attr_032,seatconstruction : sinuous springs
+C0,34,attr_033,backfillmaterialdetails : density foam
+C0,35,attr_034,backtype : tight back
+C0,36,attr_035,upholsterymaterial : faux leather
+C0,37,attr_036,basestyle : basic four leg
+C0,38,attr_037,weightcapacity:300
+C0,39,attr_038,additionaltoolsrequirednotincluded : tool free assembly
+C0,40,attr_039,foamdensity:1.9 lbs./cu . ft. and over
+C0,41,attr_040,armtype : rolled arms
+C0,42,attr_041,warrantylength:1 year
+C0,43,attr_042,legmaterialdetails : birch
+C0,44,attr_043,framematerialdetails : hardwood
+C0,45,attr_044,legcolor : ebony
+C0,46,attr_045,levelofassembly : partial assembly
+C0,47,attr_046,minimumdoorwidth-sidetoside:30
+C0,48,attr_047,upholsterycolor : red
+C0,49,attr_048,armmaterialdetails:100 % leather gel
+C0,50,attr_049,armmaterial : leather
+C0,51,attr_050,upholsterycolor : charcoal
+C0,52,attr_051,framematerial : solid + manufactured wood
+C0,53,attr_052,armheight-floortoarm:26
+C0,54,attr_053,backfillmaterial : synthetic fiber
+C0,55,attr_054,suggestednumberofpeopleforassemblyinstall:1
+C0,56,attr_055,numberofchairsincluded:1
+C0,57,attr_056,removablecushions : no
+C0,58,attr_057,soffacompliant : no
+C0,59,attr_058,swivel : no
+C0,60,attr_059,generalcertificateofconformitygcc : no
+C0,61,attr_060,containsflameretardantmaterials : no
+C0,62,attr_061,mattressincluded : no
+C0,63,attr_062,nfpacompliant : no
+C0,64,attr_063,canadaproductrestriction : no
+C0,65,attr_064,customproduct : no
+C0,66,attr_065,anti-microbial : no
+C0,67,attr_066,legaldocumentation : no
+C0,68,attr_067,oeko-texcertified : no
+C0,69,attr_068,taacompliant : no
+C0,70,attr_069,organic : no
+C0,71,attr_070,ansibifmax54loungepublicseating : no
+C0,72,attr_071,treatment : no
+C0,73,attr_072,doublerubtested : no
+C0,74,attr_073,commercialwarranty : no
+C0,75,attr_074,madetoorder : no
+C0,76,attr_075,scscertified : no
+C0,77,attr_076,ottomanincluded : no
+C0,78,attr_077,slipcovered : no
+C0,79,attr_078,tosspillowsincluded : no
+C0,80,attr_079, : no
+C0,81,attr_080,ansibifmax51officeseating : no
+C0,82,attr_081,tuftedcushions : no
+C0,83,attr_082,gsaapproved : no
+C0,84,attr_083,cushionticking : no
+C0,85,attr_084,bhftiupholsteredfurnitureflammabilitycompliant : no
+C0,86,attr_085,suitableforhighuse : no
+C0,87,attr_086,tscatitlevicompliantformaldehydeemissions : yes
+C0,88,attr_087,weightcapacitygreaterthan250lbs : yes
+C0,89,attr_088,caltb117-2013compliant : yes
+C0,90,attr_089,uniformpackagingandlabelingregulationsuplrcompliant : yes
+C0,91,attr_090,nailheadtrim : yes
+C0,92,attr_091,armsincluded : yes
+C0,93,attr_092,caltb116compliant : yes
+C0,94,attr_093,productwarranty : yes
+C0,95,attr_094,kiln-driedwood : yes
+C0,96,attr_095,compositewoodproductcwp : yes
+C0,97,attr_096,eligibleforhardwarepacks : yes
+C0,98,attr_097,carbphaseiicompliantformaldehydeemissions : yes
+C0,99,attr_098,upholstered : yes
+C0,100,attr_099,adultassemblyrequired : yes
+C0,101,attr_100,countryoforigin : china
+C0,102,attr_101,fullorlimitedwarranty : limited
+C0,103,attr_102,purposefuldistressingtype : no distressing
+C0,104,attr_103,supplierintendedandapproveduse : residential use
+C1,1,attr_103,supplierintendedandapproveduse : residential use
+C1,2,attr_102,purposefuldistressingtype : no distressing
+C1,3,attr_101,fullorlimitedwarranty : limited
+C1,4,attr_100,countryoforigin : china
+C1,5,attr_099,adultassemblyrequired : yes
+C1,6,attr_098,upholstered : yes
+C1,7,attr_097,carbphaseiicompliantformaldehydeemissions : yes
+C1,8,attr_096,eligibleforhardwarepacks : yes
+C1,9,attr_095,compositewoodproductcwp : yes
+C1,10,attr_094,kiln-driedwood : yes
+C1,11,attr_093,productwarranty : yes
+C1,12,attr_092,caltb116compliant : yes
+C1,13,attr_091,armsincluded : yes
+C1,14,attr_090,nailheadtrim : yes
+C1,15,attr_089,uniformpackagingandlabelingregulationsuplrcompliant : yes
+C1,16,attr_088,caltb117-2013compliant : yes
+C1,17,attr_087,weightcapacitygreaterthan250lbs : yes
+C1,18,attr_086,tscatitlevicompliantformaldehydeemissions : yes
+C1,19,attr_085,suitableforhighuse : no
+C1,20,attr_084,bhftiupholsteredfurnitureflammabilitycompliant : no
+C1,21,attr_083,cushionticking : no
+C1,22,attr_082,gsaapproved : no
+C1,23,attr_081,tuftedcushions : no
+C1,24,attr_080,ansibifmax51officeseating : no
+C1,25,attr_079, : no
+C1,26,attr_078,tosspillowsincluded : no
+C1,27,attr_077,slipcovered : no
+C1,28,attr_076,ottomanincluded : no
+C1,29,attr_075,scscertified : no
+C1,30,attr_074,madetoorder : no
+C1,31,attr_073,commercialwarranty : no
+C1,32,attr_072,doublerubtested : no
+C1,33,attr_071,treatment : no
+C1,34,attr_070,ansibifmax54loungepublicseating : no
+C1,35,attr_069,organic : no
+C1,36,attr_068,taacompliant : no
+C1,37,attr_067,oeko-texcertified : no
+C1,38,attr_066,legaldocumentation : no
+C1,39,attr_065,anti-microbial : no
+C1,40,attr_064,customproduct : no
+C1,41,attr_063,canadaproductrestriction : no
+C1,42,attr_062,nfpacompliant : no
+C1,43,attr_061,mattressincluded : no
+C1,44,attr_060,containsflameretardantmaterials : no
+C1,45,attr_059,generalcertificateofconformitygcc : no
+C1,46,attr_058,swivel : no
+C1,47,attr_057,soffacompliant : no
+C1,48,attr_056,removablecushions : no
+C1,49,attr_055,numberofchairsincluded:1
+C1,50,attr_054,suggestednumberofpeopleforassemblyinstall:1
+C1,51,attr_053,backfillmaterial : synthetic fiber
+C1,52,attr_052,armheight-floortoarm:26
+C1,53,attr_051,framematerial : solid + manufactured wood
+C1,54,attr_050,upholsterycolor : charcoal
+C1,55,attr_049,armmaterial : leather
+C1,56,attr_048,armmaterialdetails:100 % leather gel
+C1,57,attr_047,upholsterycolor : red
+C1,58,attr_046,minimumdoorwidth-sidetoside:30
+C1,59,attr_045,levelofassembly : partial assembly
+C1,60,attr_044,legcolor : ebony
+C1,61,attr_043,framematerialdetails : hardwood
+C1,62,attr_042,legmaterialdetails : birch
+C1,63,attr_041,warrantylength:1 year
+C1,64,attr_040,armtype : rolled arms
+C1,65,attr_039,foamdensity:1.9 lbs./cu . ft. and over
+C1,66,attr_038,additionaltoolsrequirednotincluded : tool free assembly
+C1,67,attr_037,weightcapacity:300
+C1,68,attr_036,basestyle : basic four leg
+C1,69,attr_035,upholsterymaterial : faux leather
+C1,70,attr_034,backtype : tight back
+C1,71,attr_033,backfillmaterialdetails : density foam
+C1,72,attr_032,seatconstruction : sinuous springs
+C1,73,attr_031,dssecondaryproductstyle : mountain lodge
+C1,74,attr_030,overalldepth-fronttoback:30
+C1,75,attr_029,pattern : solid color
+C1,76,attr_028,waterrepellant : no resiliency
+C1,77,attr_027,joinery : mortise & tenon
+C1,78,attr_026,upholsterymaterialdetails:100 % leather gel
+C1,79,attr_025,dsprimaryproductstyle : lodge
+C1,80,attr_024,durability : no extra resistance
+C1,81,attr_023,legmaterial : solid wood
+C1,82,attr_022,productcare : wipe clean with a dry cloth
+C1,83,attr_021,seatdepth-fronttoback:21.65
+C1,84,attr_020,cleaningcode : x : clean by lightly brushing and/or vacuuming to remove dust
+C1,85,attr_019,upholsterycolor : navy
+C1,86,attr_018,seatfillmaterial : foam
+C1,87,attr_017,fauxleathertype : pu
+C1,88,attr_016,seatwidth-sidetoside:19.3
+C1,89,attr_015,mainwoodjoinerymethod : mortise and tenon
+C1,90,attr_014,overallproductweight:37.5
+C1,91,attr_013,woodspecies : rubberwood
+C1,92,attr_012,legheight-toptobottom:6.25
+C1,93,attr_011,backheight-seattotopofback:13.5
+C1,94,attr_010,countryoforigin-additionaldetails : made in vietnam
+C1,95,attr_009,upholsterycolor : caramel
+C1,96,attr_008,overallheight-toptobottom:33.5
+C1,97,attr_007,upholsterycolor : camel
+C1,98,attr_006,cushionconstruction : foam
+C1,99,attr_005,seatfillmaterialdetails:2.2 density foam
+C1,100,attr_004,overallwidth-sidetoside:29.5
+C1,101,attr_003,upholsterycolor : teal faux leather
+C1,102,attr_002,design : armchair
+C1,103,attr_001,estimatedtimetosetup:20
+C1,104,attr_000,seatheight-floortoseat:19.5
+C2s1,1,attr_086,tscatitlevicompliantformaldehydeemissions : yes
+C2s1,2,attr_055,numberofchairsincluded:1
+C2s1,3,attr_083,cushionticking : no
+C2s1,4,attr_065,anti-microbial : no
+C2s1,5,attr_027,joinery : mortise & tenon
+C2s1,6,attr_003,upholsterycolor : teal faux leather
+C2s1,7,attr_008,overallheight-toptobottom:33.5
+C2s1,8,attr_019,upholsterycolor : navy
+C2s1,9,attr_030,overalldepth-fronttoback:30
+C2s1,10,attr_068,taacompliant : no
+C2s1,11,attr_062,nfpacompliant : no
+C2s1,12,attr_024,durability : no extra resistance
+C2s1,13,attr_054,suggestednumberofpeopleforassemblyinstall:1
+C2s1,14,attr_029,pattern : solid color
+C2s1,15,attr_042,legmaterialdetails : birch
+C2s1,16,attr_074,madetoorder : no
+C2s1,17,attr_001,estimatedtimetosetup:20
+C2s1,18,attr_058,swivel : no
+C2s1,19,attr_067,oeko-texcertified : no
+C2s1,20,attr_031,dssecondaryproductstyle : mountain lodge
+C2s1,21,attr_046,minimumdoorwidth-sidetoside:30
+C2s1,22,attr_023,legmaterial : solid wood
+C2s1,23,attr_044,legcolor : ebony
+C2s1,24,attr_077,slipcovered : no
+C2s1,25,attr_036,basestyle : basic four leg
+C2s1,26,attr_012,legheight-toptobottom:6.25
+C2s1,27,attr_082,gsaapproved : no
+C2s1,28,attr_056,removablecushions : no
+C2s1,29,attr_052,armheight-floortoarm:26
+C2s1,30,attr_099,adultassemblyrequired : yes
+C2s1,31,attr_088,caltb117-2013compliant : yes
+C2s1,32,attr_059,generalcertificateofconformitygcc : no
+C2s1,33,attr_097,carbphaseiicompliantformaldehydeemissions : yes
+C2s1,34,attr_071,treatment : no
+C2s1,35,attr_093,productwarranty : yes
+C2s1,36,attr_087,weightcapacitygreaterthan250lbs : yes
+C2s1,37,attr_032,seatconstruction : sinuous springs
+C2s1,38,attr_015,mainwoodjoinerymethod : mortise and tenon
+C2s1,39,attr_026,upholsterymaterialdetails:100 % leather gel
+C2s1,40,attr_066,legaldocumentation : no
+C2s1,41,attr_000,seatheight-floortoseat:19.5
+C2s1,42,attr_033,backfillmaterialdetails : density foam
+C2s1,43,attr_014,overallproductweight:37.5
+C2s1,44,attr_051,framematerial : solid + manufactured wood
+C2s1,45,attr_095,compositewoodproductcwp : yes
+C2s1,46,attr_049,armmaterial : leather
+C2s1,47,attr_025,dsprimaryproductstyle : lodge
+C2s1,48,attr_037,weightcapacity:300
+C2s1,49,attr_041,warrantylength:1 year
+C2s1,50,attr_081,tuftedcushions : no
+C2s1,51,attr_017,fauxleathertype : pu
+C2s1,52,attr_040,armtype : rolled arms
+C2s1,53,attr_016,seatwidth-sidetoside:19.3
+C2s1,54,attr_102,purposefuldistressingtype : no distressing
+C2s1,55,attr_064,customproduct : no
+C2s1,56,attr_006,cushionconstruction : foam
+C2s1,57,attr_048,armmaterialdetails:100 % leather gel
+C2s1,58,attr_098,upholstered : yes
+C2s1,59,attr_103,supplierintendedandapproveduse : residential use
+C2s1,60,attr_047,upholsterycolor : red
+C2s1,61,attr_009,upholsterycolor : caramel
+C2s1,62,attr_080,ansibifmax51officeseating : no
+C2s1,63,attr_079, : no
+C2s1,64,attr_004,overallwidth-sidetoside:29.5
+C2s1,65,attr_035,upholsterymaterial : faux leather
+C2s1,66,attr_061,mattressincluded : no
+C2s1,67,attr_002,design : armchair
+C2s1,68,attr_043,framematerialdetails : hardwood
+C2s1,69,attr_053,backfillmaterial : synthetic fiber
+C2s1,70,attr_050,upholsterycolor : charcoal
+C2s1,71,attr_028,waterrepellant : no resiliency
+C2s1,72,attr_092,caltb116compliant : yes
+C2s1,73,attr_090,nailheadtrim : yes
+C2s1,74,attr_085,suitableforhighuse : no
+C2s1,75,attr_007,upholsterycolor : camel
+C2s1,76,attr_100,countryoforigin : china
+C2s1,77,attr_060,containsflameretardantmaterials : no
+C2s1,78,attr_070,ansibifmax54loungepublicseating : no
+C2s1,79,attr_021,seatdepth-fronttoback:21.65
+C2s1,80,attr_038,additionaltoolsrequirednotincluded : tool free assembly
+C2s1,81,attr_091,armsincluded : yes
+C2s1,82,attr_020,cleaningcode : x : clean by lightly brushing and/or vacuuming to remove dust
+C2s1,83,attr_018,seatfillmaterial : foam
+C2s1,84,attr_063,canadaproductrestriction : no
+C2s1,85,attr_011,backheight-seattotopofback:13.5
+C2s1,86,attr_013,woodspecies : rubberwood
+C2s1,87,attr_022,productcare : wipe clean with a dry cloth
+C2s1,88,attr_101,fullorlimitedwarranty : limited
+C2s1,89,attr_096,eligibleforhardwarepacks : yes
+C2s1,90,attr_034,backtype : tight back
+C2s1,91,attr_075,scscertified : no
+C2s1,92,attr_039,foamdensity:1.9 lbs./cu . ft. and over
+C2s1,93,attr_005,seatfillmaterialdetails:2.2 density foam
+C2s1,94,attr_069,organic : no
+C2s1,95,attr_010,countryoforigin-additionaldetails : made in vietnam
+C2s1,96,attr_094,kiln-driedwood : yes
+C2s1,97,attr_078,tosspillowsincluded : no
+C2s1,98,attr_045,levelofassembly : partial assembly
+C2s1,99,attr_084,bhftiupholsteredfurnitureflammabilitycompliant : no
+C2s1,100,attr_073,commercialwarranty : no
+C2s1,101,attr_057,soffacompliant : no
+C2s1,102,attr_072,doublerubtested : no
+C2s1,103,attr_076,ottomanincluded : no
+C2s1,104,attr_089,uniformpackagingandlabelingregulationsuplrcompliant : yes
+C2s2,1,attr_064,customproduct : no
+C2s2,2,attr_017,fauxleathertype : pu
+C2s2,3,attr_016,seatwidth-sidetoside:19.3
+C2s2,4,attr_047,upholsterycolor : red
+C2s2,5,attr_087,weightcapacitygreaterthan250lbs : yes
+C2s2,6,attr_042,legmaterialdetails : birch
+C2s2,7,attr_095,compositewoodproductcwp : yes
+C2s2,8,attr_103,supplierintendedandapproveduse : residential use
+C2s2,9,attr_036,basestyle : basic four leg
+C2s2,10,attr_081,tuftedcushions : no
+C2s2,11,attr_053,backfillmaterial : synthetic fiber
+C2s2,12,attr_000,seatheight-floortoseat:19.5
+C2s2,13,attr_033,backfillmaterialdetails : density foam
+C2s2,14,attr_041,warrantylength:1 year
+C2s2,15,attr_028,waterrepellant : no resiliency
+C2s2,16,attr_031,dssecondaryproductstyle : mountain lodge
+C2s2,17,attr_005,seatfillmaterialdetails:2.2 density foam
+C2s2,18,attr_050,upholsterycolor : charcoal
+C2s2,19,attr_007,upholsterycolor : camel
+C2s2,20,attr_060,containsflameretardantmaterials : no
+C2s2,21,attr_003,upholsterycolor : teal faux leather
+C2s2,22,attr_061,mattressincluded : no
+C2s2,23,attr_079, : no
+C2s2,24,attr_096,eligibleforhardwarepacks : yes
+C2s2,25,attr_049,armmaterial : leather
+C2s2,26,attr_098,upholstered : yes
+C2s2,27,attr_080,ansibifmax51officeseating : no
+C2s2,28,attr_073,commercialwarranty : no
+C2s2,29,attr_088,caltb117-2013compliant : yes
+C2s2,30,attr_055,numberofchairsincluded:1
+C2s2,31,attr_094,kiln-driedwood : yes
+C2s2,32,attr_004,overallwidth-sidetoside:29.5
+C2s2,33,attr_068,taacompliant : no
+C2s2,34,attr_022,productcare : wipe clean with a dry cloth
+C2s2,35,attr_056,removablecushions : no
+C2s2,36,attr_037,weightcapacity:300
+C2s2,37,attr_063,canadaproductrestriction : no
+C2s2,38,attr_043,framematerialdetails : hardwood
+C2s2,39,attr_070,ansibifmax54loungepublicseating : no
+C2s2,40,attr_072,doublerubtested : no
+C2s2,41,attr_012,legheight-toptobottom:6.25
+C2s2,42,attr_002,design : armchair
+C2s2,43,attr_058,swivel : no
+C2s2,44,attr_086,tscatitlevicompliantformaldehydeemissions : yes
+C2s2,45,attr_019,upholsterycolor : navy
+C2s2,46,attr_101,fullorlimitedwarranty : limited
+C2s2,47,attr_089,uniformpackagingandlabelingregulationsuplrcompliant : yes
+C2s2,48,attr_048,armmaterialdetails:100 % leather gel
+C2s2,49,attr_054,suggestednumberofpeopleforassemblyinstall:1
+C2s2,50,attr_090,nailheadtrim : yes
+C2s2,51,attr_011,backheight-seattotopofback:13.5
+C2s2,52,attr_023,legmaterial : solid wood
+C2s2,53,attr_069,organic : no
+C2s2,54,attr_021,seatdepth-fronttoback:21.65
+C2s2,55,attr_099,adultassemblyrequired : yes
+C2s2,56,attr_057,soffacompliant : no
+C2s2,57,attr_052,armheight-floortoarm:26
+C2s2,58,attr_006,cushionconstruction : foam
+C2s2,59,attr_015,mainwoodjoinerymethod : mortise and tenon
+C2s2,60,attr_013,woodspecies : rubberwood
+C2s2,61,attr_046,minimumdoorwidth-sidetoside:30
+C2s2,62,attr_091,armsincluded : yes
+C2s2,63,attr_014,overallproductweight:37.5
+C2s2,64,attr_029,pattern : solid color
+C2s2,65,attr_059,generalcertificateofconformitygcc : no
+C2s2,66,attr_027,joinery : mortise & tenon
+C2s2,67,attr_093,productwarranty : yes
+C2s2,68,attr_009,upholsterycolor : caramel
+C2s2,69,attr_032,seatconstruction : sinuous springs
+C2s2,70,attr_065,anti-microbial : no
+C2s2,71,attr_026,upholsterymaterialdetails:100 % leather gel
+C2s2,72,attr_038,additionaltoolsrequirednotincluded : tool free assembly
+C2s2,73,attr_062,nfpacompliant : no
+C2s2,74,attr_030,overalldepth-fronttoback:30
+C2s2,75,attr_077,slipcovered : no
+C2s2,76,attr_018,seatfillmaterial : foam
+C2s2,77,attr_045,levelofassembly : partial assembly
+C2s2,78,attr_044,legcolor : ebony
+C2s2,79,attr_078,tosspillowsincluded : no
+C2s2,80,attr_066,legaldocumentation : no
+C2s2,81,attr_102,purposefuldistressingtype : no distressing
+C2s2,82,attr_039,foamdensity:1.9 lbs./cu . ft. and over
+C2s2,83,attr_092,caltb116compliant : yes
+C2s2,84,attr_035,upholsterymaterial : faux leather
+C2s2,85,attr_100,countryoforigin : china
+C2s2,86,attr_083,cushionticking : no
+C2s2,87,attr_010,countryoforigin-additionaldetails : made in vietnam
+C2s2,88,attr_024,durability : no extra resistance
+C2s2,89,attr_084,bhftiupholsteredfurnitureflammabilitycompliant : no
+C2s2,90,attr_085,suitableforhighuse : no
+C2s2,91,attr_075,scscertified : no
+C2s2,92,attr_082,gsaapproved : no
+C2s2,93,attr_076,ottomanincluded : no
+C2s2,94,attr_051,framematerial : solid + manufactured wood
+C2s2,95,attr_020,cleaningcode : x : clean by lightly brushing and/or vacuuming to remove dust
+C2s2,96,attr_008,overallheight-toptobottom:33.5
+C2s2,97,attr_040,armtype : rolled arms
+C2s2,98,attr_034,backtype : tight back
+C2s2,99,attr_067,oeko-texcertified : no
+C2s2,100,attr_001,estimatedtimetosetup:20
+C2s2,101,attr_025,dsprimaryproductstyle : lodge
+C2s2,102,attr_097,carbphaseiicompliantformaldehydeemissions : yes
+C2s2,103,attr_071,treatment : no
+C2s2,104,attr_074,madetoorder : no
+C2s3,1,attr_058,swivel : no
+C2s3,2,attr_070,ansibifmax54loungepublicseating : no
+C2s3,3,attr_050,upholsterycolor : charcoal
+C2s3,4,attr_071,treatment : no
+C2s3,5,attr_082,gsaapproved : no
+C2s3,6,attr_012,legheight-toptobottom:6.25
+C2s3,7,attr_075,scscertified : no
+C2s3,8,attr_095,compositewoodproductcwp : yes
+C2s3,9,attr_078,tosspillowsincluded : no
+C2s3,10,attr_043,framematerialdetails : hardwood
+C2s3,11,attr_032,seatconstruction : sinuous springs
+C2s3,12,attr_051,framematerial : solid + manufactured wood
+C2s3,13,attr_069,organic : no
+C2s3,14,attr_091,armsincluded : yes
+C2s3,15,attr_066,legaldocumentation : no
+C2s3,16,attr_038,additionaltoolsrequirednotincluded : tool free assembly
+C2s3,17,attr_023,legmaterial : solid wood
+C2s3,18,attr_076,ottomanincluded : no
+C2s3,19,attr_062,nfpacompliant : no
+C2s3,20,attr_097,carbphaseiicompliantformaldehydeemissions : yes
+C2s3,21,attr_101,fullorlimitedwarranty : limited
+C2s3,22,attr_030,overalldepth-fronttoback:30
+C2s3,23,attr_037,weightcapacity:300
+C2s3,24,attr_039,foamdensity:1.9 lbs./cu . ft. and over
+C2s3,25,attr_009,upholsterycolor : caramel
+C2s3,26,attr_057,soffacompliant : no
+C2s3,27,attr_018,seatfillmaterial : foam
+C2s3,28,attr_074,madetoorder : no
+C2s3,29,attr_036,basestyle : basic four leg
+C2s3,30,attr_049,armmaterial : leather
+C2s3,31,attr_052,armheight-floortoarm:26
+C2s3,32,attr_007,upholsterycolor : camel
+C2s3,33,attr_068,taacompliant : no
+C2s3,34,attr_033,backfillmaterialdetails : density foam
+C2s3,35,attr_055,numberofchairsincluded:1
+C2s3,36,attr_026,upholsterymaterialdetails:100 % leather gel
+C2s3,37,attr_008,overallheight-toptobottom:33.5
+C2s3,38,attr_061,mattressincluded : no
+C2s3,39,attr_048,armmaterialdetails:100 % leather gel
+C2s3,40,attr_003,upholsterycolor : teal faux leather
+C2s3,41,attr_059,generalcertificateofconformitygcc : no
+C2s3,42,attr_002,design : armchair
+C2s3,43,attr_053,backfillmaterial : synthetic fiber
+C2s3,44,attr_084,bhftiupholsteredfurnitureflammabilitycompliant : no
+C2s3,45,attr_094,kiln-driedwood : yes
+C2s3,46,attr_072,doublerubtested : no
+C2s3,47,attr_056,removablecushions : no
+C2s3,48,attr_092,caltb116compliant : yes
+C2s3,49,attr_073,commercialwarranty : no
+C2s3,50,attr_034,backtype : tight back
+C2s3,51,attr_087,weightcapacitygreaterthan250lbs : yes
+C2s3,52,attr_019,upholsterycolor : navy
+C2s3,53,attr_021,seatdepth-fronttoback:21.65
+C2s3,54,attr_103,supplierintendedandapproveduse : residential use
+C2s3,55,attr_098,upholstered : yes
+C2s3,56,attr_042,legmaterialdetails : birch
+C2s3,57,attr_102,purposefuldistressingtype : no distressing
+C2s3,58,attr_088,caltb117-2013compliant : yes
+C2s3,59,attr_013,woodspecies : rubberwood
+C2s3,60,attr_001,estimatedtimetosetup:20
+C2s3,61,attr_035,upholsterymaterial : faux leather
+C2s3,62,attr_031,dssecondaryproductstyle : mountain lodge
+C2s3,63,attr_064,customproduct : no
+C2s3,64,attr_046,minimumdoorwidth-sidetoside:30
+C2s3,65,attr_060,containsflameretardantmaterials : no
+C2s3,66,attr_041,warrantylength:1 year
+C2s3,67,attr_045,levelofassembly : partial assembly
+C2s3,68,attr_100,countryoforigin : china
+C2s3,69,attr_027,joinery : mortise & tenon
+C2s3,70,attr_085,suitableforhighuse : no
+C2s3,71,attr_081,tuftedcushions : no
+C2s3,72,attr_024,durability : no extra resistance
+C2s3,73,attr_025,dsprimaryproductstyle : lodge
+C2s3,74,attr_090,nailheadtrim : yes
+C2s3,75,attr_028,waterrepellant : no resiliency
+C2s3,76,attr_000,seatheight-floortoseat:19.5
+C2s3,77,attr_099,adultassemblyrequired : yes
+C2s3,78,attr_086,tscatitlevicompliantformaldehydeemissions : yes
+C2s3,79,attr_005,seatfillmaterialdetails:2.2 density foam
+C2s3,80,attr_054,suggestednumberofpeopleforassemblyinstall:1
+C2s3,81,attr_015,mainwoodjoinerymethod : mortise and tenon
+C2s3,82,attr_022,productcare : wipe clean with a dry cloth
+C2s3,83,attr_063,canadaproductrestriction : no
+C2s3,84,attr_017,fauxleathertype : pu
+C2s3,85,attr_006,cushionconstruction : foam
+C2s3,86,attr_011,backheight-seattotopofback:13.5
+C2s3,87,attr_083,cushionticking : no
+C2s3,88,attr_093,productwarranty : yes
+C2s3,89,attr_040,armtype : rolled arms
+C2s3,90,attr_020,cleaningcode : x : clean by lightly brushing and/or vacuuming to remove dust
+C2s3,91,attr_079, : no
+C2s3,92,attr_029,pattern : solid color
+C2s3,93,attr_047,upholsterycolor : red
+C2s3,94,attr_016,seatwidth-sidetoside:19.3
+C2s3,95,attr_089,uniformpackagingandlabelingregulationsuplrcompliant : yes
+C2s3,96,attr_067,oeko-texcertified : no
+C2s3,97,attr_014,overallproductweight:37.5
+C2s3,98,attr_077,slipcovered : no
+C2s3,99,attr_044,legcolor : ebony
+C2s3,100,attr_065,anti-microbial : no
+C2s3,101,attr_004,overallwidth-sidetoside:29.5
+C2s3,102,attr_010,countryoforigin-additionaldetails : made in vietnam
+C2s3,103,attr_080,ansibifmax51officeseating : no
+C2s3,104,attr_096,eligibleforhardwarepacks : yes
+C2s4,1,attr_002,design : armchair
+C2s4,2,attr_067,oeko-texcertified : no
+C2s4,3,attr_044,legcolor : ebony
+C2s4,4,attr_041,warrantylength:1 year
+C2s4,5,attr_083,cushionticking : no
+C2s4,6,attr_098,upholstered : yes
+C2s4,7,attr_077,slipcovered : no
+C2s4,8,attr_047,upholsterycolor : red
+C2s4,9,attr_054,suggestednumberofpeopleforassemblyinstall:1
+C2s4,10,attr_061,mattressincluded : no
+C2s4,11,attr_103,supplierintendedandapproveduse : residential use
+C2s4,12,attr_000,seatheight-floortoseat:19.5
+C2s4,13,attr_102,purposefuldistressingtype : no distressing
+C2s4,14,attr_005,seatfillmaterialdetails:2.2 density foam
+C2s4,15,attr_053,backfillmaterial : synthetic fiber
+C2s4,16,attr_022,productcare : wipe clean with a dry cloth
+C2s4,17,attr_057,soffacompliant : no
+C2s4,18,attr_026,upholsterymaterialdetails:100 % leather gel
+C2s4,19,attr_084,bhftiupholsteredfurnitureflammabilitycompliant : no
+C2s4,20,attr_004,overallwidth-sidetoside:29.5
+C2s4,21,attr_019,upholsterycolor : navy
+C2s4,22,attr_092,caltb116compliant : yes
+C2s4,23,attr_030,overalldepth-fronttoback:30
+C2s4,24,attr_006,cushionconstruction : foam
+C2s4,25,attr_035,upholsterymaterial : faux leather
+C2s4,26,attr_096,eligibleforhardwarepacks : yes
+C2s4,27,attr_093,productwarranty : yes
+C2s4,28,attr_063,canadaproductrestriction : no
+C2s4,29,attr_056,removablecushions : no
+C2s4,30,attr_051,framematerial : solid + manufactured wood
+C2s4,31,attr_095,compositewoodproductcwp : yes
+C2s4,32,attr_059,generalcertificateofconformitygcc : no
+C2s4,33,attr_032,seatconstruction : sinuous springs
+C2s4,34,attr_099,adultassemblyrequired : yes
+C2s4,35,attr_100,countryoforigin : china
+C2s4,36,attr_020,cleaningcode : x : clean by lightly brushing and/or vacuuming to remove dust
+C2s4,37,attr_071,treatment : no
+C2s4,38,attr_003,upholsterycolor : teal faux leather
+C2s4,39,attr_016,seatwidth-sidetoside:19.3
+C2s4,40,attr_058,swivel : no
+C2s4,41,attr_060,containsflameretardantmaterials : no
+C2s4,42,attr_048,armmaterialdetails:100 % leather gel
+C2s4,43,attr_101,fullorlimitedwarranty : limited
+C2s4,44,attr_009,upholsterycolor : caramel
+C2s4,45,attr_029,pattern : solid color
+C2s4,46,attr_090,nailheadtrim : yes
+C2s4,47,attr_037,weightcapacity:300
+C2s4,48,attr_072,doublerubtested : no
+C2s4,49,attr_089,uniformpackagingandlabelingregulationsuplrcompliant : yes
+C2s4,50,attr_007,upholsterycolor : camel
+C2s4,51,attr_013,woodspecies : rubberwood
+C2s4,52,attr_055,numberofchairsincluded:1
+C2s4,53,attr_088,caltb117-2013compliant : yes
+C2s4,54,attr_079, : no
+C2s4,55,attr_075,scscertified : no
+C2s4,56,attr_064,customproduct : no
+C2s4,57,attr_074,madetoorder : no
+C2s4,58,attr_070,ansibifmax54loungepublicseating : no
+C2s4,59,attr_068,taacompliant : no
+C2s4,60,attr_027,joinery : mortise & tenon
+C2s4,61,attr_085,suitableforhighuse : no
+C2s4,62,attr_076,ottomanincluded : no
+C2s4,63,attr_011,backheight-seattotopofback:13.5
+C2s4,64,attr_045,levelofassembly : partial assembly
+C2s4,65,attr_065,anti-microbial : no
+C2s4,66,attr_014,overallproductweight:37.5
+C2s4,67,attr_043,framematerialdetails : hardwood
+C2s4,68,attr_091,armsincluded : yes
+C2s4,69,attr_021,seatdepth-fronttoback:21.65
+C2s4,70,attr_082,gsaapproved : no
+C2s4,71,attr_015,mainwoodjoinerymethod : mortise and tenon
+C2s4,72,attr_008,overallheight-toptobottom:33.5
+C2s4,73,attr_050,upholsterycolor : charcoal
+C2s4,74,attr_086,tscatitlevicompliantformaldehydeemissions : yes
+C2s4,75,attr_024,durability : no extra resistance
+C2s4,76,attr_073,commercialwarranty : no
+C2s4,77,attr_081,tuftedcushions : no
+C2s4,78,attr_023,legmaterial : solid wood
+C2s4,79,attr_012,legheight-toptobottom:6.25
+C2s4,80,attr_087,weightcapacitygreaterthan250lbs : yes
+C2s4,81,attr_025,dsprimaryproductstyle : lodge
+C2s4,82,attr_046,minimumdoorwidth-sidetoside:30
+C2s4,83,attr_010,countryoforigin-additionaldetails : made in vietnam
+C2s4,84,attr_094,kiln-driedwood : yes
+C2s4,85,attr_028,waterrepellant : no resiliency
+C2s4,86,attr_018,seatfillmaterial : foam
+C2s4,87,attr_033,backfillmaterialdetails : density foam
+C2s4,88,attr_036,basestyle : basic four leg
+C2s4,89,attr_052,armheight-floortoarm:26
+C2s4,90,attr_034,backtype : tight back
+C2s4,91,attr_039,foamdensity:1.9 lbs./cu . ft. and over
+C2s4,92,attr_038,additionaltoolsrequirednotincluded : tool free assembly
+C2s4,93,attr_001,estimatedtimetosetup:20
+C2s4,94,attr_066,legaldocumentation : no
+C2s4,95,attr_062,nfpacompliant : no
+C2s4,96,attr_080,ansibifmax51officeseating : no
+C2s4,97,attr_078,tosspillowsincluded : no
+C2s4,98,attr_031,dssecondaryproductstyle : mountain lodge
+C2s4,99,attr_040,armtype : rolled arms
+C2s4,100,attr_042,legmaterialdetails : birch
+C2s4,101,attr_097,carbphaseiicompliantformaldehydeemissions : yes
+C2s4,102,attr_069,organic : no
+C2s4,103,attr_049,armmaterial : leather
+C2s4,104,attr_017,fauxleathertype : pu
+C2s5,1,attr_020,cleaningcode : x : clean by lightly brushing and/or vacuuming to remove dust
+C2s5,2,attr_082,gsaapproved : no
+C2s5,3,attr_075,scscertified : no
+C2s5,4,attr_065,anti-microbial : no
+C2s5,5,attr_093,productwarranty : yes
+C2s5,6,attr_073,commercialwarranty : no
+C2s5,7,attr_103,supplierintendedandapproveduse : residential use
+C2s5,8,attr_033,backfillmaterialdetails : density foam
+C2s5,9,attr_045,levelofassembly : partial assembly
+C2s5,10,attr_068,taacompliant : no
+C2s5,11,attr_056,removablecushions : no
+C2s5,12,attr_092,caltb116compliant : yes
+C2s5,13,attr_063,canadaproductrestriction : no
+C2s5,14,attr_100,countryoforigin : china
+C2s5,15,attr_037,weightcapacity:300
+C2s5,16,attr_002,design : armchair
+C2s5,17,attr_069,organic : no
+C2s5,18,attr_012,legheight-toptobottom:6.25
+C2s5,19,attr_040,armtype : rolled arms
+C2s5,20,attr_017,fauxleathertype : pu
+C2s5,21,attr_044,legcolor : ebony
+C2s5,22,attr_083,cushionticking : no
+C2s5,23,attr_043,framematerialdetails : hardwood
+C2s5,24,attr_078,tosspillowsincluded : no
+C2s5,25,attr_060,containsflameretardantmaterials : no
+C2s5,26,attr_007,upholsterycolor : camel
+C2s5,27,attr_053,backfillmaterial : synthetic fiber
+C2s5,28,attr_013,woodspecies : rubberwood
+C2s5,29,attr_086,tscatitlevicompliantformaldehydeemissions : yes
+C2s5,30,attr_097,carbphaseiicompliantformaldehydeemissions : yes
+C2s5,31,attr_046,minimumdoorwidth-sidetoside:30
+C2s5,32,attr_032,seatconstruction : sinuous springs
+C2s5,33,attr_048,armmaterialdetails:100 % leather gel
+C2s5,34,attr_049,armmaterial : leather
+C2s5,35,attr_008,overallheight-toptobottom:33.5
+C2s5,36,attr_058,swivel : no
+C2s5,37,attr_070,ansibifmax54loungepublicseating : no
+C2s5,38,attr_096,eligibleforhardwarepacks : yes
+C2s5,39,attr_031,dssecondaryproductstyle : mountain lodge
+C2s5,40,attr_010,countryoforigin-additionaldetails : made in vietnam
+C2s5,41,attr_000,seatheight-floortoseat:19.5
+C2s5,42,attr_079, : no
+C2s5,43,attr_077,slipcovered : no
+C2s5,44,attr_018,seatfillmaterial : foam
+C2s5,45,attr_080,ansibifmax51officeseating : no
+C2s5,46,attr_084,bhftiupholsteredfurnitureflammabilitycompliant : no
+C2s5,47,attr_014,overallproductweight:37.5
+C2s5,48,attr_004,overallwidth-sidetoside:29.5
+C2s5,49,attr_027,joinery : mortise & tenon
+C2s5,50,attr_057,soffacompliant : no
+C2s5,51,attr_062,nfpacompliant : no
+C2s5,52,attr_059,generalcertificateofconformitygcc : no
+C2s5,53,attr_094,kiln-driedwood : yes
+C2s5,54,attr_021,seatdepth-fronttoback:21.65
+C2s5,55,attr_089,uniformpackagingandlabelingregulationsuplrcompliant : yes
+C2s5,56,attr_074,madetoorder : no
+C2s5,57,attr_072,doublerubtested : no
+C2s5,58,attr_028,waterrepellant : no resiliency
+C2s5,59,attr_036,basestyle : basic four leg
+C2s5,60,attr_066,legaldocumentation : no
+C2s5,61,attr_006,cushionconstruction : foam
+C2s5,62,attr_081,tuftedcushions : no
+C2s5,63,attr_026,upholsterymaterialdetails:100 % leather gel
+C2s5,64,attr_023,legmaterial : solid wood
+C2s5,65,attr_038,additionaltoolsrequirednotincluded : tool free assembly
+C2s5,66,attr_022,productcare : wipe clean with a dry cloth
+C2s5,67,attr_041,warrantylength:1 year
+C2s5,68,attr_088,caltb117-2013compliant : yes
+C2s5,69,attr_102,purposefuldistressingtype : no distressing
+C2s5,70,attr_101,fullorlimitedwarranty : limited
+C2s5,71,attr_019,upholsterycolor : navy
+C2s5,72,attr_099,adultassemblyrequired : yes
+C2s5,73,attr_054,suggestednumberofpeopleforassemblyinstall:1
+C2s5,74,attr_016,seatwidth-sidetoside:19.3
+C2s5,75,attr_087,weightcapacitygreaterthan250lbs : yes
+C2s5,76,attr_061,mattressincluded : no
+C2s5,77,attr_009,upholsterycolor : caramel
+C2s5,78,attr_085,suitableforhighuse : no
+C2s5,79,attr_098,upholstered : yes
+C2s5,80,attr_047,upholsterycolor : red
+C2s5,81,attr_064,customproduct : no
+C2s5,82,attr_071,treatment : no
+C2s5,83,attr_025,dsprimaryproductstyle : lodge
+C2s5,84,attr_095,compositewoodproductcwp : yes
+C2s5,85,attr_003,upholsterycolor : teal faux leather
+C2s5,86,attr_005,seatfillmaterialdetails:2.2 density foam
+C2s5,87,attr_050,upholsterycolor : charcoal
+C2s5,88,attr_015,mainwoodjoinerymethod : mortise and tenon
+C2s5,89,attr_029,pattern : solid color
+C2s5,90,attr_039,foamdensity:1.9 lbs./cu . ft. and over
+C2s5,91,attr_035,upholsterymaterial : faux leather
+C2s5,92,attr_051,framematerial : solid + manufactured wood
+C2s5,93,attr_090,nailheadtrim : yes
+C2s5,94,attr_034,backtype : tight back
+C2s5,95,attr_024,durability : no extra resistance
+C2s5,96,attr_052,armheight-floortoarm:26
+C2s5,97,attr_067,oeko-texcertified : no
+C2s5,98,attr_001,estimatedtimetosetup:20
+C2s5,99,attr_076,ottomanincluded : no
+C2s5,100,attr_055,numberofchairsincluded:1
+C2s5,101,attr_042,legmaterialdetails : birch
+C2s5,102,attr_030,overalldepth-fronttoback:30
+C2s5,103,attr_011,backheight-seattotopofback:13.5
+C2s5,104,attr_091,armsincluded : yes

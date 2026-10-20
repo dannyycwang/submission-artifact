@@ -1,0 +1,1124 @@
+[
+  {
+    "path": "data/catalogs/wands_products.jsonl.gz",
+    "source": "phase2/data/processed/wands_products.jsonl.gz",
+    "source_sha256": "a3fb53329b9ecb9d0c774641a767e582a6fee1056620fc3c1be3f7c0b145ca67",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/catalogs/wands_queries.csv",
+    "source": "phase2/data/processed/wands_queries.csv",
+    "source_sha256": "a282c6fad6583b7f86ddd164ca6b5c65b42c69631757f5026de94cb4eea1537a",
+    "transformation": "Removed obsolete grade/query-taxonomy columns; retained all original IDs, query text, and categorical labels."
+  },
+  {
+    "path": "data/catalogs/wands_judgments.csv",
+    "source": "phase2/data/processed/wands_judgments.csv",
+    "source_sha256": "8cdd742427852822fe9a1252f05439b4fc33feeabb4afa0854cf86e8a188e0b6",
+    "transformation": "Removed obsolete grade/query-taxonomy columns; retained all original IDs, query text, and categorical labels."
+  },
+  {
+    "path": "data/target_only/wands_minilm.parquet",
+    "source": "phase3/results/target_only_permutations/wands_minilm_pairs.parquet",
+    "source_sha256": "df43654f8d25b99114ae93cb54f33aa9d50008f799293cd348590d3bb4627001",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/target_only/wands_bge_base.parquet",
+    "source": "phase3/results/target_only_permutations/wands_bge_base_pairs.parquet",
+    "source_sha256": "2e4f6edc2542080c017480e4b0d445a1889c74c5c1b87676c29062e6c964bd23",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/target_only/wands_gte_modernbert.parquet",
+    "source": "phase3/results/target_only_permutations/wands_gte_modernbert_pairs.parquet",
+    "source_sha256": "29c4c27807f9d180926dc9492016351a508c7ccd12a799767e81309344529f17",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/catalogs/esci_products.jsonl.gz",
+    "source": "phase2/data/processed/esci_products.jsonl.gz",
+    "source_sha256": "825b2b9a570cfbb73ba683c6cb951d1925b211dbf12af158d604557783c2c987",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/catalogs/esci_queries.csv",
+    "source": "phase2/data/processed/esci_queries.csv",
+    "source_sha256": "4dcccc23f2c3f40240770c28ff3d5c94eca14c3f51198b70ba75f33a5d855df8",
+    "transformation": "Removed obsolete grade/query-taxonomy columns; retained all original IDs, query text, and categorical labels."
+  },
+  {
+    "path": "data/catalogs/esci_judgments.csv",
+    "source": "phase2/data/processed/esci_judgments.csv",
+    "source_sha256": "cb98d43f45ca8378078001bf24b9b25367a53b231225cf29705b0a80f2469985",
+    "transformation": "Removed obsolete grade/query-taxonomy columns; retained all original IDs, query text, and categorical labels."
+  },
+  {
+    "path": "data/target_only/esci_minilm.parquet",
+    "source": "phase3/results/target_only_permutations/esci_minilm_pairs.parquet",
+    "source_sha256": "4616dbd86e7a03b5295067aeed4d3ba6eeccfabd546a733ed93c402a3adb984d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/target_only/esci_bge_base.parquet",
+    "source": "phase3/results/target_only_permutations/esci_bge_base_pairs.parquet",
+    "source_sha256": "cc00b12308ab0993a5c6e1501c7f26a9a20d42cf046a2027175369c7c53fb5f1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/target_only/esci_gte_modernbert.parquet",
+    "source": "phase3/results/target_only_permutations/esci_gte_modernbert_pairs.parquet",
+    "source_sha256": "caf81f204826e996321d8d75f322da0b5ce89991566b3d401e90804b3ebd6355",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/token_lengths.csv",
+    "source": "revision_evidence_20260917/data/all_seven_token_lengths.csv",
+    "source_sha256": "d6d57df5c4e4c99c6478612a22c849ee4d37876dce70dfcf13c2eaf8a93a8306",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw/C0.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C0.parquet",
+    "source_sha256": "8e2263d54f75c4a4c51fae7240d3c879ca01aae0b6e7109e1af5ea4bcc652096",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw/C1.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C1.parquet",
+    "source_sha256": "1677ff51e8c00240a37056380b03e447639d53ed70e3dd52ba943b780b76d148",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw/C2s1.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s1.parquet",
+    "source_sha256": "18dabe2616e9c9d125207a3327d81dbd4a7ef25472017d018a0618a426983987",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw/C2s2.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s2.parquet",
+    "source_sha256": "364cc2c1e54b56bd738545f27f6d9b8632a6ea2f68a62fc049ad1e806e2779af",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw/C2s3.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s3.parquet",
+    "source_sha256": "a0c02bc2454bdd9884ff8177436c1bc7f32b46dc9f43d64363fd10fb0941d683",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw/C2s4.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s4.parquet",
+    "source_sha256": "4a25bf871b4ff3e7b5b314c9c9123390eacc60f151914145dc26b89cad8373d7",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw/C2s5.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_minilm_native_C2s5.parquet",
+    "source_sha256": "de791f1808fe06d52d605e3dd27e3c3b570d09b381c92c8c2e297a005049e5ec",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/minilm/set_mean/fixed.parquet",
+    "source": "phase4/results/wands/minilm_set_mean_pairs.parquet",
+    "source_sha256": "2fca53d77e792e2f648e118ee660a4b148ac9c25ec81220374424777c5e05776",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/centroid_2/fixed.parquet",
+    "source": "phase4/results/wands/minilm_centroid_2_pairs.parquet",
+    "source_sha256": "454df6b10d8f03334cebbe15fa06e2ca27f2ecf86584fd1035fabe8da386a1ec",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/max_2/fixed.parquet",
+    "source": "phase4/results/wands/minilm_max_2_pairs.parquet",
+    "source_sha256": "6ff443c3199249a40372abd615fd44304f104a8b41e0aa89d1b6a136fbb56ace",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw/C0.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C0.parquet",
+    "source_sha256": "c3d13836f3c034ae83fc2c71dea099e74b906aa7fd43b5b3bca6fd08bdc08ead",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw/C1.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C1.parquet",
+    "source_sha256": "e6141b0ea7433b9601262279643b9ed18239beca3d6fc597120d7b895002d6f4",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw/C2s1.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s1.parquet",
+    "source_sha256": "d2e00b24b43d139c2a8f03196350b4f3cbe37cb470668de17712ec621d4d6b69",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw/C2s2.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s2.parquet",
+    "source_sha256": "9b42e081445191c7f18605c88af023fe93269509d57a95bf5edb46e917485102",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw/C2s3.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s3.parquet",
+    "source_sha256": "53ea087dc3195da936e3c01e1e264a31e0506b52b2747a406c1f4e64c8a80523",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw/C2s4.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s4.parquet",
+    "source_sha256": "7708f18a2fa417bc6bc044217d76bf4f174533a59b015e95f3327898454373ea",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw/C2s5.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_bge_base_native_C2s5.parquet",
+    "source_sha256": "940eba7f9d60414c57810d80bcac95390404379d5aee4f30fd505a6ed757bca4",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/bge_base/set_mean/fixed.parquet",
+    "source": "phase4/results/wands/bge_base_set_mean_pairs.parquet",
+    "source_sha256": "463376f90cc63106b5162293af89e022fe0c0272ccba2dc26f706ab354d4a932",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/centroid_2/fixed.parquet",
+    "source": "phase4/results/wands/bge_base_centroid_2_pairs.parquet",
+    "source_sha256": "502b7dfa3e8a85dac40234c111c786c5896c09f60b8a36c3183ed59bfe633595",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/max_2/fixed.parquet",
+    "source": "phase4/results/wands/bge_base_max_2_pairs.parquet",
+    "source_sha256": "b74f725d0222c4a87a8e992a8338a41e175b67573ce86cec3e26f7b690d940e7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/gte_modernbert/raw/C0.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C0.parquet",
+    "source_sha256": "44cb8ee8e9bbae7a88b4b956c8d632939eeab9655876e72e86dae5a8f1d0c06a",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/gte_modernbert/raw/C1.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C1.parquet",
+    "source_sha256": "2d1ff7f2346c86c5e414418980bd0e016aeaec373d6a1662b8e1f522e5be3a91",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/gte_modernbert/raw/C2s1.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s1.parquet",
+    "source_sha256": "76ba8c41c56fc4b4919c703f8f0eaea6d3f11255cc524c23cb3e94f1811d88fa",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/gte_modernbert/raw/C2s2.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s2.parquet",
+    "source_sha256": "a1ecf239f234930a2ab37bb1d1a1c2953b42be8f3e49d9a4bb3c33f26c1fb890",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/gte_modernbert/raw/C2s3.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s3.parquet",
+    "source_sha256": "4bfdc761c5bd9ea9706f4efd8153b7784fc432d03fb480de058967910fcebe14",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/gte_modernbert/raw/C2s4.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s4.parquet",
+    "source_sha256": "a0c2d49184720402dc6c362ef7eb56e12f785eb18aec523b56ce45d1de7024b1",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/gte_modernbert/raw/C2s5.parquet",
+    "source": "phase2/results/phase2_pair_ranks/wands_gte_modernbert_native_C2s5.parquet",
+    "source_sha256": "85d62ee0b7402b166a2b52c0ecfca5dfd216a6b13417c25289c770d4b2d1db38",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/wands/lexical/BM25/fixed.parquet",
+    "source": "phase4/results/wands/BM25_pairs.parquet",
+    "source_sha256": "cd082e5f61650ca47bb527e148d3676215d714b9449405d5a5062a53664b4aad",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/lexical_ascending/fixed.parquet",
+    "source": "phase4/results/wands/minilm_canonical_raw_pairs.parquet",
+    "source_sha256": "d9e947f1bb6974133c1e4b010814495b1c5259f39aa01231eafbf75ae1e5ba52",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/canonical_hybrid_lexical_ascending/fixed.parquet",
+    "source": "revision_graded_20260922/data/wands_minilm_canonical_hybrid_lexical_ascending_pairs.parquet",
+    "source_sha256": "97ddb13b790db693d8df1d3c574f311fbb555a5c2c1260cbad08bb17f62c0365",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/lexical_ascending/fixed.parquet",
+    "source": "phase4/results/wands/bge_base_canonical_raw_pairs.parquet",
+    "source_sha256": "0fefeac8329cbee3b231675151e9fa6e14cc87127e363b3348d43131bdc76638",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/canonical_hybrid_lexical_ascending/fixed.parquet",
+    "source": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_lexical_ascending_pairs.parquet",
+    "source_sha256": "4930ec9ca86b60be4b7d857b26102a95d852cf3fae741cf85ac92063ca51e723",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/lexical_descending/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/wands_minilm_lexical_descending_pairs.parquet",
+    "source_sha256": "799b976002175903824584f15418bedf5df490d2fff8ebc2686ea9edb30e5560",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/canonical_hybrid_lexical_descending/fixed.parquet",
+    "source": "revision_graded_20260922/data/wands_minilm_canonical_hybrid_lexical_descending_pairs.parquet",
+    "source_sha256": "3b28eacc9be0ec7aeafe91f2f3c7294a2a10b70d2fb02536071c7e3ba24af52f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/lexical_descending/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/wands_bge_base_lexical_descending_pairs.parquet",
+    "source_sha256": "3b452de8c08e22bb5ad3ec32b9fcaabf14468935b1131f21f921fe43b0a43ec1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/canonical_hybrid_lexical_descending/fixed.parquet",
+    "source": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_lexical_descending_pairs.parquet",
+    "source_sha256": "6c5149e616f53e5f45cd4a775235230772314311809716d1bd04df718321b247",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/field_priority_type/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/wands_minilm_field_priority_type_pairs.parquet",
+    "source_sha256": "bf2e8ffe72ea4b555de6f9ee3ed322e13901365281cdc765436124c2a4aa05a2",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/canonical_hybrid_field_priority_type/fixed.parquet",
+    "source": "revision_graded_20260922/data/wands_minilm_canonical_hybrid_field_priority_type_pairs.parquet",
+    "source_sha256": "9852eb8025370f8fde62a2f4719b3aa29173622c7d1387de4a22716eb5e81da2",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/field_priority_type/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/wands_bge_base_field_priority_type_pairs.parquet",
+    "source_sha256": "039ee5deaf0ccf42bfe33faa2d10f44bb86ce955dde0c558df2f01a6350513c9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/canonical_hybrid_field_priority_type/fixed.parquet",
+    "source": "revision_graded_20260922/data/wands_bge_base_canonical_hybrid_field_priority_type_pairs.parquet",
+    "source_sha256": "eaabc6feca8e1ffa8e1b1dff58732440537b95e1b0ccbf073da8fe19f37e65cb",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw_hybrid/C0.parquet",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C0_pairs.parquet",
+    "source_sha256": "c45dbcb7eee4bc9680b2888bd890bb6e8f710ae4185a62d7f091178826d90003",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw_hybrid/C1.parquet",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C1_pairs.parquet",
+    "source_sha256": "a00f7a7d0fc518391e42a8f648de70cfb64bdbdf5bb65a5c78d7048dc8802b35",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw_hybrid/C2s1.parquet",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s1_pairs.parquet",
+    "source_sha256": "989ae83492a0c4ec60439a47ef5f6d49347ac3e8b11b10f9cc3eeec782dcfc7f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw_hybrid/C2s2.parquet",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s2_pairs.parquet",
+    "source_sha256": "cf1817e8d71e99e5f4a4f70792f809c8b2c6396b9cfc5a8007b2917dce620bda",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw_hybrid/C2s3.parquet",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s3_pairs.parquet",
+    "source_sha256": "dd1409c772da9f707721347fed9d379fc702ad9f89fc25abde54a28eeee816be",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw_hybrid/C2s4.parquet",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s4_pairs.parquet",
+    "source_sha256": "0b25ef6c791c93eaa97a52c3cb13c370014a21381915fc87fd1613580ffee9fa",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/minilm/raw_hybrid/C2s5.parquet",
+    "source": "revision_graded_20260922/data/wands_minilm_raw_hybrid_C2s5_pairs.parquet",
+    "source_sha256": "4cc8e3a27adac65c51f3f26a12f01376e32e3d6306fde9ce6878cd92d8b63cfd",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw_hybrid/C0.parquet",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C0_pairs.parquet",
+    "source_sha256": "550a4b0d57ac58ae06694da95c278e215242f602cbdd5b7d795940a233a4dc70",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw_hybrid/C1.parquet",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C1_pairs.parquet",
+    "source_sha256": "52a430887809d4b0b68115ef90b24b1b2221e68a53a16b559f419b69ac3840b1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw_hybrid/C2s1.parquet",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s1_pairs.parquet",
+    "source_sha256": "8df625409c5317248739e7c866d1f8dea0442a883ef4b8040c4e9c5499aeb10e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw_hybrid/C2s2.parquet",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s2_pairs.parquet",
+    "source_sha256": "75f85ce6091f85ec32447cae6d2a2059e330e674ee9e7594a6c867aa84720a70",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw_hybrid/C2s3.parquet",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s3_pairs.parquet",
+    "source_sha256": "76ae73a687c58b477dd8a7843601885049973f7e11f6bdc2fc71535d532a5e80",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw_hybrid/C2s4.parquet",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s4_pairs.parquet",
+    "source_sha256": "96cae6ef17dcb7a4a42ddc1ca6354159c13bd2903350b1190f7a3b73e3e9763b",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/wands/bge_base/raw_hybrid/C2s5.parquet",
+    "source": "revision_graded_20260922/data/wands_bge_base_raw_hybrid_C2s5_pairs.parquet",
+    "source_sha256": "fd3d1b9b521615872b26093ac18d205ae7bb3cd5200dae05e1547e7b05fcc240",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw/C0.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C0.parquet",
+    "source_sha256": "586a35ab0667525c7585ae69907203b4a858a50a5c07f07f3a17793d08390f8e",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw/C1.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C1.parquet",
+    "source_sha256": "eefd4c82a2c783618005369ef5857ea9b87434aa582e3664a75d7fa401026ddf",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw/C2s1.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s1.parquet",
+    "source_sha256": "9f83a0b3469b59a3b65eb6cfc650ecd43baa3b48f7ee4b0729865f03e9b0e080",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw/C2s2.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s2.parquet",
+    "source_sha256": "2ae6b402d4c171c3fbf6eb8406c78abb3953e2660fe62732a24b559a40e80221",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw/C2s3.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s3.parquet",
+    "source_sha256": "c195e550889c9d6fcb20c91589cc93b8d93c387b4490cd7fe23d1025daced6b3",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw/C2s4.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s4.parquet",
+    "source_sha256": "96807bdd880bfc14f9ea8937e314f9553adf7641e20944b4875e4635101a0486",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw/C2s5.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_minilm_native_C2s5.parquet",
+    "source_sha256": "837bf15f0264d4eba85f9d48a1bb1923c30bd8d98a6501fbdb97260cc093afbc",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/minilm/set_mean/fixed.parquet",
+    "source": "phase4/results/esci/minilm_set_mean_pairs.parquet",
+    "source_sha256": "f72ac6347774ad6729c27c5d020d513d650ff3a7614969b2fba4bb546017a187",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/centroid_2/fixed.parquet",
+    "source": "phase4/results/esci/minilm_centroid_2_pairs.parquet",
+    "source_sha256": "66d356ce012bbf4bc1292c873a2d634f0560a251420942788cc787e55c59ae4e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/max_2/fixed.parquet",
+    "source": "phase4/results/esci/minilm_max_2_pairs.parquet",
+    "source_sha256": "e58ddd918c1cfd27f5f581b774fd86ab2f18a1e036dc585bb5eae4d57ff505ba",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw/C0.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C0.parquet",
+    "source_sha256": "4b1f5e94956f3b6b06da672de82af283ab0be8b4e1eca00722580fa82588c1bd",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw/C1.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C1.parquet",
+    "source_sha256": "81766b212c973735736aaa07fed61b3c2903d6ffd7ca237fdd4e13e82ade2eab",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw/C2s1.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s1.parquet",
+    "source_sha256": "15a0a0b215fb5b49c8b68279be3adbe7ea71fbedf091f052027453ec3f72156c",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw/C2s2.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s2.parquet",
+    "source_sha256": "87da5d1fe060b00d4de6c6b59ca3d94060a6ca209961fedcfb302a4c43b31ce5",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw/C2s3.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s3.parquet",
+    "source_sha256": "bfaa65d071ab69a797ee9cabf87c00bd2f8d1adbfd6a1bdd37840cc8a00c6212",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw/C2s4.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s4.parquet",
+    "source_sha256": "7e9c5e3b6f6214b6ba3b4d6fd42b4868d2e7fcabc47cacfd197648439d4603d7",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw/C2s5.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_bge_base_native_C2s5.parquet",
+    "source_sha256": "23c707ab6fa9362df9fd6a4a9f0e58c38b43567c643ddfb7875ee4960e6939c5",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/bge_base/set_mean/fixed.parquet",
+    "source": "phase4/results/esci/bge_base_set_mean_pairs.parquet",
+    "source_sha256": "fcf3bbe59a4c06b95b2a1b56748bd3ca0e5a42b62699586774574eddfdcb9f2a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/centroid_2/fixed.parquet",
+    "source": "phase4/results/esci/bge_base_centroid_2_pairs.parquet",
+    "source_sha256": "62b5401405102bcd207ff3f42ef01ccdf98e7cef792d35f381693dbd6192ab10",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/max_2/fixed.parquet",
+    "source": "phase4/results/esci/bge_base_max_2_pairs.parquet",
+    "source_sha256": "f1555f9ed6c96ccff7ea30c0b0d54bcc33e86e15ca612ff3792a76185129b9b2",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/gte_modernbert/raw/C0.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C0.parquet",
+    "source_sha256": "ae5879067690a2b2597cbd94f1ed8cf088cdd4cfe9644def0d2b85cad107afdf",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/gte_modernbert/raw/C1.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C1.parquet",
+    "source_sha256": "3b423aee69dac1b714805d57c5ec68dc58136cbd1514e382ac917932c9fb9917",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/gte_modernbert/raw/C2s1.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s1.parquet",
+    "source_sha256": "503dfd0068f5684b9adbb77d4968ae15da0d5b103f73debfab54d405b89357df",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/gte_modernbert/raw/C2s2.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s2.parquet",
+    "source_sha256": "fbb95739741d59d4ba30e09b17b4c708104e55a5e703fb4533b1789c5efd29db",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/gte_modernbert/raw/C2s3.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s3.parquet",
+    "source_sha256": "7ee91a3769ad738566493a4aa5a9549209891027ffbc982d8bd8fb9cdd9bed24",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/gte_modernbert/raw/C2s4.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s4.parquet",
+    "source_sha256": "e21dd09dbf43aa143846a6f1a53c8a8b4b3929ef4697befe61e51442628abfaf",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/gte_modernbert/raw/C2s5.parquet",
+    "source": "phase2/results/phase2_pair_ranks/esci_gte_modernbert_native_C2s5.parquet",
+    "source_sha256": "77cc281191c0e00039736f7138a84adc91b84a7e931dce78f7a569f9e5fec9f7",
+    "transformation": "Removed obsolete auxiliary grade/query_type columns; all IDs, categorical labels, ranks, and scores unchanged."
+  },
+  {
+    "path": "data/ranks/esci/lexical/BM25/fixed.parquet",
+    "source": "phase4/results/esci/BM25_pairs.parquet",
+    "source_sha256": "ad9e813ba09ec17ed5b7d93ad3620264548cc65d0e2432f7b41e86b728c5acd8",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/lexical_ascending/fixed.parquet",
+    "source": "phase4/results/esci/minilm_canonical_raw_pairs.parquet",
+    "source_sha256": "680c4de75413dd20c20029618d3a49d74df158c3f09e3f151a4e12c38abafcf5",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/canonical_hybrid_lexical_ascending/fixed.parquet",
+    "source": "revision_graded_20260922/data/esci_minilm_canonical_hybrid_lexical_ascending_pairs.parquet",
+    "source_sha256": "4309cee6d69ea5b55c858e1eaf34b73a171c9b7bffe86266894459121f8b510d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/lexical_ascending/fixed.parquet",
+    "source": "phase4/results/esci/bge_base_canonical_raw_pairs.parquet",
+    "source_sha256": "a2eaab1427d734c20afc91bd713bb7ab5840fd0ede494b29b87a8615145783bd",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/canonical_hybrid_lexical_ascending/fixed.parquet",
+    "source": "revision_graded_20260922/data/esci_bge_base_canonical_hybrid_lexical_ascending_pairs.parquet",
+    "source_sha256": "08d6f6bb8015f7b59e71379033093e3a87c1ed573db8d9d460c6bfc677422dc1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/lexical_descending/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/esci_minilm_lexical_descending_pairs.parquet",
+    "source_sha256": "be059abfe90bc1426e89b8ed49c1686c53d783b7cae421709e212bfb8f0a89a1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/canonical_hybrid_lexical_descending/fixed.parquet",
+    "source": "revision_graded_20260922/data/esci_minilm_canonical_hybrid_lexical_descending_pairs.parquet",
+    "source_sha256": "6558e3280426236485bb2105ed24bd8a16106f45f4a46b232efbd77de8bde741",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/lexical_descending/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/esci_bge_base_lexical_descending_pairs.parquet",
+    "source_sha256": "5ac4da4051519227474429c6cf512ea612b6ec3bf7a96b9dcc223d357c8363fd",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/canonical_hybrid_lexical_descending/fixed.parquet",
+    "source": "revision_graded_20260922/data/esci_bge_base_canonical_hybrid_lexical_descending_pairs.parquet",
+    "source_sha256": "a1bfc7f9f13433f082db139d8482f81b4e192e0fe96f0c065fa5a55b7ea70325",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/field_priority_type/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/esci_minilm_field_priority_type_pairs.parquet",
+    "source_sha256": "993f974529b5fc512b580b322eff7ee69c064a87c0ba499be933ccb401989bcf",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/canonical_hybrid_field_priority_type/fixed.parquet",
+    "source": "revision_graded_20260922/data/esci_minilm_canonical_hybrid_field_priority_type_pairs.parquet",
+    "source_sha256": "8811447d55062d0a1f4e7ea8ccf384758cde849e5085a1ec565592528e45590c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/field_priority_type/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/esci_bge_base_field_priority_type_pairs.parquet",
+    "source_sha256": "2539ea5c3b6ce0c8d5653ac4a45596f2e16eab2680fd5cc91cb0dc84ae822c40",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/canonical_hybrid_field_priority_type/fixed.parquet",
+    "source": "revision_graded_20260922/data/esci_bge_base_canonical_hybrid_field_priority_type_pairs.parquet",
+    "source_sha256": "c0a37df3ede9882d7085d8b5e050d5c93aef620b100b2abe6d017fa0e1bb751a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw_hybrid/C0.parquet",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C0_pairs.parquet",
+    "source_sha256": "7fd9ab17cca70b13ac348e0fbe231b364e351b6c287f8225ead47765f76b3a1e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw_hybrid/C1.parquet",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C1_pairs.parquet",
+    "source_sha256": "affa57967bbf6866d313703ea7eca70c4c945c0e7f6a57de9a0a86f41d262a3e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw_hybrid/C2s1.parquet",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s1_pairs.parquet",
+    "source_sha256": "feeed565911fb50774edf9c40a6381ea4cfaac9ab517b2c061d0e2d3cb4fffdd",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw_hybrid/C2s2.parquet",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s2_pairs.parquet",
+    "source_sha256": "45130c3f9107f0abc97ecec927c6d353434be34db8606a56c494b6e9ab12aad7",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw_hybrid/C2s3.parquet",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s3_pairs.parquet",
+    "source_sha256": "57743c5165a59ba9e2c4b4c6ef4db69b39e027a2f67f7ce772eea13aaf14f243",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw_hybrid/C2s4.parquet",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s4_pairs.parquet",
+    "source_sha256": "cd4f96fe1b8477a655fc5109df3fd54682ede3b19e5ce533e552be1ba5bf6417",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/minilm/raw_hybrid/C2s5.parquet",
+    "source": "revision_graded_20260922/data/esci_minilm_raw_hybrid_C2s5_pairs.parquet",
+    "source_sha256": "81ce69c264b9c9e7e6f05c4563dc1f09a6b45bfa52e91ac351d8bc9f56e3164e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw_hybrid/C0.parquet",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C0_pairs.parquet",
+    "source_sha256": "dfb23c72d186ffcfd9c577bb80570f59ec05e9e79d950cd7e51c867d1e66819d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw_hybrid/C1.parquet",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C1_pairs.parquet",
+    "source_sha256": "70f789f467d6ab567cc9b18199ed15ce8f0da271c3152364fb01c7d90875fb25",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw_hybrid/C2s1.parquet",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s1_pairs.parquet",
+    "source_sha256": "64517ce8612b7f745d6d2b9029d779a72814767b214240e142a16601ad3f86b5",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw_hybrid/C2s2.parquet",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s2_pairs.parquet",
+    "source_sha256": "974b8a28f20045824e8b6ea513c22c9439aafbf722ffca31de03ae6f3649ec5f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw_hybrid/C2s3.parquet",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s3_pairs.parquet",
+    "source_sha256": "cd4b2458c4ad76dcbfd9aa9b527d95c825b159c68e276ddc23d1fee27792bced",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw_hybrid/C2s4.parquet",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s4_pairs.parquet",
+    "source_sha256": "4300a39fd46d01b2e88c8606410640eaf8978e41d17b1a5a463c0b27bc1a6dfc",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/ranks/esci/bge_base/raw_hybrid/C2s5.parquet",
+    "source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s5_pairs.parquet",
+    "source_sha256": "3e90ee59e5ac850645807fef86e8ab20d6e531c2ce9f1ff0b129f09550c33a07",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/reference_per_query.parquet",
+    "source": "revision_section6_20260924/data/effectiveness_per_query.parquet",
+    "source_sha256": "6bf03ac944b07471b0b6561264996dbf1da6d8a2b480033a0e1e6fdfa286df61",
+    "transformation": "Only paper methods; removed superseded gains and K=10; relocated rank_source paths. All retained numerical values unchanged."
+  },
+  {
+    "path": "data/reference_states.parquet",
+    "source": "revision_graded_20260922/data/persistent_states_per_query.parquet",
+    "source_sha256": "12c368bfb2ed60721b7df5db2620c2e4cdab9162188b84139c9174f529214345",
+    "transformation": "Only methods evaluated in the supplied manuscript."
+  },
+  {
+    "path": "data/reference_transitions.parquet",
+    "source": "revision_final_strengthening_20260922/data/control_transitions_per_query.parquet",
+    "source_sha256": "84daae8d6aad365a391e778c4d44fac2db75c2fa0f0f9abd664b8ac88ba3504c",
+    "transformation": "Only methods evaluated in the supplied manuscript."
+  },
+  {
+    "path": "reference/inclusion_complete.csv",
+    "source": "revision_section6_20260924/tables/inclusion_complete.csv",
+    "source_sha256": "42dad6d66444af0e833a835ff98bd6a9c6b8deab7cd317ac0a3a30024f3408a9",
+    "transformation": "Paper method subset; full precision retained."
+  },
+  {
+    "path": "reference/membership_all_contrasts.csv",
+    "source": "revision_section6_20260924/tables/membership_all_contrasts.csv",
+    "source_sha256": "ee95a801da33989f68293397e0bc9c7ec476b7b4ced67304847eb9a1054fbce8",
+    "transformation": "Paper method subset; full precision retained."
+  },
+  {
+    "path": "reference/controls_complete.csv",
+    "source": "revision_section6_20260924/tables/controls_complete.csv",
+    "source_sha256": "b983a822d11a3636b54e8ede3e549e14c6589b6dc1251e02ca7f60bb364ddf56",
+    "transformation": "Paper method subset; full precision retained."
+  },
+  {
+    "path": "reference/controls_paired_comparisons.csv",
+    "source": "revision_section6_20260924/tables/controls_paired_comparisons.csv",
+    "source_sha256": "547ff8c6de39cc6523c26a8897c8f2cd5b1a08e55b992f7815750ada2b46b3fe",
+    "transformation": "Paper method subset; full precision retained."
+  },
+  {
+    "path": "reference/transitions_complete.csv",
+    "source": "revision_section6_20260924/tables/transitions_complete.csv",
+    "source_sha256": "56ac2a4b4aea3a43725784a60c24a34b940f4053d67140f17c4e8919291d3cc5",
+    "transformation": "Paper method subset; full precision retained."
+  },
+  {
+    "path": "reference/harmonized_summary.csv",
+    "source": "revision_section6_20260924/tables/harmonized_summary.csv",
+    "source_sha256": "41dc0bcfc0c4d76123b2ac11a4895d1e2d3636bbbdd91f3fc5c04fb209d89a49",
+    "transformation": "Paper method subset; full precision retained."
+  },
+  {
+    "path": "reference/harmonized_increments.csv",
+    "source": "revision_section6_20260924/tables/harmonized_increments.csv",
+    "source_sha256": "299eeb56e6f92db37c7d097d3d189c4abd1ec328978f3ccb153c713ae4c0cf9c",
+    "transformation": "Paper method subset; full precision retained."
+  },
+  {
+    "path": "data/expanded/wands_minilm.parquet",
+    "source": "revision_section6_20260924/harmonized/minilm/wands_ranks.parquet",
+    "source_sha256": "91316f6bde87c00d1321f5548f9309dcafd51827fd60043c02a142890619df67",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/expanded/esci_minilm.parquet",
+    "source": "revision_section6_20260924/harmonized/minilm/esci_ranks.parquet",
+    "source_sha256": "b8a926275f09826b9c13ab1ffdda70a4e2b82e05babaad786625765a4a728e7a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "provenance/expanded_minilm_profile.json",
+    "source": "revision_section6_20260924/harmonized/minilm/profile.json",
+    "source_sha256": "78fbdbaa3e040eed467cff1f07aa682843ab364152e87c87e387212ce597a21d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/adjacent/minilm_variants.parquet",
+    "source": "revision_adjacent_swap_20261001/data/minilm_variants.parquet",
+    "source_sha256": "60aec913e39a061d8ce791056f98e9bceb4679f5c810516a782919a9d1e77783",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/adjacent/minilm_numerical_repeats.parquet",
+    "source": "revision_adjacent_swap_20261001/data/minilm_numerical_repeats.parquet",
+    "source_sha256": "3513c5271c77072aa6a5bb89a559cc5c77a21de30bc52c9cfabdf19c2f234959",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/expanded/wands_bge_base.parquet",
+    "source": "revision_section6_20260924/harmonized/bge_base/wands_ranks.parquet",
+    "source_sha256": "e2aa9b03224e57b58fcef3dca330b92d0dd495d85c7b261094ab4fc97ae5d110",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/expanded/esci_bge_base.parquet",
+    "source": "revision_section6_20260924/harmonized/bge_base/esci_ranks.parquet",
+    "source_sha256": "d18ea65964196a50f9970d52f1080bd1397718af1c3b61b01acba2f6da9c4ed9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "provenance/expanded_bge_base_profile.json",
+    "source": "revision_section6_20260924/harmonized/bge_base/profile.json",
+    "source_sha256": "d554c4da5bc90d0fd0728f53f1ab955a693dd93fcf3c755fb7b7fa1999ef24b0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/adjacent/bge_base_variants.parquet",
+    "source": "revision_adjacent_swap_20261001/data/bge_base_variants.parquet",
+    "source_sha256": "8ef093f0df236c80747c043c68aa60ba1925eed19abe2250841ebe8f0f2421c1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/adjacent/bge_base_numerical_repeats.parquet",
+    "source": "revision_adjacent_swap_20261001/data/bge_base_numerical_repeats.parquet",
+    "source_sha256": "b344a0ebe2f435987985b78304e5a7048d9c6eef352b3bb7cc95176e4d38e5e4",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/adjacent/variant_plan.parquet",
+    "source": "revision_adjacent_swap_20261001/data/variant_plan.parquet",
+    "source_sha256": "bebf305c91b06314240dfd6264b7fa4ba02262e9e59f9aa7bfa388e2a501e90a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/adjacent/cohort.csv",
+    "source": "revision_adjacent_swap_20261001/cohort_manifest.csv",
+    "source_sha256": "17fa199d8be8008990f02f1fb612f3e81e042f809eb239d13a9203b2d3e61aae",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "configs/adjacent.json",
+    "source": "revision_adjacent_swap_20261001/config.json",
+    "source_sha256": "80622950880e366e2f3cd203edc016841b699333bd42c64179caa272b37b4b68",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "provenance/adjacent_execution_profile.json",
+    "source": "revision_adjacent_swap_20261001/execution_profile.json",
+    "source_sha256": "bc8e24ee9674ceaa69826ccf928572a7a857b6ba684fdeb383b767a3501fe537",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "reference/adjacent_estimates.csv",
+    "source": "revision_adjacent_swap_20261001/data/aggregate_estimates.csv",
+    "source_sha256": "fa4828b3a48f821f615ff67e233175d64f44c29eac20ebc30aa3c0a70da3ef3d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/adjacent/illustrative_case.json",
+    "source": "revision_adjacent_swap_20261001/data/case_selection.json",
+    "source_sha256": "05e6a02dab479cab8bde2c3e6dd300a869004ee18feab2e61f390d996bf7509c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/teal_chair/native_records.csv",
+    "source": "revision_teal_chair_fig1_captum_20261002/native_records.csv",
+    "source_sha256": "f15f72f20eff580ffcc1439f51c87907ee3dad38ad8c59a53627c54434d30181",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/teal_chair/fixed_competitors.csv",
+    "source": "revision_teal_chair_fig1_captum_20261002/fixed_competitors.csv",
+    "source_sha256": "577aaf5104a55cb36ab56117091f60176da73513f00490a192d50a1714b365e1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/teal_chair/attribute_sequences.csv",
+    "source": "revision_teal_chair_fig1_captum_20261002/inputs/attribute_sequences.csv",
+    "source_sha256": "7004d8e14ee519135812d839ab787f8a765ac0391fd5a6eb77ff91538d2a0b4f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/teal_chair/product_record.json",
+    "source": "revision_teal_chair_fig1_captum_20261002/inputs/product_record.json",
+    "source_sha256": "43d084fb6ded8668f3175be01c61b14c271ce64e968468027d1060bb84b48b8a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/french_molding/C0_input.txt",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C0_input.txt",
+    "source_sha256": "0d32c126b534ce8acbf1ac586bce0be3444e5b04658ed0bae7565309e0ed1abb",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/french_molding/C1_input.txt",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C1_input.txt",
+    "source_sha256": "b16aa4fda0f9e7abcb0ad06b216af3daeb537d997344a92826a92439cc2d3c42",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/french_molding/C0_tokenized_input.json",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C0_tokenized_input.json",
+    "source_sha256": "4099b015dc3dd8d7f8619ec2d88352253f2311832737125fc2890ba4ff26775d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/french_molding/C1_tokenized_input.json",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C1_tokenized_input.json",
+    "source_sha256": "347530a7e9d210c4017adac17ce9d03bd1f7914609deee6e9cb3e5232f7b3071",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/french_molding/fixed_query_embedding.npy",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/fixed_query_embedding.npy",
+    "source_sha256": "324cf1a25d0fda0d86bc07dee6cd39630db60751f72a38862cba6bc91168dce9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/french_molding/fixed_competitors.csv",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/fixed_competitors.csv",
+    "source_sha256": "20baea3a81d9b7c22aafff2a2b29811ee474aae724c66c25b95e88efd1e3f40f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/french_molding/entry_attributions.csv",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/entry_attributions.csv",
+    "source_sha256": "0d54294e3ebe19bbe4e384cfa41b1a628a91908c11efdfefd72d880bfd7c2d40",
+    "transformation": "Retained the paper PAD-reference rows only; removed unused zero-reference rows."
+  },
+  {
+    "path": "data/cases/french_molding/token_attributions.csv",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/token_attributions.csv",
+    "source_sha256": "2d1b456fab072aa3e1942ab91100bde5df205075001c46cf2ce3912f8f4901ea",
+    "transformation": "Retained the paper PAD-reference rows only; removed unused zero-reference rows."
+  },
+  {
+    "path": "data/cases/french_molding/aligned_entry_changes.csv",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/aligned_entry_changes.csv",
+    "source_sha256": "f86b5aa92c1bf1ee43e62ee4cc9654d880bd9458ea32b2d79746f14134c6e322",
+    "transformation": "Retained the paper PAD-reference rows only; removed unused zero-reference rows."
+  },
+  {
+    "path": "data/cases/french_molding/attribute_sequences.csv",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/attribute_sequences.csv",
+    "source_sha256": "b474dc5481f89bed1aab80c69da05b35f33516a6dbfaf9bd3c33b21ac9d0ce24",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/french_molding/C0_pad_features.npz",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C0_pad_features.npz",
+    "source_sha256": "61d3d92c86e3f10162783628d43ab63a43acf1bf2e943ca761de99851e5e721a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/french_molding/C1_pad_features.npz",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C1_pad_features.npz",
+    "source_sha256": "a6d30f6b07954bb218fce33a01a95402a7642f441cdd20a906117c6cf82f6935",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/french_molding/C0_pad_qa.json",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C0_pad_qa.json",
+    "source_sha256": "fc707e2c2d68928cb447c9289d5bed98227c17b45f3e72797be6bf6d3352188a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/french_molding/C1_pad_qa.json",
+    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C1_pad_qa.json",
+    "source_sha256": "c8d6db2c2a5e3a8dd33926d397cf8f6aa9d17f8880c9cf983a0e34813bc9465a",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/wooden_chair/all_products.csv",
+    "source": "query_constraint_cases_20261007/top_cases/q367_bge_base_C0_C1/all_products.csv",
+    "source_sha256": "a87510110f26a1564d1edafcbf6a67640cb8fa349074771091261e0e2a3f160e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/wooden_chair/top20_before.csv",
+    "source": "query_constraint_cases_20261007/top_cases/q367_bge_base_C0_C1/top20_before.csv",
+    "source_sha256": "bafc0582b2da3163f9fb06c9e804d3a8c1d6e6aebf3fe73657b9cc0ebb9ce539",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/wooden_chair/top20_after.csv",
+    "source": "query_constraint_cases_20261007/top_cases/q367_bge_base_C0_C1/top20_after.csv",
+    "source_sha256": "db3c591665a86e3e0bdc5acbc98070d68b688eafd46b6666fde214e859dad09b",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/cases/wooden_chair/matched_scoring.json",
+    "source": "query_constraint_cases_20261007/top_cases/q367_bge_base_C0_C1/matched_scoring.json",
+    "source_sha256": "ea03044e56791afd0dc3d221fceac6705c5c28f5801b22ddc768f50fc1f52cff",
+    "transformation": "Removed original-machine absolute paths; numerical/runtime evidence retained."
+  },
+  {
+    "path": "data/cases/wooden_chair/token_audit.csv",
+    "source": "query_constraint_cases_20261007/top_cases/q367_bge_base_C0_C1/token_audit.csv",
+    "source_sha256": "d54b0cf9009b182d658bc9f61dbadff1e3a07356e996a937ba008f2c1f441de1",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "licenses/WANDS-LICENSE",
+    "source": "data/raw/LICENSE",
+    "source_sha256": "e3ce14610132897db9f64e21d7871a7a60c0bc04364ec61e4faa99643c5072d6",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "licenses/ESCI-LICENSE",
+    "source": "phase2/data/esci_repo/LICENSE",
+    "source_sha256": "88046bf22d5b4f4b8cc85079ae6aae5424a3a1999db952ed152828ff325b2c6d",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "licenses/ESCI-NOTICE",
+    "source": "phase2/data/esci_repo/NOTICE",
+    "source_sha256": "3b921bdc93d93a9db034684b0b3154f1d4bab94b275be2fe37ccbf6d7f285b66",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "src/encoding.py",
+    "source": "phase2/src/encoding.py",
+    "source_sha256": "0e457a365cd85fbbcb40561b1a60cd38929673a161818d9e7030754697f0c4fa",
+    "transformation": "Removed unused chunk-encoding branches; native encoding and cache logic retained."
+  },
+  {
+    "path": "data/expanded/coverage_plan.parquet",
+    "source": "revision_final_strengthening_20260922/data/coverage_plan.parquet",
+    "source_sha256": "15e160e924d61f51cd056bafcc7ac4c28a75c8974876956206d723dcacb2d034",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/expanded/coverage_common_support.parquet",
+    "source": "revision_final_strengthening_20260922/data/coverage_common_support.parquet",
+    "source_sha256": "bfea9a1bd96f4e8ef16cdc7ae8eba9e7bdeee9b83a76fbeebb4820a9c6716499",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/expanded/COVERAGE_PLAN_FROZEN.json",
+    "source": "revision_final_strengthening_20260922/data/COVERAGE_PLAN_FROZEN.json",
+    "source_sha256": "13aead4f31e274d7eb4bbbcd10412d4d848526d610f01e48aa89f0adeb8cf9a9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/expanded/wands_coverage_support.csv",
+    "source": "revision_final_strengthening_20260922/data/wands_coverage_support.csv",
+    "source_sha256": "2df22de4c07be3e530e071d549804971daa2d5ea9b1e52eebca9882309cdf9e9",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/expanded/esci_primary_support.csv",
+    "source": "revision_final_strengthening_20260922/data/esci_primary_support.csv",
+    "source_sha256": "1a12bbbaf28d0e362706cc54dfa10cff542875b78d5a7ffdd445e7dc9f17eebf",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "data/adjacent/queries.csv",
+    "source": "revision_adjacent_swap_20261001/data/queries.csv",
+    "source_sha256": "560b64e81d8157e2ad992b04b695f28072a1f0d7cc9cbe7cea9fcf238457fc36",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "path": "experiments/expanded/run.py",
+    "source": "revision_section6_20260924/scripts/harmonize.py",
+    "source_sha256": "7714f817df486cadf7d0333992bcd46119be669a31034747c0a7df4281e73dc0",
+    "transformation": "Portable input/output paths; removed old editorial checkpoint dependency. Inference, deduplication, ranking and repeated checks unchanged."
+  },
+  {
+    "path": "experiments/adjacent/infer.py",
+    "source": "revision_adjacent_swap_20261001/scripts/infer.py",
+    "source_sha256": "8d6d5a6d5974052f3f19e5f0b9c52670f6986f256f1af822404255c362391d7b",
+    "transformation": "Portable supplied-input routing. GPU name recorded instead of requiring the author device; software and model checks retained. Scientific operations unchanged."
+  },
+  {
+    "path": "experiments/adjacent/rebuild_reference.py",
+    "source": "revision_adjacent_swap_20261001/scripts/rebuild_reference.py",
+    "source_sha256": "6fd6246633cb0cb916a759c142a28fdf60eb99280cc950340f1b0fab0fb2f7a2",
+    "transformation": "Portable supplied-input routing. GPU name recorded instead of requiring the author device; software and model checks retained. Scientific operations unchanged."
+  },
+  {
+    "path": "scripts/run_attribution.py",
+    "source": "tools/french_c0_c1_captum/run_c0_c1_captum.py",
+    "source_sha256": "db10ff8b19fdd24caa86e4e6fd764eff790c2ec1acf0e8e992136fa818279a1a",
+    "transformation": "Preserved Captum score/IG/grouping/completeness implementation; PAD reference only. Reads supplied fixed query and native boundary records; portable output path."
+  },
+  {
+    "path": "scripts/prepare_data.py",
+    "source": "phase2/scripts/prepare_data.py",
+    "source_sha256": "6ddaa7740b58d61c7bbf944279a30e861cc4017ef84a116addf2dbbdbd8d87dd",
+    "transformation": "Retained dataset preparation functions; accepts raw-input/output paths; removes unused representations and query taxonomy; compares records and labels against supplied evidence."
+  },
+  {
+    "path": "provenance/native_profiles.csv",
+    "source": "revision_evidence_20260917/data/encoder_profiles_and_rank_sources.csv",
+    "source_sha256": "40c0e3ced81e5302aa4d0b1ee30cb9f82b7bde72ea2b95efbb7b9036a8d33c3e",
+    "transformation": "Historical execution profile records; source paths identify omitted original caches and are not runtime dependencies."
+  },
+  {
+    "path": "provenance/canonical_runtime.json",
+    "source": "revision_evidence_20260917/experiments/runtime.json",
+    "source_sha256": "d58fa9332c9bb277a605805ed0d95a573c90cbc8b873f8dbb31b597996385250",
+    "transformation": "Removed original-machine absolute paths; numerical/runtime evidence retained."
+  }
+]
