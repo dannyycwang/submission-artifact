@@ -867,7 +867,7 @@
     "path": "provenance/adjacent_execution_profile.json",
     "source": "revision_adjacent_swap_20261001/execution_profile.json",
     "source_sha256": "bc8e24ee9674ceaa69826ccf928572a7a857b6ba684fdeb383b767a3501fe537",
-    "transformation": "byte-identical copy"
+    "transformation": "Removed source-control identifiers, local executable paths, and unrelated workspace metadata for anonymous review; retained numerical execution settings and frozen scientific evidence."
   },
   {
     "path": "reference/adjacent_estimates.csv",

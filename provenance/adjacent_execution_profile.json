@@ -1,9 +1,6 @@
 {
   "frozen_at_utc": "2026-10-01T08:41:02.685831+00:00",
-  "starting_commit": "3948a7e610a2b73b7d2fd56dab47a374cf099163",
-  "branch": "codex/adjacent-swap-20261001",
   "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
-  "executable": "C:\\Users\\ycw\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
   "platform": "Windows-10-10.0.26200-SP0",
   "versions": {
     "numpy": "1.26.4",
@@ -226,16 +223,5 @@
   "cublas_workspace_config": ":4096:8",
   "query_instructions": "",
   "query_and_competitors_fixed": true,
-  "preexisting_tracked_edits": {
-    "paper_www2027/RESULT_PROVENANCE.md": "f09dcb2964ded4d003540e1c59955f09e00dab27ee0bbe201c3bba7dbae280d9",
-    "paper_www2027/figures/figure1_target_only.pdf": "5795104c0cf8ed8cd083975b1f13bb24b2fc30d9194366018f2eb736f7f21914",
-    "paper_www2027/figures/figure1_target_only.png": "be8a5bf00bfa894c6a939ebf79a5413ac9f03f2b239aed42877ea767f22b91d8",
-    "paper_www2027/main.aux": "18f4691062aae2262fcef89d216e9292ba286e9d068cf82b5468e7f9eb55eba3",
-    "paper_www2027/main.log": "5303b1baf00649369f72535fe2099ec8921b735e5dd6a09996d008c9704f4849",
-    "paper_www2027/main.pdf": "33439584a1d2e2c7424bea26464562933151fd6a6986c21ac517b00d33ff9b83",
-    "paper_www2027/sections/introduction.tex": "05a56fcf8522921affc6f4673b72fafa02b1b5d5c84ea8636f4d9190e52fe288",
-    "phase3/scripts/make_target_only_figure.py": "67b92c4796d94b901caa4cba39a7acd7f39181164ebb60628d57c13c582a45c6"
-  },
-  "agents_md": "No applicable AGENTS.md found in repository or ancestor directories.",
-  "writes_confined_to": "revision_adjacent_swap_20261001"
+  "distribution_note": "Source-control identifiers, local executable paths, and unrelated workspace metadata are omitted for anonymous review. Numerical execution settings and frozen scientific evidence are unchanged."
 }

@@ -18,4 +18,4 @@ Excluded: Phase-I presentation variants, sentence/section/JSON perturbations out
 
 Fresh model runs do not overwrite reported evidence. Their floating-point execution may differ from historical caches, so the package distinguishes exact statistical reproduction from a new inference run. No claims about bitwise reproduction of all original GPU experiments are made.
 
-The package was assembled in a new local directory. The original working tree and remote GitHub branch were not rewritten.
+Author-identifying repository metadata, local user paths, and unrelated workspace records are omitted for double-anonymous review. Reproducibility is checked using the package manifest, frozen data and model revisions, and recorded numerical execution settings.
