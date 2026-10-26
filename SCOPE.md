@@ -1,21 +1,13 @@
-# Package scope
+# Scope and adaptations
 
-The supplied PDF is authoritative for this package. Its title is **Same Product, Different Visibility: Attribute-Order Sensitivity in Dense Retrieval**, even though the uploaded filename contains an earlier title. The original repository's README and manuscript sources describe older experiments and are not used as the current scope.
+The final manuscript defines this distribution's scope: five frozen encoders; seven attribute-order schedules; catalog-wide and target-only retrieval; full and fully-fitting supports; exact Recall cancellation; graded effectiveness; three canonical dense rules; MiniLM/BGE Set-Mean, two-view centroid/max, BM25 and RRF controls; expanded ordering families; adjacent swaps; and the two illustrated product cases.
 
-Retained: primary attribute-order interventions; full/fully-fitting supports; exact Recall cancellation; graded effectiveness; pure canonical rules; Set-Mean; two-view centroid and max retrieval; BM25 and RRF; expanded ordering-family coverage; adjacent swaps; and the three manuscript case studies.
+Only these experiments and their supporting data are distributed. Earlier presentation perturbations, unpublished model trials, attribution studies, fine-tuning, extra control sweeps, manuscript drafts, response history, author prompts, progress logs, local environments, model weights, and regenerable embedding/score caches are excluded.
 
-Excluded: Phase-I presentation variants, sentence/section/JSON perturbations outside the primary family, query taxonomy experiments, generative rewriting, fine-tuning/PI-FT, learned set architectures, unrelated reranker studies, extra query samples, view-count sweeps beyond M=2, unused attribution cases/baselines, drafts, reviewer-response history, author prompts, Chinese commentary, presentation assets, failed export copies, logs, local environments, and regenerable embedding caches.
+The portable code retains the original serialization, pooling, batching, scoring, rank insertion, and bootstrap calculations. New orchestration reads the supplied catalogs and writes to separate output directories. Original machine paths and workspace bookkeeping are removed. Additional-model score files were checked against archived SHA-256 receipts before extracting compact all-judged ranks; all query metrics and highest-label ranks were reconciled with the completed experiment snapshot. GTE canonical evidence is included for the final five-encoder comparison.
 
-## Code adaptations
+For EmbeddingGemma 2 and Harrier, native preprocessing, prompt text, projection/pooling, BF16 operation order, FP32 normalization/scoring, deterministic batching, and full dimensionality are preserved. The driver checks model-file hashes and software versions, rejects changed profiles in existing caches, and compares its pooling path with the official end-to-end encoder before inference. Harrier was selected after the EmbeddingGemma 2 ESCI results; these additions are not whole-study preregistration.
 
-- Native serialization, encoding, lexical scoring, rank insertion, bootstrap estimators, and diagnostic inference are retained from the relevant research implementations.
-- Unused sentence/section/JSON perturbations and chunk-encoding branches are removed.
-- A new portable driver connects the retained representation and retrieval functions to the supplied catalogs. It provides separate fresh-inference outputs and records model/software settings.
-- The statistical runner independently reconstructs all-judged effectiveness and identity transitions, then compares them with retained full-precision references.
-- Expanded-order and adjacent-swap runners use relative paths and a new output root. Obsolete editorial-checkpoint dependencies are removed. The adjacent runner records the current GPU name instead of requiring the author's GPU name; pinned software and model checks remain enforced.
-- The French-molding runner retains the paper's PAD-reference computation and reads the supplied fixed query embedding/native boundary records. Zero-reference and other unpublished attribution experiments are excluded.
-- Obsolete numeric grade and query-taxonomy columns are removed from curated catalog/rank tables. Original text, categorical labels, IDs, rankings, scores, and evaluation supports are preserved.
+Fixed canonical representations imply invariance under deterministic retrieval. The recorded repeatability audit establishes cutoff agreement only for sampled raw boundary pairs. Fresh inference can differ across hardware and execution profiles; saved-rank statistical reproduction is distinguished from running the models again.
 
-Fresh model runs do not overwrite reported evidence. Their floating-point execution may differ from historical caches, so the package distinguishes exact statistical reproduction from a new inference run. No claims about bitwise reproduction of all original GPU experiments are made.
-
-Author-identifying repository metadata, local user paths, and unrelated workspace records are omitted for double-anonymous review. Reproducibility is checked using the package manifest, frozen data and model revisions, and recorded numerical execution settings.
+Author-identifying repository links, source commit identifiers, local user paths, and unrelated workspace records are omitted. Dataset/model attribution and scientific provenance remain. The standalone archive excludes Git history.

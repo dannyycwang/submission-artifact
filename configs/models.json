@@ -24,6 +24,26 @@
       "architecture": "ModernBERT long-context retrieval encoder",
       "max_tokens": 8192,
       "native_pooling": "CLS"
+    },
+    {
+      "key": "embeddinggemma2",
+      "name": "google/embeddinggemma-2",
+      "revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+      "architecture": "Gemma projected bidirectional encoder",
+      "max_tokens": 8192,
+      "native_pooling": "attention-mask mean including prompt after native projection",
+      "dimension": 768,
+      "inference_driver": "experiments/recent_models/run.py"
+    },
+    {
+      "key": "harrier06b",
+      "name": "microsoft/harrier-oss-v1-0.6b",
+      "revision": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+      "architecture": "Harrier retrieval encoder",
+      "max_tokens": 32768,
+      "native_pooling": "last nonpadding token",
+      "dimension": 1024,
+      "inference_driver": "experiments/recent_models/run.py"
     }
   ],
   "encoding": {
@@ -32,7 +52,12 @@
     "batch_size_bge_base": 48,
     "batch_size_gte_modernbert": 24,
     "dtype_cuda": "float16 model with float32 pooled embeddings",
-    "tie_break": "ascending stable catalog product id"
+    "tie_break": "ascending fixed catalog index",
+    "applies_to": [
+      "minilm",
+      "bge_base",
+      "gte_modernbert"
+    ]
   },
   "attribute_permutation_seeds": [
     20260911,

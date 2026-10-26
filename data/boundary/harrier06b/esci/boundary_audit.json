@@ -1,0 +1,56 @@
+{
+  "status": "completed",
+  "profile": {
+    "selection": "all crossing witnesses with abs(margin) <= measured technical repeat score range, all exact ties, plus first 8 crossing pairs by salted ID hash per dataset/intervention/K",
+    "repeat_count": 3,
+    "profile": "rerun original batches containing selected queries, targets, and Kth competitors with all original batch companions; score the full catalog using the identical FP32 matrix shape and frozen profile; other vectors retain their compatible original profile",
+    "preserve_original": true,
+    "label": "numerical_ambiguity if any cutoff decision differs; no epsilon-based rank correction"
+  },
+  "selected_pairs": 32,
+  "witness_records": 64,
+  "repeat_count": 3,
+  "numerical_ambiguities": 0,
+  "execution": [
+    {
+      "repeat": 0,
+      "query": {
+        "batches": 24,
+        "unique_required": 27,
+        "max_embedding_delta": 0.0
+      },
+      "document": {
+        "batches": 97,
+        "unique_required": 102,
+        "max_embedding_delta": 0.0
+      }
+    },
+    {
+      "repeat": 1,
+      "query": {
+        "batches": 24,
+        "unique_required": 27,
+        "max_embedding_delta": 0.0
+      },
+      "document": {
+        "batches": 97,
+        "unique_required": 102,
+        "max_embedding_delta": 0.0
+      }
+    },
+    {
+      "repeat": 2,
+      "query": {
+        "batches": 24,
+        "unique_required": 27,
+        "max_embedding_delta": 0.0
+      },
+      "document": {
+        "batches": 97,
+        "unique_required": 102,
+        "max_embedding_delta": 0.0
+      }
+    }
+  ],
+  "original_rank_records_unchanged": true
+}

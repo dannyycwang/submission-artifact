@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "scope": "Distributed files; Git hosting account and previous commits are outside this content scan.",
+  "counts": {
+    "files": 298,
+    "text": 110,
+    "parquet": 186,
+    "parquet_rows": 18358849,
+    "gzip": 2
+  },
+  "known_author_identifiers_found": 0,
+  "machine_user_paths_found": 0,
+  "parquet_strings_and_metadata_checked": true,
+  "gzip_headers_and_contents_checked": true,
+  "benign_product_description_path_matches_reviewed": 3,
+  "benchmark_text_modified": false
+}

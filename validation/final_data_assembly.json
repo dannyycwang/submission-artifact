@@ -1,0 +1,408 @@
+{
+  "passed": true,
+  "new_score_conditions": 40,
+  "checks": [
+    {
+      "dataset": "wands",
+      "model": "embeddinggemma2",
+      "schedule": "C0",
+      "score_sha256": "639d93ce66b6b1be027dba4d5e81d76d53bd9e9f6bf6ac80b92bbe6f757e2ac7",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "embeddinggemma2",
+      "schedule": "C1",
+      "score_sha256": "9c2f4985a8959abe52f6f3ac5be199ee8f20d8f820987329f98388f53bded6ee",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "embeddinggemma2",
+      "schedule": "C2s1",
+      "score_sha256": "f9e5871648f84a24ebaa75479f0a39afa98925144f35a6a56de4c6e4a115d411",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "embeddinggemma2",
+      "schedule": "C2s2",
+      "score_sha256": "da9f09cc760860a182b7d2f97ca7a51d7be24ddeed3a273d10a6790694e2d4a5",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "embeddinggemma2",
+      "schedule": "C2s3",
+      "score_sha256": "f9c3efdd4e9ea12e821623667ec5a7c9c1415c4fd02966e9f657eb0aabcfb679",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "embeddinggemma2",
+      "schedule": "C2s4",
+      "score_sha256": "3b3ab417e83dd11f15542efaf74529ce7f80da8e3c217ee21a309d84df9771d1",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "embeddinggemma2",
+      "schedule": "C2s5",
+      "score_sha256": "68a49bfb46201f08695f5950ef3baf3a7870a8e1e783f2d49f5e7bd58298e790",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "embeddinggemma2",
+      "schedule": "lexical_ascending",
+      "score_sha256": "578211d5f7d2441635a61a6b29284061c7280d5ff0ada3befead407c8624a305",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "embeddinggemma2",
+      "schedule": "lexical_descending",
+      "score_sha256": "3eb824de168220407eea798fda1bd056e69d9276c4f49031adbd4cef58125f43",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "embeddinggemma2",
+      "schedule": "field_priority_type",
+      "score_sha256": "7f4b15eebd39641f46ca930e93648aeb3734e758d41694711b9f2078e9bfc087",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "esci",
+      "model": "embeddinggemma2",
+      "schedule": "C0",
+      "score_sha256": "33a1a29883e9a380df1108cb322fdc7681b1553b9ae4ee9fac44785376f1371f",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "embeddinggemma2",
+      "schedule": "C1",
+      "score_sha256": "3591df7945fee5023d0eb0d5c058cb0d996a7a2eff6652dbb7a2ce70344aad6a",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "embeddinggemma2",
+      "schedule": "C2s1",
+      "score_sha256": "5cdbfd8e12ef9001cf3be1696f0d4770cc4ffa98335a30940fda756348454c1f",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "embeddinggemma2",
+      "schedule": "C2s2",
+      "score_sha256": "49c12f751990aa9955ec999e9711519f03a750015437b396b2101afb620283b2",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "embeddinggemma2",
+      "schedule": "C2s3",
+      "score_sha256": "f859fd0debf2ac961fb16dfa2edfb64000ead2814aefb368ea25b5402f50a6e7",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "embeddinggemma2",
+      "schedule": "C2s4",
+      "score_sha256": "6ed4d42f3f212aeac8203bdf4fde8522b96f01627757a11f24e76406e10d9717",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "embeddinggemma2",
+      "schedule": "C2s5",
+      "score_sha256": "e232ddaf8829457087a95d3839c955354f15272801c1d645e97cf5cbbb55ee66",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "embeddinggemma2",
+      "schedule": "lexical_ascending",
+      "score_sha256": "30f1bf9949e3202e58e8c7f6576cf47256371c6ba90e57449574cffc864baa3a",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "embeddinggemma2",
+      "schedule": "lexical_descending",
+      "score_sha256": "2814697463600149ca13df4bcd2505cf66de7226df261dbd5430ffb9be5408a6",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "embeddinggemma2",
+      "schedule": "field_priority_type",
+      "score_sha256": "05bb55e998ea40e9dd900c1ea58946c2b7a78eceb85b36a4be021d6c3bcd09a8",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "wands",
+      "model": "harrier06b",
+      "schedule": "C0",
+      "score_sha256": "d4c14ef042cd0bec1c8b2455e64df66ddf4999af4747869ea93f7eae56ba9533",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "harrier06b",
+      "schedule": "C1",
+      "score_sha256": "5c9c532465c3226ab1e048d81b58f3689becb8c01a815c4a3e156735901da5aa",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "harrier06b",
+      "schedule": "C2s1",
+      "score_sha256": "ae0c3b8a7da702d76a67faa92904ef94a09503e6b87f485b553becb2480ec7c1",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "harrier06b",
+      "schedule": "C2s2",
+      "score_sha256": "7e06c778de8aca9c819643c21c4e36af2cfe5b9b08773c20d3382d91785e415e",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "harrier06b",
+      "schedule": "C2s3",
+      "score_sha256": "ff9042e100507f4b40687348fd63fc30153afb43aaf533c533327e272d51d935",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "harrier06b",
+      "schedule": "C2s4",
+      "score_sha256": "e56b26bd41b04d6c8570a8ea87e765d273f1710c1ccc0e1ae0d54fac3a90bf87",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "harrier06b",
+      "schedule": "C2s5",
+      "score_sha256": "7721b5a008fef63eaf5492b99b83614e8c8a3e316001fb44db7f4ee242db33fa",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "harrier06b",
+      "schedule": "lexical_ascending",
+      "score_sha256": "9d10e0728f26f00672fea9b4f1ee5ba670d57574278a0c3564fff8f90e661077",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "harrier06b",
+      "schedule": "lexical_descending",
+      "score_sha256": "6f39782e9dae3c39f8b2e3ccadfc6e5bb297c46c921b35cd91eae28f94661b14",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "wands",
+      "model": "harrier06b",
+      "schedule": "field_priority_type",
+      "score_sha256": "adcce539387e52acf6113687631b428320b0551ae012695f5bc96a7c6564cb27",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 308,
+      "judged_pairs": 162218
+    },
+    {
+      "dataset": "esci",
+      "model": "harrier06b",
+      "schedule": "C0",
+      "score_sha256": "1befefe405051058bb5f4b1b88eb60865305610164dc5809b5604327d421b6bc",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "harrier06b",
+      "schedule": "C1",
+      "score_sha256": "2ab20ba45e53842af8ab406c69a486670315349016e80867bcb48e52dd8d8b7b",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "harrier06b",
+      "schedule": "C2s1",
+      "score_sha256": "ff4ab432cb9ecbb1d984e2fb8a2640bf1bcdc36e81ef4e9c9e7a4794f900ecc2",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "harrier06b",
+      "schedule": "C2s2",
+      "score_sha256": "95355102fa0590a27e4def78d5c7f1d832d9550b63fa66851ba0743e6f414c42",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "harrier06b",
+      "schedule": "C2s3",
+      "score_sha256": "2e203bd1a13cb2a98e19190b029182319ad32b727ff5f2703920688906eb7df1",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "harrier06b",
+      "schedule": "C2s4",
+      "score_sha256": "decc399969b40ff75faf09cd59dfbb0f19b2ecb958964bd8c6cba1e3ae39faaf",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "harrier06b",
+      "schedule": "C2s5",
+      "score_sha256": "e102377d65c1730a2cc046d6a263f52c0e1717cccbab426ef44f12d3d22ee4cb",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "harrier06b",
+      "schedule": "lexical_ascending",
+      "score_sha256": "82ce631fb95505c9c7bbcd6b65bbafef0550c293298059ea0b23d7d7421014b4",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "harrier06b",
+      "schedule": "lexical_descending",
+      "score_sha256": "0db87e2795056e9f118224ef0f3ce39e3189cd00225b878319142caa49193367",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    },
+    {
+      "dataset": "esci",
+      "model": "harrier06b",
+      "schedule": "field_priority_type",
+      "score_sha256": "477daee917b04cea20595e755a36327d075b8ebab0a90188f57701e58ed063b8",
+      "ranks_match_archived_pairs": true,
+      "graded_metrics_match_archived_queries": true,
+      "queries": 499,
+      "judged_pairs": 10119
+    }
+  ],
+  "gte_canonical_conditions": 6,
+  "all_conditions": 154
+}

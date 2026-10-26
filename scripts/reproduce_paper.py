@@ -13,7 +13,9 @@ def compare(name, keys, columns):
     expected = (
         pd.read_csv(ROOT / "reference" / f"{name}.csv").set_index(keys).sort_index()
     )
-    assert actual.index.equals(expected.index), (name, "row keys")
+    assert expected.index.isin(actual.index).all(), (name, "row keys")
+    assert not actual.index.duplicated().any(), (name, "duplicate row keys")
+    actual = actual.loc[expected.index]
     error = float(
         np.max(abs(actual[columns].to_numpy() - expected[columns].to_numpy()))
     )
@@ -99,6 +101,9 @@ def main():
         rtol=0,
     )
     checks.append(dict(table="adjacent_estimates", rows=len(a), passed=True))
+    from src.extended_validation import validate
+
+    checks.extend(validate(pq))
     from src.paper_outputs import build
 
     checks.extend(build())

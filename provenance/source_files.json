@@ -729,7 +729,7 @@
     "path": "data/reference_per_query.parquet",
     "source": "revision_section6_20260924/data/effectiveness_per_query.parquet",
     "source_sha256": "6bf03ac944b07471b0b6561264996dbf1da6d8a2b480033a0e1e6fdfa286df61",
-    "transformation": "Only paper methods; removed superseded gains and K=10; relocated rank_source paths. All retained numerical values unchanged."
+    "transformation": "Only paper methods; removed superseded gains and K=10; relocated rank_source paths. All retained numerical values unchanged. Extended to all five models with additional-model query evidence and GTE canonical comparisons; all new cells independently reconciled."
   },
   {
     "path": "data/reference_states.parquet",
@@ -906,90 +906,6 @@
     "transformation": "byte-identical copy"
   },
   {
-    "path": "data/cases/french_molding/C0_input.txt",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C0_input.txt",
-    "source_sha256": "0d32c126b534ce8acbf1ac586bce0be3444e5b04658ed0bae7565309e0ed1abb",
-    "transformation": "byte-identical copy"
-  },
-  {
-    "path": "data/cases/french_molding/C1_input.txt",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C1_input.txt",
-    "source_sha256": "b16aa4fda0f9e7abcb0ad06b216af3daeb537d997344a92826a92439cc2d3c42",
-    "transformation": "byte-identical copy"
-  },
-  {
-    "path": "data/cases/french_molding/C0_tokenized_input.json",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C0_tokenized_input.json",
-    "source_sha256": "4099b015dc3dd8d7f8619ec2d88352253f2311832737125fc2890ba4ff26775d",
-    "transformation": "byte-identical copy"
-  },
-  {
-    "path": "data/cases/french_molding/C1_tokenized_input.json",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C1_tokenized_input.json",
-    "source_sha256": "347530a7e9d210c4017adac17ce9d03bd1f7914609deee6e9cb3e5232f7b3071",
-    "transformation": "byte-identical copy"
-  },
-  {
-    "path": "data/cases/french_molding/fixed_query_embedding.npy",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/fixed_query_embedding.npy",
-    "source_sha256": "324cf1a25d0fda0d86bc07dee6cd39630db60751f72a38862cba6bc91168dce9",
-    "transformation": "byte-identical copy"
-  },
-  {
-    "path": "data/cases/french_molding/fixed_competitors.csv",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/fixed_competitors.csv",
-    "source_sha256": "20baea3a81d9b7c22aafff2a2b29811ee474aae724c66c25b95e88efd1e3f40f",
-    "transformation": "byte-identical copy"
-  },
-  {
-    "path": "data/cases/french_molding/entry_attributions.csv",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/entry_attributions.csv",
-    "source_sha256": "0d54294e3ebe19bbe4e384cfa41b1a628a91908c11efdfefd72d880bfd7c2d40",
-    "transformation": "Retained the paper PAD-reference rows only; removed unused zero-reference rows."
-  },
-  {
-    "path": "data/cases/french_molding/token_attributions.csv",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/token_attributions.csv",
-    "source_sha256": "2d1b456fab072aa3e1942ab91100bde5df205075001c46cf2ce3912f8f4901ea",
-    "transformation": "Retained the paper PAD-reference rows only; removed unused zero-reference rows."
-  },
-  {
-    "path": "data/cases/french_molding/aligned_entry_changes.csv",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/aligned_entry_changes.csv",
-    "source_sha256": "f86b5aa92c1bf1ee43e62ee4cc9654d880bd9458ea32b2d79746f14134c6e322",
-    "transformation": "Retained the paper PAD-reference rows only; removed unused zero-reference rows."
-  },
-  {
-    "path": "data/cases/french_molding/attribute_sequences.csv",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/attribute_sequences.csv",
-    "source_sha256": "b474dc5481f89bed1aab80c69da05b35f33516a6dbfaf9bd3c33b21ac9d0ce24",
-    "transformation": "byte-identical copy"
-  },
-  {
-    "path": "data/cases/french_molding/C0_pad_features.npz",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C0_pad_features.npz",
-    "source_sha256": "61d3d92c86e3f10162783628d43ab63a43acf1bf2e943ca761de99851e5e721a",
-    "transformation": "byte-identical copy"
-  },
-  {
-    "path": "data/cases/french_molding/C1_pad_features.npz",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C1_pad_features.npz",
-    "source_sha256": "a6d30f6b07954bb218fce33a01a95402a7642f441cdd20a906117c6cf82f6935",
-    "transformation": "byte-identical copy"
-  },
-  {
-    "path": "data/cases/french_molding/C0_pad_qa.json",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C0_pad_qa.json",
-    "source_sha256": "fc707e2c2d68928cb447c9289d5bed98227c17b45f3e72797be6bf6d3352188a",
-    "transformation": "byte-identical copy"
-  },
-  {
-    "path": "data/cases/french_molding/C1_pad_qa.json",
-    "source": "revision_french_c0_c1_captum_20261001/rerun_02/C1_pad_qa.json",
-    "source_sha256": "c8d6db2c2a5e3a8dd33926d397cf8f6aa9d17f8880c9cf983a0e34813bc9465a",
-    "transformation": "byte-identical copy"
-  },
-  {
     "path": "data/cases/wooden_chair/all_products.csv",
     "source": "query_constraint_cases_20261007/top_cases/q367_bge_base_C0_C1/all_products.csv",
     "source_sha256": "a87510110f26a1564d1edafcbf6a67640cb8fa349074771091261e0e2a3f160e",
@@ -1041,7 +957,7 @@
     "path": "src/encoding.py",
     "source": "phase2/src/encoding.py",
     "source_sha256": "0e457a365cd85fbbcb40561b1a60cd38929673a161818d9e7030754697f0c4fa",
-    "transformation": "Removed unused chunk-encoding branches; native encoding and cache logic retained."
+    "transformation": "Removed unused chunk-encoding branches; native encoding and cache logic retained. Final-manuscript orchestration updated where needed for five encoders and final figure/table numbering; numerical functions remain unchanged unless documented in SCOPE.md."
   },
   {
     "path": "data/expanded/coverage_plan.parquet",
@@ -1098,16 +1014,10 @@
     "transformation": "Portable supplied-input routing. GPU name recorded instead of requiring the author device; software and model checks retained. Scientific operations unchanged."
   },
   {
-    "path": "scripts/run_attribution.py",
-    "source": "tools/french_c0_c1_captum/run_c0_c1_captum.py",
-    "source_sha256": "db10ff8b19fdd24caa86e4e6fd764eff790c2ec1acf0e8e992136fa818279a1a",
-    "transformation": "Preserved Captum score/IG/grouping/completeness implementation; PAD reference only. Reads supplied fixed query and native boundary records; portable output path."
-  },
-  {
     "path": "scripts/prepare_data.py",
     "source": "phase2/scripts/prepare_data.py",
     "source_sha256": "6ddaa7740b58d61c7bbf944279a30e861cc4017ef84a116addf2dbbdbd8d87dd",
-    "transformation": "Retained dataset preparation functions; accepts raw-input/output paths; removes unused representations and query taxonomy; compares records and labels against supplied evidence."
+    "transformation": "Retained dataset preparation functions; accepts raw-input/output paths; removes unused representations and query taxonomy; compares records and labels against supplied evidence. Final-manuscript orchestration updated where needed for five encoders and final figure/table numbering; numerical functions remain unchanged unless documented in SCOPE.md."
   },
   {
     "path": "provenance/native_profiles.csv",
@@ -1120,5 +1030,446 @@
     "source": "revision_evidence_20260917/experiments/runtime.json",
     "source_sha256": "d58fa9332c9bb277a605805ed0d95a573c90cbc8b873f8dbb31b597996385250",
     "transformation": "Removed original-machine absolute paths; numerical/runtime evidence retained."
+  },
+  {
+    "path": "data/target_only/wands_embeddinggemma2.parquet",
+    "source": "models/embeddinggemma2/wands/primary/pair_ranks.parquet",
+    "source_sha256": "9c88e06f7d508736a3b243b765066a71c6ca155380f99999fb2dc8576eb8a7a1",
+    "transformation": "Retained pair identities and all seven target-only/catalog-wide ranks; standardized column names."
+  },
+  {
+    "path": "data/ranks/wands/embeddinggemma2/raw/C0.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C0_scores.npy",
+    "source_sha256": "639d93ce66b6b1be027dba4d5e81d76d53bd9e9f6bf6ac80b92bbe6f757e2ac7",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/embeddinggemma2/raw/C1.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C1_scores.npy",
+    "source_sha256": "9c2f4985a8959abe52f6f3ac5be199ee8f20d8f820987329f98388f53bded6ee",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/embeddinggemma2/raw/C2s1.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C2s1_scores.npy",
+    "source_sha256": "f9e5871648f84a24ebaa75479f0a39afa98925144f35a6a56de4c6e4a115d411",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/embeddinggemma2/raw/C2s2.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C2s2_scores.npy",
+    "source_sha256": "da9f09cc760860a182b7d2f97ca7a51d7be24ddeed3a273d10a6790694e2d4a5",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/embeddinggemma2/raw/C2s3.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C2s3_scores.npy",
+    "source_sha256": "f9c3efdd4e9ea12e821623667ec5a7c9c1415c4fd02966e9f657eb0aabcfb679",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/embeddinggemma2/raw/C2s4.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C2s4_scores.npy",
+    "source_sha256": "3b3ab417e83dd11f15542efaf74529ce7f80da8e3c217ee21a309d84df9771d1",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/embeddinggemma2/raw/C2s5.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/raw/C2s5_scores.npy",
+    "source_sha256": "68a49bfb46201f08695f5950ef3baf3a7870a8e1e783f2d49f5e7bd58298e790",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/embeddinggemma2/lexical_ascending/fixed.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/canonical/lexical_ascending_scores.npy",
+    "source_sha256": "578211d5f7d2441635a61a6b29284061c7280d5ff0ada3befead407c8624a305",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/embeddinggemma2/lexical_descending/fixed.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/canonical/lexical_descending_scores.npy",
+    "source_sha256": "3eb824de168220407eea798fda1bd056e69d9276c4f49031adbd4cef58125f43",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/embeddinggemma2/field_priority_type/fixed.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/wands/evaluation/canonical/field_priority_type_scores.npy",
+    "source_sha256": "7f4b15eebd39641f46ca930e93648aeb3734e758d41694711b9f2078e9bfc087",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/boundary/embeddinggemma2/wands/boundary_selected.parquet",
+    "source": "models/embeddinggemma2/wands/primary/boundary_selected.parquet",
+    "source_sha256": "45f15a22710f8ee4b66a5b1add9688755d1efead3413bdedc06e1de8cd1ae87a",
+    "transformation": "Byte-identical numerical audit evidence."
+  },
+  {
+    "path": "data/boundary/embeddinggemma2/wands/boundary_repeats.parquet",
+    "source": "models/embeddinggemma2/wands/primary/boundary_repeats.parquet",
+    "source_sha256": "96363a6241294f3e5a2d374cbfb857da3e25d8efd9762bc46f289470eb39c292",
+    "transformation": "Byte-identical numerical audit evidence."
+  },
+  {
+    "path": "data/boundary/embeddinggemma2/wands/boundary_audit.json",
+    "source": "models/embeddinggemma2/wands/primary/boundary_audit.json",
+    "source_sha256": "ee55e9434860ebaed90c366abc037b76d9793ff5c0256bb6e54cd534a0285419",
+    "transformation": "Byte-identical numerical audit evidence."
+  },
+  {
+    "path": "data/target_only/esci_embeddinggemma2.parquet",
+    "source": "models/embeddinggemma2/esci/primary/pair_ranks.parquet",
+    "source_sha256": "4b30cd713cb99a45cd6944a2b37d22cb4b4f5fc5bd249ff72cba676325676a0a",
+    "transformation": "Retained pair identities and all seven target-only/catalog-wide ranks; standardized column names."
+  },
+  {
+    "path": "data/ranks/esci/embeddinggemma2/raw/C0.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C0_scores.npy",
+    "source_sha256": "33a1a29883e9a380df1108cb322fdc7681b1553b9ae4ee9fac44785376f1371f",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/embeddinggemma2/raw/C1.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C1_scores.npy",
+    "source_sha256": "3591df7945fee5023d0eb0d5c058cb0d996a7a2eff6652dbb7a2ce70344aad6a",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/embeddinggemma2/raw/C2s1.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C2s1_scores.npy",
+    "source_sha256": "5cdbfd8e12ef9001cf3be1696f0d4770cc4ffa98335a30940fda756348454c1f",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/embeddinggemma2/raw/C2s2.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C2s2_scores.npy",
+    "source_sha256": "49c12f751990aa9955ec999e9711519f03a750015437b396b2101afb620283b2",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/embeddinggemma2/raw/C2s3.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C2s3_scores.npy",
+    "source_sha256": "f859fd0debf2ac961fb16dfa2edfb64000ead2814aefb368ea25b5402f50a6e7",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/embeddinggemma2/raw/C2s4.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C2s4_scores.npy",
+    "source_sha256": "6ed4d42f3f212aeac8203bdf4fde8522b96f01627757a11f24e76406e10d9717",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/embeddinggemma2/raw/C2s5.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/raw/C2s5_scores.npy",
+    "source_sha256": "e232ddaf8829457087a95d3839c955354f15272801c1d645e97cf5cbbb55ee66",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/embeddinggemma2/lexical_ascending/fixed.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/canonical/lexical_ascending_scores.npy",
+    "source_sha256": "30f1bf9949e3202e58e8c7f6576cf47256371c6ba90e57449574cffc864baa3a",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/embeddinggemma2/lexical_descending/fixed.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/canonical/lexical_descending_scores.npy",
+    "source_sha256": "2814697463600149ca13df4bcd2505cf66de7226df261dbd5430ffb9be5408a6",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/embeddinggemma2/field_priority_type/fixed.parquet",
+    "source": "revision_recent_models_20261016/profiles/batch1_20261017/runs/embeddinggemma2/esci/evaluation/canonical/field_priority_type_scores.npy",
+    "source_sha256": "05bb55e998ea40e9dd900c1ea58946c2b7a78eceb85b36a4be021d6c3bcd09a8",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/boundary/embeddinggemma2/esci/boundary_selected.parquet",
+    "source": "models/embeddinggemma2/esci/primary/boundary_selected.parquet",
+    "source_sha256": "8f2260b99ab30935838b6c6870fe040a2fb5efc9b86cbbf613535ff8748eafc4",
+    "transformation": "Byte-identical numerical audit evidence."
+  },
+  {
+    "path": "data/boundary/embeddinggemma2/esci/boundary_repeats.parquet",
+    "source": "models/embeddinggemma2/esci/primary/boundary_repeats.parquet",
+    "source_sha256": "8160e4133deda96682a79fabfbac9a7d77904446841601e538bd49d143263f18",
+    "transformation": "Byte-identical numerical audit evidence."
+  },
+  {
+    "path": "data/boundary/embeddinggemma2/esci/boundary_audit.json",
+    "source": "models/embeddinggemma2/esci/primary/boundary_audit.json",
+    "source_sha256": "eed098a962c734aead4873e55bd767c27afb2061e26b5d40a3298388ee2bbef0",
+    "transformation": "Byte-identical numerical audit evidence."
+  },
+  {
+    "path": "data/target_only/wands_harrier06b.parquet",
+    "source": "models/harrier06b/wands/primary/pair_ranks.parquet",
+    "source_sha256": "695b0c13f032aa06481ef4d9c13cf3830277a51fc90f8fc03214e2d40fef9661",
+    "transformation": "Retained pair identities and all seven target-only/catalog-wide ranks; standardized column names."
+  },
+  {
+    "path": "data/ranks/wands/harrier06b/raw/C0.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C0_scores.npy",
+    "source_sha256": "d4c14ef042cd0bec1c8b2455e64df66ddf4999af4747869ea93f7eae56ba9533",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/harrier06b/raw/C1.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C1_scores.npy",
+    "source_sha256": "5c9c532465c3226ab1e048d81b58f3689becb8c01a815c4a3e156735901da5aa",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/harrier06b/raw/C2s1.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C2s1_scores.npy",
+    "source_sha256": "ae0c3b8a7da702d76a67faa92904ef94a09503e6b87f485b553becb2480ec7c1",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/harrier06b/raw/C2s2.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C2s2_scores.npy",
+    "source_sha256": "7e06c778de8aca9c819643c21c4e36af2cfe5b9b08773c20d3382d91785e415e",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/harrier06b/raw/C2s3.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C2s3_scores.npy",
+    "source_sha256": "ff9042e100507f4b40687348fd63fc30153afb43aaf533c533327e272d51d935",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/harrier06b/raw/C2s4.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C2s4_scores.npy",
+    "source_sha256": "e56b26bd41b04d6c8570a8ea87e765d273f1710c1ccc0e1ae0d54fac3a90bf87",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/harrier06b/raw/C2s5.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/raw/C2s5_scores.npy",
+    "source_sha256": "7721b5a008fef63eaf5492b99b83614e8c8a3e316001fb44db7f4ee242db33fa",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/harrier06b/lexical_ascending/fixed.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/canonical/lexical_ascending_scores.npy",
+    "source_sha256": "9d10e0728f26f00672fea9b4f1ee5ba670d57574278a0c3564fff8f90e661077",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/harrier06b/lexical_descending/fixed.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/canonical/lexical_descending_scores.npy",
+    "source_sha256": "6f39782e9dae3c39f8b2e3ccadfc6e5bb297c46c921b35cd91eae28f94661b14",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/wands/harrier06b/field_priority_type/fixed.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/wands/evaluation/canonical/field_priority_type_scores.npy",
+    "source_sha256": "adcce539387e52acf6113687631b428320b0551ae012695f5bc96a7c6564cb27",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/boundary/harrier06b/wands/boundary_selected.parquet",
+    "source": "models/harrier06b/wands/primary/boundary_selected.parquet",
+    "source_sha256": "035298fcfb9afcc98b02c0a915fd6834716d8f02ab98496aef7f1d605c1cdc68",
+    "transformation": "Byte-identical numerical audit evidence."
+  },
+  {
+    "path": "data/boundary/harrier06b/wands/boundary_repeats.parquet",
+    "source": "models/harrier06b/wands/primary/boundary_repeats.parquet",
+    "source_sha256": "efd2b98bcab0d01925603b477ee34fdbb9090d9e44d05687f76bdb86fc93b331",
+    "transformation": "Byte-identical numerical audit evidence."
+  },
+  {
+    "path": "data/boundary/harrier06b/wands/boundary_audit.json",
+    "source": "models/harrier06b/wands/primary/boundary_audit.json",
+    "source_sha256": "14facf3d1a2ed7e1f5183d53eb6fd0e8c6d7807d4f7ea31e39473ef845a2c3d0",
+    "transformation": "Byte-identical numerical audit evidence."
+  },
+  {
+    "path": "data/target_only/esci_harrier06b.parquet",
+    "source": "models/harrier06b/esci/primary/pair_ranks.parquet",
+    "source_sha256": "5746fc2cf5005267206f6963992a92dd80636d5cbaff9e88b0907ba293ca2fa8",
+    "transformation": "Retained pair identities and all seven target-only/catalog-wide ranks; standardized column names."
+  },
+  {
+    "path": "data/ranks/esci/harrier06b/raw/C0.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C0_scores.npy",
+    "source_sha256": "1befefe405051058bb5f4b1b88eb60865305610164dc5809b5604327d421b6bc",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/harrier06b/raw/C1.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C1_scores.npy",
+    "source_sha256": "2ab20ba45e53842af8ab406c69a486670315349016e80867bcb48e52dd8d8b7b",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/harrier06b/raw/C2s1.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C2s1_scores.npy",
+    "source_sha256": "ff4ab432cb9ecbb1d984e2fb8a2640bf1bcdc36e81ef4e9c9e7a4794f900ecc2",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/harrier06b/raw/C2s2.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C2s2_scores.npy",
+    "source_sha256": "95355102fa0590a27e4def78d5c7f1d832d9550b63fa66851ba0743e6f414c42",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/harrier06b/raw/C2s3.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C2s3_scores.npy",
+    "source_sha256": "2e203bd1a13cb2a98e19190b029182319ad32b727ff5f2703920688906eb7df1",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/harrier06b/raw/C2s4.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C2s4_scores.npy",
+    "source_sha256": "decc399969b40ff75faf09cd59dfbb0f19b2ecb958964bd8c6cba1e3ae39faaf",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/harrier06b/raw/C2s5.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/raw/C2s5_scores.npy",
+    "source_sha256": "e102377d65c1730a2cc046d6a263f52c0e1717cccbab426ef44f12d3d22ee4cb",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/harrier06b/lexical_ascending/fixed.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/canonical/lexical_ascending_scores.npy",
+    "source_sha256": "82ce631fb95505c9c7bbcd6b65bbafef0550c293298059ea0b23d7d7421014b4",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/harrier06b/lexical_descending/fixed.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/canonical/lexical_descending_scores.npy",
+    "source_sha256": "0db87e2795056e9f118224ef0f3ce39e3189cd00225b878319142caa49193367",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/ranks/esci/harrier06b/field_priority_type/fixed.parquet",
+    "source": "revision_recent_models_20261016/profiles/harrier_20261019/runs/harrier06b/esci/evaluation/canonical/field_priority_type_scores.npy",
+    "source_sha256": "477daee917b04cea20595e755a36327d075b8ebab0a90188f57701e58ed063b8",
+    "transformation": "Verified archived score checksum; descending FP32 score with stable catalog-index ties; retained all judged product ranks and scores."
+  },
+  {
+    "path": "data/boundary/harrier06b/esci/boundary_selected.parquet",
+    "source": "models/harrier06b/esci/primary/boundary_selected.parquet",
+    "source_sha256": "772ba50eece0e22ab6875f962a0542afa08bbcd12873fd71a8440e045b555d42",
+    "transformation": "Byte-identical numerical audit evidence."
+  },
+  {
+    "path": "data/boundary/harrier06b/esci/boundary_repeats.parquet",
+    "source": "models/harrier06b/esci/primary/boundary_repeats.parquet",
+    "source_sha256": "ca983de8e7259e7f8aa6af1e29f1d3af97279ca46ec044fb5f3609c8fb3ce01b",
+    "transformation": "Byte-identical numerical audit evidence."
+  },
+  {
+    "path": "data/boundary/harrier06b/esci/boundary_audit.json",
+    "source": "models/harrier06b/esci/primary/boundary_audit.json",
+    "source_sha256": "f1d1db4299ffca6537c0eb9bab8a6a8a28e7e1cfbd2ba06a09e5e50e1004878d",
+    "transformation": "Byte-identical numerical audit evidence."
+  },
+  {
+    "path": "data/ranks/wands/gte_modernbert/lexical_ascending/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/wands_gte_modernbert_lexical_ascending_pairs.parquet",
+    "source_sha256": "5ed5f1ec0c76a62cfd9d5a014924041fca0064f43f221b6e332f31884890ba1c",
+    "transformation": "Retained all judged ranks on the exact eligible query support."
+  },
+  {
+    "path": "data/ranks/wands/gte_modernbert/lexical_descending/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/wands_gte_modernbert_lexical_descending_pairs.parquet",
+    "source_sha256": "b56e328c5a85ef5fa6a25f609edb792d99eb89de6fc6c4ee3454edc8d1fdee8d",
+    "transformation": "Retained all judged ranks on the exact eligible query support."
+  },
+  {
+    "path": "data/ranks/wands/gte_modernbert/field_priority_type/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/wands_gte_modernbert_field_priority_type_pairs.parquet",
+    "source_sha256": "a5d5f816e3e5cc2c18ba247cf22a1d8e98bae68cc5d2642fb2738621d6a17b1a",
+    "transformation": "Retained all judged ranks on the exact eligible query support."
+  },
+  {
+    "path": "data/ranks/esci/gte_modernbert/lexical_ascending/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/esci_gte_modernbert_lexical_ascending_pairs.parquet",
+    "source_sha256": "07687f0a83b94b74c3c358170de5d4c37304f5fa91720722e21052ad927b701b",
+    "transformation": "Retained all judged ranks on the exact eligible query support."
+  },
+  {
+    "path": "data/ranks/esci/gte_modernbert/lexical_descending/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/esci_gte_modernbert_lexical_descending_pairs.parquet",
+    "source_sha256": "fff6b997372cfa15470b00d4e1edac14927a722aa119be3e40007eb1bfda4124",
+    "transformation": "Retained all judged ranks on the exact eligible query support."
+  },
+  {
+    "path": "data/ranks/esci/gte_modernbert/field_priority_type/fixed.parquet",
+    "source": "revision_evidence_20260917/experiments/esci_gte_modernbert_field_priority_type_pairs.parquet",
+    "source_sha256": "bc1e35981295633f80abf87bc1e8a082cce01981d87518fffc2d834e0e33f8e8",
+    "transformation": "Retained all judged ranks on the exact eligible query support."
+  },
+  {
+    "path": "experiments/recent_models/adapters.py",
+    "source": "completed_results/models/harrier06b/source/adapters.py",
+    "source_sha256": "fc825501e44130443e64bbb188ce935f5664b5dcedf21034e539707e80bca780",
+    "transformation": "Preserved scientific operations; replaced machine-specific paths with package catalogs/configuration and relative output receipts; restricted to manuscript models; added all-judged rank export and removed unreported analysis scopes where applicable."
+  },
+  {
+    "path": "experiments/recent_models/encode.py",
+    "source": "completed_results/models/embeddinggemma2/source/encode.py",
+    "source_sha256": "a6d223d291f9853e8a5972a458f9c087bdce20d97c5a4a571a18abc1b380cd0b",
+    "transformation": "Preserved scientific operations; replaced machine-specific paths with package catalogs/configuration and relative output receipts; restricted to manuscript models; added all-judged rank export and removed unreported analysis scopes where applicable."
+  },
+  {
+    "path": "experiments/recent_models/evaluate.py",
+    "source": "completed_results/models/embeddinggemma2/source/evaluate.py",
+    "source_sha256": "d1502cb8c62d6a8ffabbf3017fb461e604d08fa0f386a3f215c4907da9734179",
+    "transformation": "Preserved scientific operations; replaced machine-specific paths with package catalogs/configuration and relative output receipts; restricted to manuscript models; added all-judged rank export and removed unreported analysis scopes where applicable."
+  },
+  {
+    "path": "experiments/recent_models/metrics.py",
+    "source": "completed_results/models/embeddinggemma2/source/metrics.py",
+    "source_sha256": "32aacbc272d34a00469cf58a2b0a381a2327f9b32b9928dd1ffc0ee67db58851",
+    "transformation": "Preserved scientific operations; replaced machine-specific paths with package catalogs/configuration and relative output receipts; restricted to manuscript models; added all-judged rank export and removed unreported analysis scopes where applicable."
+  },
+  {
+    "path": "experiments/recent_models/boundary.py",
+    "source": "completed_results/models/embeddinggemma2/source/boundary.py",
+    "source_sha256": "69ee0c19c4d783305a7109b002ce0cceec6243c32f40b7ee01e84e41140ce884",
+    "transformation": "Preserved scientific operations; replaced machine-specific paths with package catalogs/configuration and relative output receipts; restricted to manuscript models; added all-judged rank export and removed unreported analysis scopes where applicable."
+  },
+  {
+    "path": "experiments/recent_models/analyze.py",
+    "source": "completed_results/models/embeddinggemma2/source/analyze.py",
+    "source_sha256": "e8f60c85f53138d5c1e9892d628fea073187b83284de2fa618186e39e837b5bf",
+    "transformation": "Preserved scientific operations; replaced machine-specific paths with package catalogs/configuration and relative output receipts; restricted to manuscript models; added all-judged rank export and removed unreported analysis scopes where applicable."
+  },
+  {
+    "path": "experiments/recent_models/smoke.py",
+    "source": "completed_results/models/embeddinggemma2/source/smoke.py",
+    "source_sha256": "e80c27de9bf28223e71fbdda90f2d8c32c487909de77bc7c064d17103b6a801d",
+    "transformation": "Preserved scientific operations; replaced machine-specific paths with package catalogs/configuration and relative output receipts; restricted to manuscript models; added all-judged rank export and removed unreported analysis scopes where applicable."
+  },
+  {
+    "path": "reference/recent_models.csv",
+    "source": "completed_results/models/{model}/tables/summary.csv",
+    "transformation": "Combined full-precision completed-model references; retained 976 manuscript-related estimates and intervals, excluding all-top-k turnover summaries."
+  },
+  {
+    "path": "reference/gte_canonical.csv",
+    "source": "revision_evidence_20260917",
+    "transformation": "Retained only three evaluated canonical rules on both datasets at K=20 and K=100; removed historical M2 template controls."
+  },
+  {
+    "path": "reference/manuscript_values.csv",
+    "source": "Final manuscript, Tables 3-8",
+    "transformation": "Transcribed printed rounded values; rounding precision and units are explicit."
+  },
+  {
+    "path": "data/serialization/wands.csv",
+    "source": "completed_results/models/embeddinggemma2/support/wands_serialization.csv",
+    "source_sha256": "04611dbc98ef398ffa0b47a01dec51870fa1403ae4c6a0f7a100c645c9c1fbba",
+    "transformation": "Retained product ID and unique serialization count; verified identical across both additional models."
+  },
+  {
+    "path": "data/serialization/esci.csv",
+    "source": "completed_results/models/embeddinggemma2/support/esci_serialization.csv",
+    "source_sha256": "5b702de6766a58763c3b30a30de42616c53294a59cbf5a204f76ebdb360018d9",
+    "transformation": "Retained product ID and unique serialization count; verified identical across both additional models."
   }
 ]

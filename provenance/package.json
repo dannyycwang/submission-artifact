@@ -4,5 +4,14 @@
   "code_origin": "Adapted source functions plus new portable orchestration, verification, and reporting.",
   "statistics": "Recomputed from retained rank evidence; reference comparison tolerance 1e-12.",
   "distribution": "Artifact prepared for double-anonymous peer review.",
-  "provenance_policy": "Author-identifying repository links, source commit identifiers, and local user paths are omitted. Dataset and model revisions, scientific settings, source-file transformation records, and distributed-file checksums are retained."
+  "provenance_policy": "Author-identifying repository links, source commit identifiers, and local user paths are omitted. Dataset and model revisions, scientific settings, source-file transformation records, and distributed-file checksums are retained.",
+  "manuscript_scope": "Final 12-page manuscript; five encoders; Appendices A-D; final figure/table numbering.",
+  "models": [
+    "minilm",
+    "bge_base",
+    "gte_modernbert",
+    "embeddinggemma2",
+    "harrier06b"
+  ],
+  "rank_conditions": 154
 }

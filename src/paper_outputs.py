@@ -52,66 +52,9 @@ def build():
         }
     )
     checks = []
-    controls = pd.read_csv(HERE / "tables/controls_complete.csv")
-    controls = controls[
-        controls.model.isin(["minilm", "bge_base"]) & ~controls.schedule.eq("C0")
-    ]
-    rows = []
-    for (ds, m, method), g in controls.groupby(["dataset", "model", "method"]):
-        row = dict(dataset=ds, model=m, method=method, label=LABELS[method])
-        for k, metric, name, mult in [
-            (100, "Recall", "Recall@100_percent", 100),
-            (20, "nDCG", "nDCG@20", 1),
-            (100, "VI", "VI@100_percent", 100),
-            (20, "cNDCG", "cNDCG@20", 1),
-            (20, "judged_coverage", "JudgedCoverage@20_percent", 100),
-        ]:
-            row[name] = (
-                float(g[g.K.eq(k) & g.metric.eq(metric)].estimate.iloc[0]) * mult
-            )
-        rows.append(row)
-    table = pd.DataFrame(rows)
-    csv(
-        table[
-            [
-                "dataset",
-                "model",
-                "method",
-                "label",
-                "Recall@100_percent",
-                "nDCG@20",
-                "VI@100_percent",
-            ]
-        ],
-        HERE / "tables/table3.csv",
-    )
-    csv(
-        table[
-            [
-                "dataset",
-                "model",
-                "method",
-                "label",
-                "cNDCG@20",
-                "JudgedCoverage@20_percent",
-            ]
-        ],
-        HERE / "tables/table7.csv",
-    )
-    tr = pd.read_csv(HERE / "tables/transitions_complete.csv")
-    tr = tr[tr.K.eq(20)].copy()
-    tr["percent"] = tr.estimate * 100
-    csv(tr, HERE / "tables/table5.csv")
-    csv(
-        tr[
-            tr.dataset.eq("wands")
-            & tr.model.eq("minilm")
-            & tr.rule.eq("lexical_ascending")
-        ],
-        HERE / "tables/table4.csv",
-    )
-    expanded = pd.read_csv(HERE / "tables/harmonized_summary.csv")
-    csv(expanded[expanded.metric.eq("VI")], HERE / "tables/table6.csv")
+    from .final_paper import build as final_tables, MODEL_LABELS
+
+    checks.extend(final_tables())
 
     # Figure 1: preserve all seven target ranks, including the two illustrated orders.
     teal = pd.read_csv(ROOT / "data/cases/teal_chair/native_records.csv")
@@ -134,13 +77,19 @@ def build():
 
     inc = pd.read_csv(HERE / "tables/inclusion_complete.csv")
     plot = inc[inc.intervention.eq("target_only") & inc.K.eq(20) & inc.metric.eq("VI")]
-    fig, axes = plt.subplots(1, 2, figsize=(10, 4.2))
+    fig, axes = plt.subplots(1, 2, figsize=(13, 4.5))
     for ax, ds in zip(axes, ["wands", "esci"]):
         for i, m in enumerate(MODELS):
             for offset, scope, color, marker in [
                 (-0.11, "full", "#236b8e", "o"),
                 (0.11, "fully_fitting", "#db7a2b", "s"),
             ]:
+                if scope == "fully_fitting" and m in [
+                    "gte_modernbert",
+                    "embeddinggemma2",
+                    "harrier06b",
+                ]:
+                    continue
                 row = plot[
                     plot.dataset.eq(ds)
                     & plot.model.eq(m)
@@ -158,7 +107,11 @@ def build():
                     capsize=3,
                     label=scope.replace("_", " ") if i == 0 else None,
                 )
-        ax.set_xticks(range(3), ["MiniLM", "BGE", "GTE"])
+        ax.set_xticks(
+            range(5),
+            ["MiniLM", "BGE", "GTE", "EmbeddingGemma 2", "Harrier 0.6B"],
+            rotation=15,
+        )
         ax.set_title(ds.upper())
         ax.set_ylabel("Target-only VI@20 (%)")
         ax.legend()
@@ -220,11 +173,20 @@ def build():
                 net_change=int((g.changed & ~g.exact_replacement).sum()),
             )
         )
-    b = pd.DataFrame(bars)
+    b = (
+        pd.DataFrame(bars)
+        .set_index(["dataset", "model"])
+        .reindex(
+            pd.MultiIndex.from_product(
+                [["wands", "esci"], MODELS], names=["dataset", "model"]
+            )
+        )
+        .reset_index()
+    )
     csv(b, HERE / "tables/figure5.csv")
     row = b[b.dataset.eq("wands") & b.model.eq("bge_base")].iloc[0]
     assert (row.exact_cancellation, row.queries) == (73, 308)
-    fig, ax = plt.subplots(figsize=(9, 4))
+    fig, ax = plt.subplots(figsize=(10, 6))
     left = np.zeros(len(b))
     for col, color, label in [
         ("unchanged", "#c4cbd1", "Unchanged relevant membership"),
@@ -234,9 +196,12 @@ def build():
         values = b[col].to_numpy() / b.queries.to_numpy() * 100
         ax.barh(np.arange(len(b)), values, left=left, color=color, label=label)
         left += values
+    names = dict(zip(MODELS, MODEL_LABELS))
     ax.set_yticks(
-        range(len(b)), [f"{r.dataset.upper()} / {r.model}" for r in b.itertuples()]
+        range(len(b)),
+        [f"{r.dataset.upper()} / {names[r.model]}" for r in b.itertuples()],
     )
+    ax.invert_yaxis()
     ax.set_xlabel("Eligible queries (%)")
     ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.18), ncol=1)
     save(fig, "figure5_recall_cancellation")
@@ -245,75 +210,6 @@ def build():
             claim="WANDS/BGE exact Recall cancellation",
             numerator=73,
             denominator=308,
-            passed=True,
-        )
-    )
-
-    ct = pd.read_csv(HERE / "tables/controls_paired_comparisons.csv")
-    ct = ct[
-        ct.method.eq("raw_hybrid")
-        & ct.schedule.eq("seven_mean")
-        & ct.comparator.eq("raw:seven_mean")
-        & ct.K.eq(100)
-        & ct.metric.isin(["Recall", "VI"])
-    ]
-    fig, axes = plt.subplots(1, 2, figsize=(10, 4))
-    for ax, metric in zip(axes, ["Recall", "VI"]):
-        p = ct[ct.metric.eq(metric)]
-        v = p.estimate.to_numpy() * 100
-        ax.errorbar(
-            v,
-            np.arange(len(p)),
-            xerr=np.vstack(
-                (v - p.ci_low.to_numpy() * 100, p.ci_high.to_numpy() * 100 - v)
-            ),
-            fmt="o",
-            capsize=3,
-            color="#236b8e",
-        )
-        ax.axvline(0, color="gray", lw=1)
-        ax.set_yticks(
-            range(len(p)), [f"{r.dataset.upper()} / {r.model}" for r in p.itertuples()]
-        )
-        ax.set_xlabel(f"Delta {metric}@100 (percentage points)")
-    fig.tight_layout()
-    save(fig, "figure6_hybrid_contrasts")
-    csv(ct, HERE / "tables/figure6.csv")
-
-    french = pairread(ROOT / "data/target_only/wands_minilm.parquet")
-    french = french[french.query_id.eq(359) & french.product_id.eq("12575")].iloc[0]
-    assert [int(french[s]) for s in STEMS] == [19, 58, 52, 174, 15, 33, 36]
-    attrs = pd.read_csv(ROOT / "data/cases/french_molding/entry_attributions.csv")
-    attrs = attrs[attrs.baseline.eq("pad")].copy()
-    attrs["group"] = np.where(
-        attrs.entry_id.str.startswith("attr_"),
-        attrs.entry_text,
-        "Fixed text and boundaries",
-    )
-    grouped = attrs.groupby(["group", "schedule"]).attribution.sum().unstack()
-    grouped["difference"] = grouped.C1 - grouped.C0
-    csv(grouped.reset_index(), HERE / "tables/figure7_attributions.csv")
-    fig, axes = plt.subplots(
-        1, 2, figsize=(11, 4.5), gridspec_kw={"width_ratios": [1, 1.3]}
-    )
-    axes[0].plot(STEMS, [french[s] for s in STEMS], "o-", color="#236b8e")
-    axes[0].axhline(20, color="#b02b2c", ls="--")
-    axes[0].set_ylabel("Target rank")
-    axes[0].set_title("French molding / MiniLM")
-    axes[0].tick_params(axis="x", rotation=45)
-    axes[1].barh(grouped.index, grouped.difference, color="#236b8e")
-    axes[1].axvline(0, color="gray", lw=1)
-    axes[1].set_xlabel("PAD-reference IG: C1 minus C0")
-    axes[1].tick_params(axis="y", labelsize=7)
-    fig.tight_layout()
-    save(fig, "figure7_french_molding")
-    checks.append(
-        dict(
-            case="french molding",
-            source_rank=19,
-            reverse_rank=58,
-            minimum_rank=15,
-            maximum_rank=174,
             passed=True,
         )
     )

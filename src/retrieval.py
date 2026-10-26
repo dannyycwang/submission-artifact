@@ -42,7 +42,7 @@ def bm25(texts, queries, k1=1.2, b=0.75):
 
 
 def rank(scores):
-    # Catalog sorted by product_id; ties are always broken by ascending product_id.
+    # Preserve the supplied catalog order; ties use ascending catalog index.
     return np.argsort(-scores, axis=1, kind="stable").astype(np.int32)
 
 

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "tests": 8,
+  "runner": "python -m unittest discover -s tests -v",
+  "gpu_required": false,
+  "coverage": [
+    "target insertion including exact ties",
+    "canonical duplicate preservation and invariance",
+    "graded and condensed metrics",
+    "real query metric reconstruction",
+    "Recall cancellation identities",
+    "lexical invariance and full-list fusion",
+    "content deduplication, resume, corruption recovery and changed-input rejection",
+    "raw and canonical catalog/target ranks against independent brute force"
+  ]
+}

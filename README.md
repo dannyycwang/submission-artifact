@@ -1,12 +1,10 @@
 # Same Product, Different Visibility
 
-Reproducibility package for **Same Product, Different Visibility: Attribute-Order Sensitivity in Dense Retrieval**.
+Reproducibility artifact for **Same Product, Different Visibility: Attribute-Order Sensitivity in Dense Retrieval**. This distribution follows the final 12-page manuscript, including Appendices A-D.
 
-This package follows the supplied 12-page manuscript, including Appendices A-E. It contains the evaluation catalogs, relevance judgments, frozen query supports, saved ranks, experiment code, and case evidence needed for that manuscript.
+## Reproduce the paper
 
-## Reproduce the reported results
-
-Use Python 3.10. Run the following commands from this directory:
+Use Python 3.10 and run from this directory:
 
 ```bash
 python -m venv .venv
@@ -18,40 +16,37 @@ python -m unittest discover -s tests -v
 python scripts/reproduce_paper.py
 ```
 
-The last command recomputes graded effectiveness from all-judged ranks, inclusion states from rank families, gains and losses from product identities, canonical transitions, paired confidence intervals, expanded-order estimates, and adjacent-swap estimates. It checks the results against the supplied reference evidence with an absolute tolerance of `1e-12`.
+This route recomputes the statistics from retained ranks and product identities. It needs no GPU, model download, training, or paid service. It checks the original full-precision references, 976 additional-model estimates and intervals, GTE canonical comparisons, and the values printed in the final manuscript. Reference comparisons use an absolute tolerance of `1e-12`; printed values use their stated rounding precision.
 
-Results are written to `outputs/reproduced/`. Start with `verification.json`, `tables/table3.csv`, and the plots in `figures/`. The plots use the paper's numerical evidence with a simplified presentation. No GPU, model download, training, or paid service is needed for this route.
+Start with `outputs/reproduced/verification.json`, `tables/table3.csv`, and `figures/`. Figures use the paper's evidence with a simplified layout. Figure 2 and Table 1 are definitions, not additional numerical experiments.
 
-## Run the models again
+## Evaluated models
 
-[REPRODUCE.md](REPRODUCE.md) provides the separate environments and commands for fresh catalog retrieval, target-only retrieval, the expanded ordering family, adjacent swaps, and the French-molding attribution diagnostic.
+| Encoder | Checkpoint | Input limit | Native pooling |
+|---|---|---:|---|
+| MiniLM | `sentence-transformers/all-MiniLM-L6-v2` | 256 | Masked mean |
+| BGE | `BAAI/bge-base-en-v1.5` | 512 | CLS |
+| GTE | `Alibaba-NLP/gte-modernbert-base` | 8,192 | CLS |
+| EmbeddingGemma 2 | `google/embeddinggemma-2` | 8,192 | Native projection, then masked mean |
+| Harrier 0.6B | `microsoft/harrier-oss-v1-0.6b` | 32,768 | Last nonpadding token |
 
-Fresh inference writes to separate output directories. The historical experiments used several execution profiles, so freshly encoded ranks must be compared with the supplied ranks rather than assumed to be bitwise identical. The saved-rank route above reproduces the reported statistics directly.
+All five cover seven-order catalog-wide and target-only retrieval, full/fully-fitting analyses, and three canonical dense rules. The broader controls, expanded-order study, and adjacent swaps use MiniLM/BGE. Exact model revisions are in `configs/models.json`; native prompts, BF16 execution, dimensions, batching, and software for the two additional models are in `configs/recent_models.json`.
 
 ## Contents
 
-| Directory | Purpose |
+| Path | Purpose |
 |---|---|
-| `configs/` | Model revisions, query supports, seeds, gains, and adjacent-swap design |
-| `data/catalogs/` | Complete evaluated catalogs, queries, and deduplicated judgments |
-| `data/ranks/` | All-judged catalog ranks for 108 retained method/schedule conditions |
-| `data/target_only/` | Seven-order target ranks with source-order competitors fixed |
-| `data/expanded/` | Harmonized follow-up ranks and frozen order-construction plan |
-| `data/adjacent/` | Frozen cohort, serialized swap plan, outcomes, and numerical repeats |
-| `data/cases/` | Teal-chair, wooden-chair, and French-molding evidence |
-| `src/`, `scripts/`, `experiments/` | Analysis and inference implementations |
-| `reference/` | Full-precision published-result references for numerical comparison |
-| `provenance/`, `licenses/` | Source mappings, execution profiles, and dataset notices |
-| `validation/` | Checks performed when preparing this package |
+| `configs/` | Frozen supports, model revisions, seeds, gains, and execution settings |
+| `data/catalogs/` | Complete evaluated catalogs, queries, and cleaned relevance judgments |
+| `data/ranks/` | All-judged catalog ranks for 154 retained conditions |
+| `data/target_only/` | Ten seven-order target/catalog rank files, one per dataset and encoder |
+| `data/expanded/`, `data/adjacent/` | Frozen designs, complete outcomes, and numerical checks |
+| `data/boundary/` | Three-pass boundary checks for the two additional encoders |
+| `data/cases/` | Teal-chair and wooden-chair evidence |
+| `src/`, `scripts/`, `experiments/` | Statistical analysis and portable inference code |
+| `reference/` | Full-precision result references and printed manuscript values |
+| `provenance/`, `licenses/`, `validation/` | Source transformations, dataset notices, and completed checks |
 
-[PAPER_MAP.md](PAPER_MAP.md) links each paper result to its inputs and outputs. [DATA.md](DATA.md) describes schemas, units, denominators, and dataset provenance. [SCOPE.md](SCOPE.md) explains the retained scope and code adaptations.
+[PAPER_MAP.md](PAPER_MAP.md) maps each figure and table to its evidence. [DATA.md](DATA.md) documents schemas and denominators. [REPRODUCE.md](REPRODUCE.md) gives fresh inference commands and environment requirements. [SCOPE.md](SCOPE.md) describes the retained scope and adaptations.
 
-## Evaluation scope
-
-- WANDS: 42,994 products; 308 eligible held-out queries; 21,299 highest-label query-product pairs.
-- ESCI: the frozen US test sample's 10,076-product union; 499 eligible queries; 4,434 highest-label pairs.
-- Primary orders: source, reversal, and five deterministic attribute shuffles.
-- Encoders: frozen MiniLM, BGE, and GTE; controls use MiniLM and BGE.
-- Confidence intervals: 10,000 paired query-cluster bootstrap resamples; unadjusted 95% percentile limits.
-
-Product text and benchmark relevance labels remain unchanged. Only manuscript-related methods are included. Model weights and regenerable embedding caches are downloaded or generated separately.
+WANDS uses 42,994 products, 308 eligible held-out queries, and 21,299 highest-label pairs. ESCI uses the frozen 10,076-product union, 499 eligible queries, and 4,434 highest-label pairs. Raw product text and benchmark labels are unchanged. Model weights and regenerable embeddings are obtained separately.

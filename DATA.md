@@ -20,8 +20,10 @@ WANDS preprocessing removes every query-product pair with contradictory labels a
 - `data/catalogs/*_judgments.csv`: query ID, product ID, and original categorical relevance label.
 - `data/conditions.json`: method, dataset, model, schedule, and relative rank file. `original_source` is provenance, not an input dependency.
 - `data/ranks/`: one row per judged query-product pair, with one-based full-catalog rank and saved FP32 score where available. All graded calculations map the categorical label through the paper's gains; obsolete grade or query-taxonomy columns are removed.
-- `data/target_only/`: highest-label pairs with columns `C0`, `C1`, `C2s1`-`C2s5` and corresponding `whole_*` catalog-wide ranks. Historical auxiliary K=10/50 indicators are retained as original rank-file metadata and are not used for this paper.
-- `data/token_lengths.csv`: tokenizer-specific complete-input lengths and the all-seven fully-fitting indicator.
+- `data/target_only/`: highest-label pairs with columns `C0`, `C1`, `C2s1`-`C2s5` and corresponding `whole_*` catalog-wide ranks. Only identities and the fourteen target/catalog rank columns are required for analysis.
+- `data/token_lengths.csv`: complete-input lengths and the all-seven fully-fitting indicator for five encoders. Additional-model lengths include native prompts and special tokens; their overhead is not represented as a fixed additive count.
+- `data/boundary/`: selected boundary witnesses, three repeated decisions, and numerical audit summaries for EmbeddingGemma 2 and Harrier.
+- `data/serialization/`: unique seven-schedule serialization counts used by the additional-model evaluator.
 - `data/expanded/`: long-form harmonized target ranks, order plan, and fixed support. `fully_fitting` requires every expanded-family target input to fit.
 - `data/adjacent/`: outcome-independent frozen cohort/serialized plan, one row per distinct swap, and repeated numerical checks. All original observed outcomes are retained.
 - `data/reference_*.parquet`: exact per-query reference records. Reproduction independently reconstructs their metrics, inclusion states, and transition counts.
@@ -38,10 +40,11 @@ Inclusion-state and transition denominators are all eligible highest-label pairs
 
 - **Teal chair:** WANDS query 409, product 24318, GTE; source rank 11, C2s5 rank 939. The original title and every attribute occurrence remain available.
 - **Wooden chair outdoor:** WANDS query 367, BGE, C0 versus C1. `all_products.csv` contains all 24 union products and the frame-material classification. MATCH counts are 8 and 6; the same nine unknown/ambiguous products remain in both lists. `matched_scoring.json` supplies exact union ranks from cached FP32 scoring. This case uses the native truncated pipeline.
-- **French molding:** WANDS query 359, product 12575, MiniLM; all seven inputs fit at 139 tokens. C0/C1 ranks are 19/58; the full rank range is 15-174. The attribution analysis uses a PAD embedding reference with special tokens unchanged.
 
 All supplied English-benchmark product text is preserved without translation or normalization. Formatting, Unicode characters, or unusual spelling inside raw records are part of the scientific inputs.
 
 ## Integrity
 
 `MANIFEST.sha256` covers the distributed files. `provenance/source_files.json` maps curated files to original repository paths, source hashes, and transformations. Original paths in provenance identify historical sources and are not required at runtime. Execution profiles preserve numerical settings; machine-specific paths are omitted where they are not scientific inputs.
+
+`reference/recent_models.csv` retains 976 manuscript-related estimates/intervals from the completed additional-model experiments. `reference/gte_canonical.csv` retains the twelve GTE Recall comparisons. `reference/manuscript_values.csv` records rounded cells transcribed from the final manuscript for an independent presentation-level check. Original-model reference files retain their original support and are compared as a strict subset of the final five-model outputs.

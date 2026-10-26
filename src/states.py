@@ -52,8 +52,10 @@ def recompute(pq):
                     omitted,
                 )
     for ds in ["wands", "esci"]:
-        for m in ["minilm", "bge_base"]:
+        for m in MODELS:
             for family, raw in [("dense", "raw"), ("hybrid", "raw_hybrid")]:
+                if family == "hybrid" and m not in ["minilm", "bge_base"]:
+                    continue
                 for rule in RULES:
                     method = rule if family == "dense" else "canonical_hybrid_" + rule
                     for k in [20, 100]:
@@ -124,8 +126,11 @@ def recompute(pq):
             .sort_index()
         )
         actual = frame.set_index(keys).sort_index()
-        assert actual.index.equals(reference.index), name
-        assert np.allclose(actual[cols], reference[cols], atol=1e-14, rtol=0), name
+        assert reference.index.isin(actual.index).all(), name
+        assert not actual.index.duplicated().any(), name
+        assert np.allclose(
+            actual.loc[reference.index, cols], reference[cols], atol=1e-14, rtol=0
+        ), name
         path = (
             "states_per_query.parquet"
             if name == "states"

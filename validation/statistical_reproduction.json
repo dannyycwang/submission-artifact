@@ -49,6 +49,41 @@
       "passed": true
     },
     {
+      "table": "recent_models",
+      "rows": 976,
+      "max_absolute_error": 2.96637714392034e-16,
+      "passed": true
+    },
+    {
+      "table": "gte_canonical",
+      "rows": 12,
+      "passed": true
+    },
+    {
+      "table": "recent_model_boundary",
+      "cells": 4,
+      "passed": true
+    },
+    {
+      "claim": "canonical Recall@20 intervals containing zero",
+      "comparisons": 30,
+      "contains_zero": 28,
+      "passed": true
+    },
+    {
+      "claim": "source-order nDCG@20 contrasts",
+      "comparisons": 60,
+      "lower": 8,
+      "higher": 2,
+      "contains_zero": 50,
+      "passed": true
+    },
+    {
+      "table": "printed_manuscript_values",
+      "cells": 332,
+      "passed": true
+    },
+    {
       "case": "teal chair",
       "source_rank": 11,
       "alternative_rank": 939,
@@ -68,14 +103,6 @@
       "passed": true
     },
     {
-      "case": "french molding",
-      "source_rank": 19,
-      "reverse_rank": 58,
-      "minimum_rank": 15,
-      "maximum_rank": 174,
-      "passed": true
-    },
-    {
       "case": "wooden chair outdoor",
       "confirmed_wood_before": 8,
       "confirmed_wood_after": 6,
@@ -85,5 +112,31 @@
   ],
   "mode": "saved-rank statistical reproduction",
   "new_model_inference": false,
-  "clean_directory_reproduction": true
+  "clean_directory_reproduction": true,
+  "rank_conditions": 154,
+  "query_effectiveness_records": 62139,
+  "query_membership_records": 67788,
+  "software": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "pyarrow": "24.0.0",
+    "matplotlib": "3.10.9",
+    "threadpoolctl": "3.7.0"
+  },
+  "analysis_source_sha256": {
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/adjacent_analysis.py": "817bba3b40f1de602add157a68a3e1b381a77ae15ae1e7d262eae3300223588f",
+    "src/analysis.py": "48f62b0b876aaf2f931c22dab84100fe5e1f3e5314d531bbb80b2f5e5ba5e215",
+    "src/common.py": "ccbcca06e8917e03ec3ca199d5bcefe6d2b82810e63adb9a050cba45de258edf",
+    "src/encoding.py": "440b0c20f99c50e778c3b01a56aac645b6fe5a32d4c3071cfbc528dfb53ca371",
+    "src/expanded_analysis.py": "60488bf8163feec89a909507302bb235824d98f152407138ebb5266f28b8d58f",
+    "src/extended_validation.py": "8d1d9de80f265e9d37b50f3985a97a1fdf5f18b3356cc37889f9d4fd5ce430a4",
+    "src/final_paper.py": "96eea657bf015ec975631a38b6f56cc31e6aebf6e58a6ba474ee5b02c434f1bb",
+    "src/metrics.py": "49851581fc82354af9fc51b7105aaeb838aaeb81ca2e4866e0582ae6690360c8",
+    "src/paper_outputs.py": "fdfb8fbcc349a93cc0ff3ffd338cb28aa4406f31729b8a1e63b3ffe54f4e7ffa",
+    "src/representations.py": "1f1060bf955c1bd147aacaae2000ec2d47cc7d8652e2bec43f2ea14ad6e079f2",
+    "src/retrieval.py": "fb046dfad25bbf1b5dc384b44d47067a6be396aa78b5dfb27eb54e7a40179db4",
+    "src/states.py": "47016a4bf90c3ab2d09946aab4a1307170a7cf5164504a07c86d183366f25be4"
+  }
 }

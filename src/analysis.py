@@ -7,7 +7,9 @@ GAINS = read(ROOT / "configs/evaluation.json")["gains"]
 
 
 def inclusion():
-    fits = pd.read_csv(ROOT / "data/token_lengths.csv", dtype={"product_id": str})
+    fits = pd.read_csv(
+        ROOT / "data/token_lengths.csv", dtype={"product_id": str}, low_memory=False
+    )
     queries = []
     summary = []
     checks = []

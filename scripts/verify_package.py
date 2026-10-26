@@ -45,7 +45,7 @@ def main():
         ]
         assert len(selected) == pairs and selected.query_id.nunique() == q
     conditions = json.loads((ROOT / "data/conditions.json").read_text())
-    assert len(conditions) == 108
+    assert len(conditions) == 154
     assert all((ROOT / c["rank_source"]).is_file() for c in conditions)
     for folder in ["src", "scripts", "experiments", "tests"]:
         for path in (ROOT / folder).rglob("*.py"):
@@ -53,7 +53,7 @@ def main():
             compile(source, str(path), "exec")
             assert not re.search("[\u3400-\u9fff]", source), path
     print(
-        f"PASS: {count} file checksums; both catalog/support definitions; 108 rank conditions; Python syntax."
+        f"PASS: {count} file checksums; both catalog/support definitions; 154 rank conditions; Python syntax."
     )
 
 

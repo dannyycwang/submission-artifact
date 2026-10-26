@@ -1,18 +1,21 @@
 # Validation performed
 
-The package was checked against the supplied manuscript and original local research artifacts.
+The final five-model artifact was checked against the manuscript and completed experiment evidence.
 
-- Recomputed manuscript statistics from saved rank records, including 43,578 method/schedule/query effectiveness records, 48,420 membership records, and complete paired control comparisons.
-- Compared means and 95% confidence limits with full-precision references at an absolute tolerance of `1e-12`.
-- Reconstructed inclusion states and canonical transitions from product identities and checked every retained reference cell.
-- Verified the primary serialization for every product in both catalogs under all seven schedules against the original implementation.
-- Verified every frozen expanded-order and adjacent-swap serialization hash.
-- Rebuilt WANDS and ESCI preprocessing from the pinned local upstream data and matched all retained product records, query text, and cleaned labels.
-- Ran six regression tests covering exact target insertion with ties, canonical invariance and duplicates, direct-gain metrics, real query records, Recall cancellation, and lexical fusion.
-- Ran actual MiniLM/GTE native-encoder smoke tests and MiniLM/BGE fixed-bucket diagnostic forward tests.
-- Reran both PAD-reference French-molding attributions; completeness and boundary guards passed.
-- Reviewed the generated plots and checked English source/documentation text, file integrity, and command-line entry points.
+- Recomputed 62,139 query-effectiveness records and 67,788 membership records from 154 retained rank conditions.
+- Compared original-model estimates and paired 95% intervals with full-precision references at an absolute tolerance of `1e-12`.
+- Independently verified 976 additional-model estimates/intervals, twelve GTE canonical comparisons, four boundary-audit cells, and 332 values printed in the final manuscript.
+- Reconciled all 40 additional-model score matrices with archived hashes, all-judged metrics, and highest-label ranks before packaging.
+- Reconstructed inclusion states, canonical transitions, the expanded-order analysis, and adjacent-swap statistics.
+- Verified every additional-model raw/canonical serialized input against original encoding descriptors, in addition to the original seven-schedule and frozen diagnostic input checks.
+- Matched preprocessing to the pinned upstream catalogs, queries, and cleaned labels.
+- Passed eight CPU regression tests, including cache corruption recovery and independent brute-force catalog/target ranking.
+- Passed actual GPU native/reference smoke checks for EmbeddingGemma 2 and Harrier; both explicit pooling paths matched the official encoder exactly at fixed batch sizes. Three repeated forwards produced identical embeddings, scores, and decisions. Batch-size sensitivity is recorded separately.
+- Retained the earlier successful MiniLM/GTE native and MiniLM/BGE diagnostic forward checks.
+- Ran the complete statistical reproduction in a separate directory containing only distribution files; reviewed the generated plots.
 
-Full-catalog GPU inference, the complete expanded-order encoding run, and the complete adjacent-swap inference run were not repeated during packaging. Their completed original evidence is supplied, their analysis was recomputed, and their inference code is included separately.
+`statistical_reproduction.json`, `final_data_assembly.json`, `input_equivalence.json`, `preprocessing.json`, `inference_checks.json`, `regression_tests.json`, and `diagnostic_analysis.json` record these checks. The diagnostic summarizers also match all 120 expanded-order and 72 adjacent-swap reference estimates.
 
-`statistical_reproduction.json`, `input_equivalence.json`, `preprocessing.json`, `inference_checks.json`, `diagnostic_analysis.json`, and `attribution.json` record the validation results. The fresh-run diagnostic summarizers were also checked against all 120 expanded-order and 72 adjacent-swap reference estimates. No saved reference evidence was replaced by a new model run.
+Full-catalog GPU inference and the complete diagnostic encoding runs were not repeated during packaging. Their completed original evidence is supplied and the statistical analysis was rerun. Smoke tests do not replace benchmark results.
+
+`content_anonymity.json` records a scan of text, compressed catalog contents, and Parquet strings/metadata. Benchmark text is unchanged; archive contents exclude Git history.

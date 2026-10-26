@@ -862,5 +862,327 @@
     "schedule": "C2s5",
     "rank_source": "data/ranks/esci/bge_base/raw_hybrid/C2s5.parquet",
     "original_source": "revision_graded_20260922/data/esci_bge_base_raw_hybrid_C2s5_pairs.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C0",
+    "rank_source": "data/ranks/wands/embeddinggemma2/raw/C0.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C1",
+    "rank_source": "data/ranks/wands/embeddinggemma2/raw/C1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/wands/embeddinggemma2/raw/C2s1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/wands/embeddinggemma2/raw/C2s2.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/wands/embeddinggemma2/raw/C2s3.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/wands/embeddinggemma2/raw/C2s4.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/wands/embeddinggemma2/raw/C2s5.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "embeddinggemma2",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/embeddinggemma2/lexical_ascending/fixed.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "embeddinggemma2",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/embeddinggemma2/lexical_descending/fixed.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "embeddinggemma2",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/embeddinggemma2/field_priority_type/fixed.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C0",
+    "rank_source": "data/ranks/esci/embeddinggemma2/raw/C0.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C1",
+    "rank_source": "data/ranks/esci/embeddinggemma2/raw/C1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/esci/embeddinggemma2/raw/C2s1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/esci/embeddinggemma2/raw/C2s2.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/esci/embeddinggemma2/raw/C2s3.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/esci/embeddinggemma2/raw/C2s4.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "embeddinggemma2",
+    "method": "raw",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/esci/embeddinggemma2/raw/C2s5.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "embeddinggemma2",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/embeddinggemma2/lexical_ascending/fixed.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "embeddinggemma2",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/embeddinggemma2/lexical_descending/fixed.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "embeddinggemma2",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/embeddinggemma2/field_priority_type/fixed.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C0",
+    "rank_source": "data/ranks/wands/harrier06b/raw/C0.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C1",
+    "rank_source": "data/ranks/wands/harrier06b/raw/C1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/wands/harrier06b/raw/C2s1.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/wands/harrier06b/raw/C2s2.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/wands/harrier06b/raw/C2s3.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/wands/harrier06b/raw/C2s4.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/wands/harrier06b/raw/C2s5.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "harrier06b",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/harrier06b/lexical_ascending/fixed.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "harrier06b",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/harrier06b/lexical_descending/fixed.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "harrier06b",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/harrier06b/field_priority_type/fixed.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C0",
+    "rank_source": "data/ranks/esci/harrier06b/raw/C0.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C1",
+    "rank_source": "data/ranks/esci/harrier06b/raw/C1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C2s1",
+    "rank_source": "data/ranks/esci/harrier06b/raw/C2s1.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C2s2",
+    "rank_source": "data/ranks/esci/harrier06b/raw/C2s2.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C2s3",
+    "rank_source": "data/ranks/esci/harrier06b/raw/C2s3.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C2s4",
+    "rank_source": "data/ranks/esci/harrier06b/raw/C2s4.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "harrier06b",
+    "method": "raw",
+    "schedule": "C2s5",
+    "rank_source": "data/ranks/esci/harrier06b/raw/C2s5.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "harrier06b",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/harrier06b/lexical_ascending/fixed.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "harrier06b",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/harrier06b/lexical_descending/fixed.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "harrier06b",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/harrier06b/field_priority_type/fixed.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/gte_modernbert/lexical_ascending/fixed.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/gte_modernbert/lexical_descending/fixed.parquet"
+  },
+  {
+    "dataset": "wands",
+    "model": "gte_modernbert",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/wands/gte_modernbert/field_priority_type/fixed.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "lexical_ascending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/gte_modernbert/lexical_ascending/fixed.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "lexical_descending",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/gte_modernbert/lexical_descending/fixed.parquet"
+  },
+  {
+    "dataset": "esci",
+    "model": "gte_modernbert",
+    "method": "field_priority_type",
+    "schedule": "fixed",
+    "rank_source": "data/ranks/esci/gte_modernbert/field_priority_type/fixed.parquet"
   }
 ]

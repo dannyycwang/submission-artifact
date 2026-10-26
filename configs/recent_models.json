@@ -1,0 +1,193 @@
+{
+  "embeddinggemma2": {
+    "software": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.20.1",
+      "sentence-transformers": "6.1.0",
+      "huggingface-hub": "1.33.0",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "tokenizers": "0.23.3",
+      "pyarrow": "24.0.0"
+    },
+    "bootstrap": {
+      "seed": 2026091701,
+      "draws": 10000,
+      "unit": "query cluster",
+      "ci": "unadjusted 95% percentile",
+      "pairing": "identical draws for sorted query IDs on identical support"
+    },
+    "technical_tests": {
+      "selection": "WANDS development targets by SHA256(recent-model-tech|product_id); shortest/longest within first 32; query first 3 by ID hash",
+      "repeat_count": 3,
+      "reference": "official SentenceTransformer.encode; shared frozen backbone, independently implemented pooling",
+      "atol": 0.001,
+      "rtol": 0.001,
+      "min_cosine": 0.9999,
+      "norm_atol": 2e-06,
+      "tolerance_basis": "BF16 native reference component rounding; strict ID equality and output comparison; NOT ranking epsilon",
+      "ranking_epsilon": 0,
+      "holdout_used_for_selection": false
+    },
+    "boundary_audit": {
+      "selection": "all crossing witnesses with abs(margin) <= measured technical repeat score range, all exact ties, plus first 8 crossing pairs by salted ID hash per dataset/intervention/K",
+      "repeat_count": 3,
+      "profile": "rerun original batches containing selected queries, targets, and Kth competitors with all original batch companions; score the full catalog using the identical FP32 matrix shape and frozen profile; other vectors retain their compatible original profile",
+      "preserve_original": true,
+      "label": "numerical_ambiguity if any cutoff decision differs; no epsilon-based rank correction"
+    },
+    "model": {
+      "key": "embeddinggemma2",
+      "name": "google/embeddinggemma-2",
+      "revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+      "tokenizer_revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+      "native_supported_length": 8192,
+      "config_max_position_embeddings": 262144,
+      "max_length": 8192,
+      "dimension": 768,
+      "pooling": "attention-mask mean including prompt after native projection",
+      "projection": "512->768 native per-token",
+      "dtype": "bfloat16",
+      "pooling_dtype": "bfloat16 official operation order",
+      "normalization": "official native L2 followed by FP32 unit normalization",
+      "scoring": "numpy FP32 matmul; 4 BLAS threads; full query matrix per schedule",
+      "attention_backend": "sdpa",
+      "padding_side": "right",
+      "device": "cuda",
+      "prompt_names": {
+        "query": "SearchQuery",
+        "document": "Document"
+      },
+      "prefixes": {
+        "query": "task: search result | query: ",
+        "document": "title: none | text: "
+      },
+      "document_wrapper": "Document default wrapper; full inherited text retained as content; no separate title",
+      "execution_seed": 2026101601,
+      "batching": {
+        "base": 1,
+        "order": "stable ascending effective token length then input content hash",
+        "limits": [
+          [
+            8192,
+            1
+          ]
+        ],
+        "oom_policy": "Do not reuse partial batch. Log event, stop profile; batch=1 retry uses a separately fingerprinted deviation, never alter length silently."
+      },
+      "use_cache": false,
+      "text_only": true,
+      "quantization": false,
+      "truncate_dim": null
+    },
+    "historical_hardware": {
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 580.97",
+      "cuda_available": true,
+      "cuda_runtime": "12.8",
+      "bf16_supported": true
+    },
+    "study_context": "Subsequent model follow-up, not whole-study preregistration. Harrier was selected after the EmbeddingGemma 2 ESCI results."
+  },
+  "harrier06b": {
+    "software": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.20.1",
+      "sentence-transformers": "6.1.0",
+      "huggingface-hub": "1.33.0",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "tokenizers": "0.23.3",
+      "pyarrow": "24.0.0"
+    },
+    "bootstrap": {
+      "seed": 2026091701,
+      "draws": 10000,
+      "unit": "query cluster",
+      "ci": "unadjusted 95% percentile",
+      "pairing": "identical draws for sorted query IDs on identical support"
+    },
+    "technical_tests": {
+      "selection": "WANDS development targets by SHA256(recent-model-tech|product_id); shortest/longest within first 32; query first 3 by ID hash",
+      "repeat_count": 3,
+      "reference": "official SentenceTransformer.encode; shared frozen backbone, independently implemented pooling",
+      "atol": 0.001,
+      "rtol": 0.001,
+      "min_cosine": 0.9999,
+      "norm_atol": 2e-06,
+      "tolerance_basis": "BF16 native reference component rounding; strict ID equality and output comparison; NOT ranking epsilon",
+      "ranking_epsilon": 0,
+      "holdout_used_for_selection": false
+    },
+    "boundary_audit": {
+      "selection": "all crossing witnesses with abs(margin) <= measured technical repeat score range, all exact ties, plus first 8 crossing pairs by salted ID hash per dataset/intervention/K",
+      "repeat_count": 3,
+      "profile": "rerun original batches containing selected queries, targets, and Kth competitors with all original batch companions; score the full catalog using the identical FP32 matrix shape and frozen profile; other vectors retain their compatible original profile",
+      "preserve_original": true,
+      "label": "numerical_ambiguity if any cutoff decision differs; no epsilon-based rank correction"
+    },
+    "model": {
+      "key": "harrier06b",
+      "name": "microsoft/harrier-oss-v1-0.6b",
+      "revision": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+      "tokenizer_revision": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+      "native_supported_length": 32768,
+      "config_max_position_embeddings": 32768,
+      "tokenizer_declared_max_length": 131072,
+      "max_length": 32768,
+      "dimension": 1024,
+      "pooling": "last nonpadding token",
+      "projection": "none",
+      "dtype": "bfloat16",
+      "pooling_dtype": "bfloat16 official operation order",
+      "normalization": "official native L2 followed by FP32 unit normalization",
+      "scoring": "numpy FP32 matmul; 4 BLAS threads; full query matrix per schedule",
+      "attention_backend": "sdpa",
+      "padding_side": "left",
+      "device": "cuda",
+      "prompt_names": {
+        "query": "web_search_query",
+        "document": null
+      },
+      "prefixes": {
+        "query": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: ",
+        "document": ""
+      },
+      "document_wrapper": "none; complete inherited serialized document without chat template or instruction",
+      "execution_seed": 2026101601,
+      "batching": {
+        "base": 8,
+        "order": "stable ascending effective token length then input content hash",
+        "limits": [
+          [
+            512,
+            8
+          ],
+          [
+            1024,
+            4
+          ],
+          [
+            2048,
+            2
+          ],
+          [
+            32768,
+            1
+          ]
+        ],
+        "oom_policy": "Stop and preserve profile evidence; any batch-size deviation requires a separate fingerprinted profile; never shorten input length."
+      },
+      "use_cache": false,
+      "text_only": true,
+      "quantization": false,
+      "truncate_dim": null
+    },
+    "historical_hardware": {
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 580.97",
+      "cuda_available": true,
+      "cuda_runtime": "12.8",
+      "bf16_supported": true
+    },
+    "study_context": "Subsequent model follow-up, not whole-study preregistration. Harrier was selected after the EmbeddingGemma 2 ESCI results."
+  }
+}

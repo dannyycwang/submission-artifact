@@ -14,7 +14,7 @@ threadpool_limits(4)
 ROOT = Path(__file__).resolve().parents[1]
 HERE = ROOT / "outputs" / "reproduced"
 STEMS = ["C0", "C1", "C2s1", "C2s2", "C2s3", "C2s4", "C2s5"]
-MODELS = ["minilm", "bge_base", "gte_modernbert"]
+MODELS = ["minilm", "bge_base", "gte_modernbert", "embeddinggemma2", "harrier06b"]
 RULES = ["lexical_ascending", "lexical_descending", "field_priority_type"]
 SEED, DRAWS = 2026091701, 10000
 

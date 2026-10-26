@@ -1,0 +1,7 @@
+-r requirements-analysis.txt
+torch==2.11.0+cu128
+transformers==5.20.1
+sentence-transformers==6.1.0
+huggingface-hub==1.33.0
+tokenizers==0.23.3
+accelerate==1.14.0

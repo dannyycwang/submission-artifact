@@ -3,5 +3,63 @@
   "primary_serializations_checked": 371490,
   "expanded_plan_hashes_checked": 257302,
   "adjacent_plan_hashes_checked": 63373,
-  "product_text_modified": false
+  "product_text_modified": false,
+  "additional_model_collections": [
+    {
+      "dataset": "wands",
+      "collection": "raw",
+      "model": "embeddinggemma2",
+      "input_hashes": 300958,
+      "passed": true
+    },
+    {
+      "dataset": "wands",
+      "collection": "raw",
+      "model": "harrier06b",
+      "input_hashes": 300958,
+      "passed": true
+    },
+    {
+      "dataset": "wands",
+      "collection": "canonical",
+      "model": "embeddinggemma2",
+      "input_hashes": 128982,
+      "passed": true
+    },
+    {
+      "dataset": "wands",
+      "collection": "canonical",
+      "model": "harrier06b",
+      "input_hashes": 128982,
+      "passed": true
+    },
+    {
+      "dataset": "esci",
+      "collection": "raw",
+      "model": "embeddinggemma2",
+      "input_hashes": 70532,
+      "passed": true
+    },
+    {
+      "dataset": "esci",
+      "collection": "raw",
+      "model": "harrier06b",
+      "input_hashes": 70532,
+      "passed": true
+    },
+    {
+      "dataset": "esci",
+      "collection": "canonical",
+      "model": "embeddinggemma2",
+      "input_hashes": 30228,
+      "passed": true
+    },
+    {
+      "dataset": "esci",
+      "collection": "canonical",
+      "model": "harrier06b",
+      "input_hashes": 30228,
+      "passed": true
+    }
+  ]
 }

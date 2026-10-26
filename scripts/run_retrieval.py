@@ -126,9 +126,10 @@ def run(args):
         )
         return ranks
 
-    bm = bm25([serialize(p) for p in products], queries["query"].tolist())
-    bmorder = rank(bm)
-    save(bm, "BM25", "fixed")
+    if args.model in ["minilm", "bge_base"]:
+        bm = bm25([serialize(p) for p in products], queries["query"].tolist())
+        bmorder = rank(bm)
+        save(bm, "BM25", "fixed")
     highest = "Exact" if args.dataset == "wands" else "E"
     targets = judgments[judgments.label.eq(highest)].copy()
     target_ranks = targets[["query_id", "product_id", "label"]].copy()
@@ -141,7 +142,8 @@ def run(args):
         full_ranks = save(scores, "raw", schedule)
         if schedule == "C0":
             base = scores.copy()
-        save(hybrid(bmorder, rank(scores), 60), "raw_hybrid", schedule)
+        if args.model in ["minilm", "bge_base"]:
+            save(hybrid(bmorder, rank(scores), 60), "raw_hybrid", schedule)
         target_ranks[schedule] = 0
         target_ranks["whole_" + schedule] = 0
         for qid, g in targets.groupby("query_id"):
@@ -171,12 +173,13 @@ def run(args):
             fully_fitting=np.max(token_lengths, axis=0) <= spec["max_tokens"],
         )
     ).to_csv(out / "token_lengths.csv", index=False)
-    if args.model != "gte_modernbert":
-        for rule in RULES:
-            v = encode([serialize(p, rule) for p in products], rule)
-            s = qv @ v.T
-            save(s, rule, "fixed")
+    for rule in RULES:
+        v = encode([serialize(p, rule) for p in products], rule)
+        s = qv @ v.T
+        save(s, rule, "fixed")
+        if args.model in ["minilm", "bge_base"]:
             save(hybrid(bmorder, rank(s), 60), "canonical_hybrid_" + rule, "fixed")
+    if args.model in ["minilm", "bge_base"]:
         unique = sorted({a for p in products for a in p["attributes"]})
         lookup = {a: i for i, a in enumerate(unique)}
         rows, cols, weights = [], [], []

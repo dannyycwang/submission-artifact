@@ -33,7 +33,7 @@ python scripts/run_retrieval.py --dataset esci --model gte_modernbert --output o
 
 Use a new output directory for each run. The smoke option encodes four actual inputs; it does not estimate benchmark performance. Run GPU jobs sequentially. `--batch-size` can lower memory use; the selected value is recorded in `run.json`.
 
-Each full run saves all-judged catalog ranks, source-order and alternative target ranks, token-length eligibility, model revisions, and execution metadata. MiniLM/BGE runs also evaluate the three canonical rules, BM25, full-list RRF, Set-Mean, and two-view centroid/max controls. To inspect fresh effectiveness and compare it with the paper reference:
+Each full run saves all-judged catalog ranks, source-order and alternative target ranks, token-length eligibility, model revisions, and execution metadata. All three encoders evaluate the three canonical rules. MiniLM/BGE additionally evaluate BM25, full-list RRF, Set-Mean, and two-view centroid/max controls. To inspect fresh effectiveness and compare it with the paper reference:
 
 ```bash
 python scripts/evaluate_rerun.py --run outputs/wands_minilm
@@ -72,15 +72,26 @@ python scripts/analyze_diagnostics.py adjacent --run outputs/adjacent
 
 These commands reconstruct C0 competitors and queries from the supplied catalogs, then evaluate the frozen serialized swap plan. All observed cutoff crossings receive three additional forward checks. Original and new results are kept separately. The saved-rank reproduction in step 1 uses the original complete outcomes and confirmation records.
 
-## 5. French-molding Integrated Gradients
+## 5. EmbeddingGemma 2 and Harrier
 
-In the diagnostic environment:
+Create a separate Python 3.10 environment for these models. Their native implementation requires the pinned Transformers 5 / SentenceTransformers 6 environment, independently of the original-model and diagnostic environments.
 
 ```bash
-python scripts/run_attribution.py --output outputs/french_molding
+python -m pip install torch==2.11.0+cu128 --index-url https://download.pytorch.org/whl/cu128
+python -m pip install -r requirements-recent-models.txt
+python experiments/recent_models/run.py --model embeddinggemma2 --stage download
+python experiments/recent_models/run.py --model harrier06b --stage download
+python experiments/recent_models/run.py --model embeddinggemma2 --stage all
+python experiments/recent_models/run.py --model harrier06b --stage all
 ```
 
-This reruns the paper's PAD-reference C0/C1 diagnostic using the supplied fixed query embedding and native boundary records. It retains FP16-rounded model parameters converted to FP32 for gradients, unchanged special-token embeddings, Gauss-Legendre integration, completeness checks, and inclusion-boundary guards. Failures produce a nonzero exit code. This reference-dependent case diagnostic is not a causal attribution estimate or a population prevalence result.
+Obtain access to each upstream model under its terms when required. No account token is included in this artifact. A CUDA GPU with BF16 support is required for the frozen inference profile. The original GPU was an RTX 4060 Laptop GPU with 8 GB memory. Full-catalog inference can take substantial time; CPU statistical reproduction is the quick route.
+
+Run GPU jobs sequentially. The default covers both datasets. `--dataset wands` or `--dataset esci` selects one. `--stage all` validates official preprocessing/pooling, encodes shared queries and seven raw catalogs, evaluates both interventions, runs all three canonical rules, repeats selected boundary batches three times, and writes analysis tables. EmbeddingGemma 2 uses batch size 1. Harrier uses the frozen length tiers 8/4/2/1. No silent truncation, quantization, dimension reduction, or OOM batch change is applied.
+
+Outputs are under `outputs/recent_models/<model>/`: `runs/<model>/<dataset>/evaluation/` contains per-query metrics, all-judged ranks, target ranks, and boundary results; `tables/summary.csv` and `tables/reference_comparison.csv` contain fresh estimates and their differences from the original results. Full score matrices, embeddings, and resumable checkpoints are generated locally. They are not part of the distribution.
+
+Individual stages are `smoke`, `encode`, `evaluate`, `canonical`, `boundary`, and `analyze`. Raw evaluation must precede canonical evaluation and boundary checks. The supplied model snapshot can be selected with `--model-dir /path/to/snapshot`; its required files are checked against `configs/recent_model_files.json`. Use `--output outputs/new_profile` for a separate run; changed runtime/profile settings are rejected in an existing output directory.
 
 ## 6. Optional reconstruction from upstream raw data
 
